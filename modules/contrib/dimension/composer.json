@@ -1,0 +1,17 @@
+{
+  "name": "drupal/dimension",
+  "type": "drupal-module",
+  "description": "Defines dimension field type.",
+  "keywords": [
+    "Drupal"
+  ],
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.drupal.org/project/dimension",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/dimension",
+    "source": "https://git.drupalcode.org/dimension"
+  },
+  "require": {
+    "php": ">=8.1"
+  }
+}

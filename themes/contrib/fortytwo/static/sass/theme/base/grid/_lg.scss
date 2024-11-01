@@ -1,0 +1,53 @@
+// TABLET LANDSCAPE
+
+$grid-columns: $lg-grid-columns;
+$grid-column-width: $lg-grid-column-width;
+$grid-gutter-width: $lg-grid-gutter-width;
+
+@media #{$lg} {
+  @for $grid-column from 1 through $grid-columns {
+    .#{'col-lg-' + $grid-column} {
+      @include span-columns($grid-column, false);
+    }
+  }
+
+  @for $grid-column from 1 through $grid-columns {
+    .#{'col-lg-' + $grid-column + '-gutter'} {
+      @include span-columns($grid-column, true);
+    }
+  }
+
+  @for $grid-column from 1 through $grid-columns {
+    .#{'col-lg-fluid-' + $grid-column} {
+      @include span-fluid-columns($grid-column, false);
+    }
+  }
+
+  @for $grid-column from 1 through $grid-columns {
+    .#{'col-lg-fluid-' + $grid-column + '-gutter'} {
+      @include span-fluid-columns($grid-column, true);
+    }
+  }
+
+  @for $grid-column from 1 through $grid-columns {
+    .#{'offset-lg-' + $grid-column} {
+      margin-left: calc-grid($grid-column) + $grid-gutter-width + px;
+    }
+  }
+
+  .offset-lg-0 {
+    margin-left: 0;
+  }
+
+  body {
+    &.show-responsive-identifier {
+      .responsive-identifier {
+        background: $lg-identifier-color;
+
+        &:after {
+          content: $lg-identifier-text;
+        }
+      }
+    }
+  }
+}

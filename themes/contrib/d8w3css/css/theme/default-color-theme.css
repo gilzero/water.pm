@@ -1,0 +1,213 @@
+/* The region colors */
+.page-wrapper {
+  background-color: #f8f8f8;
+  color: #3a3a3a;
+}
+
+#header {
+  background-color: #bebebe;
+}
+
+.main-navigation-wrapper,
+.close-nav,
+.mobile-nav {
+  background-color: #222;
+  color: #efefef;
+}
+
+#welcome-text {
+  background-color: white;
+  color: #3a3a3a;
+}
+
+#highlighted {
+  background-color: #efefef;
+  color: #3a3a3a;
+}
+
+#top-container {
+  background-color: #e4e4e4;
+}
+
+#top-container .first-top > div {
+  background-color: #ededed;
+  color: #3a3a3a;
+}
+
+#top-container .second-top > div {
+  background-color: #ddd;
+  color: #3a3a3a;
+}
+
+#top-container .third-top > div {
+  background-color: #ededed;
+  color: #3a3a3a;
+}
+
+#page-title {
+  background-color: #4e4e4e;
+  color: #efefef;
+}
+
+#main-container {
+  background-color: #f4f4f4;
+  color: #3a3a3a;
+}
+
+#main-container .main-box > div {
+  background-color: #ffffff;
+}
+
+#bottom-container {
+  background-color: #4d4d4d;
+}
+
+#bottom-container .first-bottom > div {
+  background-color: #636363;
+  color: #efefef;
+}
+
+#bottom-container .second-bottom > div {
+  background-color: #525252;
+  color: #efefef;
+}
+
+#bottom-container .third-bottom > div {
+  background-color: #525252;
+  color: #efefef;
+}
+
+#bottom-container .forth-bottom > div {
+  background-color: #636363;
+  color: #efefef;
+}
+
+#footer-container {
+  background-color: #3a3a3a;
+}
+
+#footer-container .first-footer > div {
+  background-color: #494949;
+  color: #9f9f9f;
+}
+
+#footer-container .second-footer > div {
+  background-color: #313131;
+  color: #bebebe;
+}
+
+#footer-container .third-footer > div {
+  background-color: #494949;
+  color: #9f9f9f;
+}
+
+#footer-menu {
+  background-color: #1e1e1e;
+  color: #bebebe;
+}
+
+#copyright {
+  background-color: #141414;
+  color: #bebebe;
+}
+
+/* button animation  */
+@keyframes btnBorderAnimation {
+  0% {
+    width: 0;
+    height: 0;
+    border-bottom-color: #fff;
+  }
+
+  99.9999% {
+    width: 100%;
+    height: 100%;
+    border-bottom-color: #fff;
+  }
+
+  100% {
+    width: 0;
+    height: 0;
+    border-bottom-color: transparent;
+  }
+
+}
+
+/* Border animation  */
+@keyframes borderLeftColors {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: #fff;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  50% {
+    width: 100%;
+    height: 0;
+    border-top-color: #fff;
+    border-right-color: #fff;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  99.9999% {
+    width: 100%;
+    height: 100%;
+    border-top-color: #fff;
+    border-right-color: #fff;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  100% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+}
+
+@keyframes borderRightColors {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #fff;
+    border-left-color: transparent;
+  }
+
+  50% {
+    width: 100%;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #fff;
+    border-left-color: #fff;
+  }
+
+  99.9999% {
+    width: 100%;
+    height: 100%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #fff;
+    border-left-color: #fff;
+  }
+
+  100% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+}

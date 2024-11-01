@@ -1,0 +1,20 @@
+section:
+  label: "Section"
+  description: "Not found in the upstream documentation, but found in the USWDS examples."
+  category: "Layout"
+  variants:
+    default: No background (default)
+    light: Light background
+    dark: Dark background
+  fields:
+    content:
+      type: "render"
+      label: "Content"
+      preview:
+        - type: html_tag
+          tag: p
+          value: "Everything up to this point should help people understand your agency or project: who you are, your goal or mission, and how you approach it. Use this section to encourage them to act. Describe why they should get in touch here, and use an active verb on the button below. “Get in touch,” “Learn more,” and so on."
+        - type: pattern
+          id: button
+          label: Call to action
+          url: "#"

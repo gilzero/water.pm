@@ -1,0 +1,13 @@
+Confiruration
+customcss
+foto
+imgcolor
+imggray
+imgnone
+Ivnitskii
+kernbig
+kernmid
+kernstd
+screenreaders
+sidr
+simplesearch

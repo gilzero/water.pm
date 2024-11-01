@@ -1,0 +1,20 @@
+h1,
+h2,
+h3,
+.dancing-script {
+  font-family: 'Dancing Script', cursive;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+h1 {
+  font-size: 46px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 34px;
+}

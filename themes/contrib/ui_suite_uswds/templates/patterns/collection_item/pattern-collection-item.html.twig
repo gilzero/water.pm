@@ -1,0 +1,37 @@
+<div{{ attributes.addClass('usa-collection__body') }}>
+  <h4 class="usa-collection__heading">
+    {{ header_text }}
+  </h4>
+  <div class="usa-collection__description">
+    {{ content }}
+  </div>
+
+  {% if meta_items_list %}
+    <ul class="usa-collection__meta">
+      {# Replace with (meta_items_list is sequence) when ready #}
+      {% set is_list = meta_items_list is iterable and meta_items_list|keys|first == 0 %}
+      {% set is_children = meta_items_list is iterable and meta_items_list|keys|first|first != "#" %}
+      {% set meta_items_list = is_list or is_children ? meta_items_list : [meta_items_list] %}
+      {% for meta_item in meta_items_list -%}
+        <li class="usa-collection__meta-item">
+          {{ meta_item }}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if meta_items_tags %}
+    <ul class="usa-collection__meta">
+      {# Replace with (meta_items_tags is sequence) when ready #}
+      {% set is_list = meta_items_tags is iterable and meta_items_tags|keys|first == 0 %}
+      {% set is_children = meta_items_tags is iterable and meta_items_tags|keys|first|first != "#" %}
+      {% set meta_items_tags = is_list or is_children ? meta_items_tags : [meta_items_tags] %}
+      {% for meta_item in meta_items_tags -%}
+        <li class="usa-collection__meta-item usa-tag">
+          {{ meta_item }}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+</div>

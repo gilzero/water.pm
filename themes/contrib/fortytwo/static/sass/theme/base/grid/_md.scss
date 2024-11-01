@@ -1,0 +1,45 @@
+// TABLET PORTRAIT
+
+$grid-columns: $md-grid-columns;
+$grid-column-width: $md-grid-column-width;
+$grid-gutter-width: $md-grid-gutter-width;
+
+@media #{$md} {
+  @for $grid-column from 1 through $grid-columns {
+    .#{'col-md-' + $grid-column} {
+      @include span-columns($grid-column, false);
+    }
+
+    .#{'col-md-' + $grid-column + '-gutter'} {
+      @include span-columns($grid-column, true);
+    }
+
+    .#{'col-md-fluid-' + $grid-column} {
+      @include span-fluid-columns($grid-column, false);
+    }
+
+    .#{'col-md-fluid-' + $grid-column + '-gutter'} {
+      @include span-fluid-columns($grid-column, true);
+    }
+
+    .#{'offset-md-' + $grid-column} {
+      margin-left: calc-grid($grid-column) + $grid-gutter-width + px;
+    }
+  }
+
+  .offset-md-0 {
+    margin-left: 0;
+  }
+
+  body {
+    &.show-responsive-identifier {
+      .responsive-identifier {
+        background: $md-identifier-color;
+
+        &:after {
+          content: $md-identifier-text;
+        }
+      }
+    }
+  }
+}

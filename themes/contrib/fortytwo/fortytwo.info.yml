@@ -1,0 +1,25 @@
+name: Fortytwo
+type: theme
+base theme: false
+description: 'Drupal 8 responsive full featured base theme'
+package: Core
+core_version_requirement: ^10 || ^11
+
+libraries:
+  - fortytwo/base
+
+regions:
+  header: 'Header'
+  page_top: 'Page top'
+  highlighted: 'Highlighted area'
+  navigation: 'Navigation'
+  content: 'Content'
+  sidebar: 'Sidebar'
+  page_bottom: 'Page bottom'
+  footer: 'Footer'
+
+
+# Information added by Drupal.org packaging script on 2024-08-11
+version: '5.0.3'
+project: 'fortytwo'
+datestamp: 1723362696

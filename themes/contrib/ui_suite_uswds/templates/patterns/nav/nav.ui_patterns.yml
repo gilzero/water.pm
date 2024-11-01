@@ -1,0 +1,79 @@
+nav:
+  label: "Navigation"
+  description: "Hierarchical, horizontal navigation to place. To be used inside a header component."
+  category: "Navigation"
+  fields:
+    search:
+      type: render
+      label: Search
+      description: "Expect a search component"
+      preview:
+        type: pattern_preview
+        id: search
+  settings:
+    is_slim:
+      type: "boolean"
+      label: "Is slim?"
+      description: "Flag to determine if slim footer is being used."
+    close_icon:
+      type: "textfield"
+      label: "Close icon path"
+      description: "Path to close icon."
+      preview: "https://cdn.jsdelivr.net/npm/@uswds/uswds@3.8.0/dist/img/usa-icons/close.svg"
+    nav_id:
+      type: machine_name
+      label: ID
+      description: "Must start with a letter. Randomly generated if empty."
+      preview: 'pattern-test'
+    use_megamenu:
+      type: "boolean"
+      label: "Megamenu"
+      description: "Use megamenu in the primary navigation."
+      preview: True
+    primary:
+      type: "links"
+      label: "Primary navigation"
+      description: "Full-height and lightweight navigation with dropdowns. 2 levels max. Links are ignored if children are present."
+      preview:
+        - title: "Current section"
+          url: "https://example.com"
+          is_expanded: true
+          in_active_trail: true
+          below:
+            - title: "2nd level link"
+              url: "https://example.com"
+              in_active_trail: true
+            - title: "2nd level link"
+              url: "https://example.com"
+            - title: "2nd level link"
+              url: "https://example.com"
+            - title: "2nd level link"
+              url: "https://example.com"
+            - title: "A very long navigation link that goes onto two lines"
+              url: "https://example.com"
+            - title: "2nd level link"
+              url: "https://example.com"
+        - title: "Home"
+          url: "https://example.com"
+          below:
+            - title: "2nd level link"
+              url: "https://example.com"
+              in_active_trail: true
+            - title: "2nd level link"
+              url: "https://example.com"
+            - title: "2nd level link"
+              url: "https://example.com"
+    secondary:
+      type: "links"
+      label: "Secondary navigation"
+      description: "Flat menu."
+      preview:
+        - title: "Secondary link"
+          url: "https://example.com"
+        - title: "Another secondary link"
+          url: "https://example.com"
+  libraries:
+    - ui_suite_uswds_nav:
+        css:
+          component:
+            css/uswds-nav.css: {}

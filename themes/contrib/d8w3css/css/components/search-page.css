@@ -1,0 +1,61 @@
+.path-search form.search-form>.form-wrapper {
+  position: relative;
+}
+
+.path-search form.search-form>.form-wrapper>.form-type-search {
+  float: left;
+  width: 74%;
+  margin: 0 0 10px 0 !important;
+}
+
+.path-search form.search-form>.form-wrapper>.form-submit {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  margin: 0 !important;
+  width: 25%;
+}
+
+.path-search .search-form .search-advanced summary.w3-button {
+  box-sizing: border-box;
+}
+
+.path-search .w3-row.item-list>h3 {
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+.path-search .search-form .search-advanced summary.w3-button {
+  box-sizing: border-box;
+}
+
+.path-search .search-form .search-advanced #edit-type--wrapper>legend,
+.path-search .search-form .search-advanced #edit-language--wrapper>legend {
+  display: none;
+}
+
+.path-search .search-form .search-advanced #edit-type--wrapper div.fieldset-wrapper,
+.path-search .search-form .search-advanced #edit-keywords-fieldset>.fieldset-wrapper,
+.path-search .search-form .search-advanced #edit-language--wrapper div.fieldset-wrapper,
+.path-search .search-form .search-advanced #edit-type--wrapper div.fieldset-wrapper div.form-checkboxes,
+.path-search .search-form .search-advanced #edit-language--wrapper div.fieldset-wrapper div.form-checkboxes {
+  margin: 0 !important;
+}
+
+.path-search .search-form .search-advanced #edit-lang-fieldset>.fieldset-wrapper,
+.path-search .search-form .search-advanced #edit-types-fieldset>.fieldset-wrapper {
+  margin-top: 0 !important;
+}
+
+.path-search .search-form .search-advanced #edit-lang-fieldset>legend,
+.path-search .search-form .search-advanced #edit-types-fieldset>legend {
+  display: inline-block;
+}
+
+.search-form .search-advanced:hover {
+  background-color: transparent !important;
+}
+
+.search-form + h2 {
+  clear: both;
+}

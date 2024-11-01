@@ -1,0 +1,86 @@
+card:
+  label: "Card"
+  description: "Cards contain content and actions about a single subject."
+  links:
+    - 'https://designsystem.digital.gov/components/card/'
+  category: "Card"
+  variants:
+    default:
+      label: "Default"
+    flag:
+      label: "flag"
+  settings:
+    list:
+      type: "boolean"
+      label: "List"
+      description: "Is this card part of a group of cards"
+    header_first:
+      type: "boolean"
+      label: "Header First"
+      description: "Displays the header element before the media element."
+    header_exdent:
+      type: "boolean"
+      label: "Header Exdent"
+      description: "Extends the header element out over the card border. Useful for light-bordered cards."
+      preview: True
+    heading_level:
+      type: "select"
+      label: "Heading level"
+      options:
+        2: "h2 (Default)"
+        3: "h3"
+        4: "h4"
+        5: "h5"
+        6: "h6"
+      preview: 2
+      allow_expose: true
+      allow_token: true
+    media_inset:
+      type: "boolean"
+      label: "Media Inset"
+      description: "Indents the media element so it doesn’t extend to the edge of the card."
+    media_exdent:
+      type: "boolean"
+      label: "Media Exdent"
+      description: "Extends the media element out over the card border. Useful for light-bordered cards."
+      preview: True
+    body_exdent:
+      type: "boolean"
+      label: "Body Exdent"
+      description: "Extends the body element out over the card border. Useful for light-bordered cards."
+      preview: True
+    footer_exdent:
+      type: "boolean"
+      label: "Footer Exdent"
+      description: "Extends the footer element out over the card border. Useful for light-bordered cards."
+  fields:
+    header:
+      type: "render"
+      label: "Header"
+      description: "Card header."
+      preview: "Featured"
+    image:
+      type: "render"
+      label: "Image"
+      description: "Card image."
+      preview:
+        theme: "image"
+        uri: "data:image/svg+xml;base64,PHN2ZyBzdHlsZT0iZm9udC1zaXplOiAxLjEyNXJlbTsgdGV4dC1hbmNob3I6IG1pZGRsZTsgdXNlci1zZWxlY3Q6IG5vbmU7IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIyNTQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiIGZvY3VzYWJsZT0iZmFsc2UiIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUGxhY2Vob2xkZXI6IEltYWdlIGNhcCI+PHRpdGxlPlBsYWNlaG9sZGVyPC90aXRsZT48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjODY4ZTk2Ij48L3JlY3Q+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZpbGw9IiNkZWUyZTYiIGR5PSIuM2VtIj5JbWFnZSBjYXA8L3RleHQ+PC9zdmc+Cg=="
+        alt: "&copy; 2017 John Smith photography"
+    content:
+      type: "render"
+      label: "Content"
+      description: "Card body."
+      preview:
+        - type: "markup"
+          markup: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero. Vivamus pharetra posuere sapien.</p>'
+    footer:
+      type: "text"
+      label: "Footer"
+      description: "Card footer."
+      preview: "Visit Florida Keys"
+    footer_url:
+      type: "text"
+      label: "Footer URL"
+      description: "Card footer URL."
+      preview: "#"

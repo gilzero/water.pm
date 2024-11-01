@@ -1,0 +1,22 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a 'form' element.
+ *
+ * Available variables
+ * - attributes: A list of HTML attributes for the wrapper element.
+ * - children: The child elements of the form.
+ *
+ * @see template_preprocess_form()
+ *
+ * @ingroup themeable
+ */
+#}
+{{ attach_library('flexistyle_bootstrap/form') }}
+{% set formClasses = [
+    attributes.id | clean_class
+  ]
+%}
+<form{{ attributes.addClass(formClasses) }}>
+  {{ children }}
+</form>

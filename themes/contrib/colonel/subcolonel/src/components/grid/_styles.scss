@@ -1,0 +1,13 @@
+//VARIABLES
+$container: 1200px;
+$gutter: 30px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$mobile: $container;
+
+//IMPORT
+@import "../../../../colonel/src/components/grid/styles";
+
+//CUSTOM

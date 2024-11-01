@@ -1,0 +1,38 @@
+:root {
+  --bs-purple: #6141ac;
+  --bs-purple-dark: #472b89;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.action-links {
+  list-style: none;
+  padding: 0;
+}
+.btn {
+  border-radius: 0;
+}
+a {
+  text-decoration: none;
+}
+.form-required::after {
+  content: "*";
+  color: var(--bs-danger);
+  margin-left: 3px;
+}
+.nav-tabs .nav-link {
+  color: var(--bs-black);
+  background: var(--bs-gray-200);
+  border-radius: 0;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link:hover {
+  border-radius: 0;
+  background: var(--bs-primary);
+  color: var(--bs-white);
+}
+.bg-purple {
+  background: var(--bs-purple);
+}
+.bg-purple-dark {
+  background: var(--bs-purple-dark);
+}

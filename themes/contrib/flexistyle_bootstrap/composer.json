@@ -1,0 +1,13 @@
+{
+	"name": "drupal/flexistyle_bootstrap",
+	"type": "drupal-theme",
+	"description": "FlexiStyle Bootstrap theme is a base theme for Drupal. This theme is fully compatible with Drupal 10.",
+	"homepage": "https://www.drupal.org/project/flexistyle_bootstrap",
+	"license": "GPL-2.0+",
+	"require": {
+			"twbs/bootstrap": "^5.2.2"
+	},
+	"authors": [{
+		"name": "Anoop Singh"
+	}]
+}

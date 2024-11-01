@@ -1,0 +1,132 @@
+table:
+  label: "Table"
+  description: "A table shows information in columns and rows."
+  links:
+    - "https://designsystem.digital.gov/components/table/"
+  category: "Other"
+  settings:
+    sticky:
+      type: "boolean"
+      label: "Sticky headers"
+      description: "Allows the table header element to stick to the top of the page as the user scrolls. Preferred for long tables with many rows. This variant is not compatible with the scrollable and stacked table variants."
+      preview: true
+    striped:
+      type: "boolean"
+      label: "Striped"
+      description: "A striped table can improve readability by visually grouping row content with alternating background colors."
+      preview: true
+    borderless:
+      type: "boolean"
+      label: "Borderless"
+      description: "A borderless table can be useful when you want the information to feel more a part of the text it accompanies and extends."
+    scrollable:
+      type: "boolean"
+      label: "Scrollable"
+      description: "A scrollable table is ideal for dense data."
+      preview: false
+    stacked:
+      type: "boolean"
+      label: "Responsive Stacked"
+      description: "A responsive stacked table collapses at narrow widths for better readability on small screens."
+      preview: false
+    stacked_header:
+      type: "boolean"
+      label: "Responsive Stacked - Header"
+      description: "Stacks the table cells on narrow screens and visually promotes the first cell of every row into a “header” for that group. Preferred for directories and other lists where the first cell of every row is a name. If you use this variant, you must ensure there is a data-label attribute on each cell of the table that matches the column header."
+    sortable:
+      type: "boolean"
+      label: "Sortable"
+      description: "A sorted column changes the row ordering based on alphabetical or numeric cell values. Requires a caption."
+      preview: false
+    compact:
+      type: "boolean"
+      label: "Compact"
+      description: "Reduces the row height and vertical spacing to display more table rows within a limited space. Should only be used with dense, numerical data, not text content. Pairs well with scrollable and striped variants, but is not suitable for use with stacked variants."
+    header_columns:
+      type: "number"
+      label: "Number of columns in the header"
+      description: "Used to display properly the empty message if the table is empty. Leave empty for automatic value."
+      allow_expose: true
+      allow_token: true
+  fields:
+    header:
+      type: "List"
+      label: "Header"
+      description: "Drupal expects an array of cells for the header. See template_preprocess_table in core > includes > theme.inc for more information."
+      preview:
+        - content: "Table head A"
+        - content: "Table head B"
+        - content: "Table head C"
+        - content: "Table head D"
+        - content: "Table head E"
+        - content: "Table head F"
+        - content: "Table head G"
+        - content: "Table head H"
+    colgroups:
+      type: "List"
+      label: "Colgroups"
+      description: "Sticked to Drupal structure after preprocessing of the Drupal table element."
+    rows:
+      type: "List"
+      label: "Rows"
+      description: "For the body of the table, Drupal expects an array of rows with each row keyed with the name 'cells', which is an array values for each cell. See template_preprocess_table in core > includes > theme.inc for more information."
+      preview:
+        - cells:
+            - content: "Cell A1"
+            - content: "Cell A2"
+            - content: "Cell A3"
+            - content: "Cell A4"
+            - content: "Cell A5"
+            - content: "Cell A6"
+            - content: "Cell A7"
+            - content: "Cell A8"
+        - cells:
+            - content: "Cell B1"
+            - content: "Cell B2"
+            - content: "Cell B3"
+            - content: "Cell B4"
+            - content: "Cell B5"
+            - content: "Cell B6"
+            - content: "Cell B7"
+            - content: "Cell B8"
+        - cells:
+            - content: "Cell C1"
+            - content: "Cell C2"
+            - content: "Cell C3"
+            - content: "Cell C4"
+            - content: "Cell C5"
+            - content: "Cell C6"
+            - content: "Cell C7"
+            - content: "Cell C8"
+        - cells:
+            - content: "Cell D1"
+            - content: "Cell D2"
+            - content: "Cell D3"
+            - content: "Cell D4"
+            - content: "Cell D5"
+            - content: "Cell D6"
+            - content: "Cell D7"
+            - content: "Cell D8"
+    footer:
+      type: "List"
+      label: "Footer"
+      description: "Drupal expects an array of cells for the footer. See template_preprocess_table in core > includes > theme.inc for more information."
+      preview:
+        - cells:
+            - content: "Footer"
+            - content: "Footer"
+            - content: "Footer"
+            - content: "Footer"
+            - content: "Footer"
+            - content: "Footer"
+            - content: "Footer"
+            - content: "Footer"
+    empty:
+      type: "Render"
+      label: "Empty"
+      description: "Render element used when there is no rows."
+    caption:
+      type: "text"
+      label: "Caption"
+      description: "A caption functions like a heading for a table. It helps users with screen readers to find a table and understand what it's about and decide if they want to read it. By default it is displayed at the bottom of the table."
+      preview: "Example table (caption)"

@@ -1,0 +1,38 @@
+name: FlexiStyle Bootstrap
+description: 'FlexiStyle Bootstrap theme is a base theme for Drupal. This theme is fully compatible with Drupal 10.'
+type: theme
+base theme: false
+core_version_requirement: ^9 || ^10 || ^11
+logo: logo.png
+
+libraries:
+  - flexistyle_bootstrap/global
+
+regions:
+  secondary_menu: 'Secondary menu'
+  header: 'Header'
+  search: 'Search'
+  primary_menu: 'Primary menu'
+  banner: 'Banner'
+  featured: 'Featured'
+  breadcrumb: 'Breadcrumb'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  content_bottom: 'Content Bottom'
+  featured_bottom: 'Featured Bottom'
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
+  footer_third: 'Footer Third'
+  footer_fourth: 'Footer Fourth'
+  footer: 'Footer'
+
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+# Information added by Drupal.org packaging script on 2024-09-20
+version: '1.2.9'
+project: 'flexistyle_bootstrap'
+datestamp: 1726809404

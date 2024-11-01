@@ -1,0 +1,12 @@
+global:
+  css:
+    theme:
+      css/bootstrap.min.css: { weight: -5 }
+      css/style.min.css: {}
+      css/print.min.css: { media: print }
+  js:
+    node_modules/bootstrap/dist/js/bootstrap.bundle.min.js: {}
+    js/global.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

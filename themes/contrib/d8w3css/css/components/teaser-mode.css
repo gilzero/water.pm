@@ -1,0 +1,21 @@
+.node--view-mode-teaser .node__title {
+  margin-left: 0 !important;
+}
+
+.node--view-mode-teaser .node__content .field--name-field-media-image,
+.node--view-mode-teaser .node__content .field--name-field-image {
+  margin: 24px 16px 0 0;
+}
+
+/*.node--view-mode-teaser .node__content .field--type-text-long,*/
+/*.node--view-mode-teaser .node__content .field--type-text-with-summary {*/
+/*  display: table;*/
+/*}*/
+
+.node--view-mode-teaser .field--type-entity-reference .field__item:first-child a {
+  padding-left: 0 !important;
+}
+
+.view .node__header {
+  margin-bottom: 0;
+}

@@ -1,0 +1,73 @@
+# Schema for the configuration files of the FlexiStyle Bootstrap SCSS.
+flexistyle_bootstrap_scss.settings:
+  type: theme_settings
+  label: 'FlexiStyle Bootstrap SCSS settings'
+  mapping:
+    # Bootstrap Settings
+    bootstrap_container:
+      type: string
+      label: 'Container Size'
+
+    # Global Settings
+    local_fonts:
+      type: string
+      label: 'Local Fonts'
+    google_fonts:
+      type: string
+      label: 'Google Fonts'
+    global_icons:
+      type: string
+      label: 'Global Icons'
+    global_icons_fontawesome:
+      type: string
+      label: 'Fontawesome Icons Library'
+    global_style:
+      type: string
+      label: 'Global Style'
+
+    # Top Header Settings
+    top_header_bg:
+      type: string
+      label: 'Top Header Background'
+    top_header_classes:
+      type: string
+      label: 'Top Header Classes'
+
+    # Header Settings
+    header_position:
+      type: string
+      label: 'Header Position'
+    header_style:
+      type: string
+      label: 'Header Style'
+    header_navbar_bg:
+      type: string
+      label: 'Navbar Background'
+    header_classes:
+      type: string
+      label: 'Header Classes'
+
+    # Sidebar Settings
+    sidebar_block_bg:
+      type: string
+      label: 'Sidebar Blocks Background'
+    sidebar_block_classes:
+      type: string
+      label: 'Sidebar Block Classes'
+
+    # Footer Settings
+    footer_bg:
+      type: string
+      label: 'Footer Background'
+    footer_classes:
+      type: string
+      label: 'Footer Classes'
+    footer_top_classes:
+      type: string
+      label: 'Footer Top Classes'
+    footer_bottom_bg:
+      type: string
+      label: 'Footer Bottom Background'
+    footer_bottom_classes:
+      type: string
+      label: 'Footer Bottom Classes'

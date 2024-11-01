@@ -1,0 +1,9 @@
+{% if variant and variant != 'default' %}
+  {% set attributes = attributes.addClass('usa-icon--' ~ variant|replace({'_': '-'})) %}
+{% endif %}
+
+{% set sprite_path = sprite_path|default('/themes/contrib/ui_suite_uswds/assets/images/sprite.svg') %}
+
+<svg{{ attributes.addClass('usa-icon').setAttribute('aria-hidden', 'true').setAttribute('focusable', 'false').setAttribute('role', 'img') }}>
+  <use xlink:href="{{ sprite_path }}#{{ icon_name }}"></use>
+</svg>

@@ -1,0 +1,33 @@
+tooltip:
+  label: "Tooltip"
+  description: "https://designsystem.digital.gov/components/tooltip/"
+  category: "Other"
+  variants:
+    top:
+      label: "Top"
+      description: "Show on top."
+    right:
+      label: "Right"
+      description: "Show on right."
+    left:
+      label: "Left"
+      description: "Show on left."
+    bottom:
+      label: "Bottom"
+      description: "Show on bottom."
+  settings:
+    tooltip_id:
+      type: "textfield"
+      label: "Tooltip ID"
+      description: "ID used by button to toggle the tooltip. Randomly generated if empty."
+  fields:
+    label:
+      type: "text"
+      label: "Label"
+      description: "Label value."
+      preview: "Show"
+    tooltip:
+      type: "text"
+      label: "Tooltip"
+      description: "Tooltip text."
+      preview: "Lorem ipsum dolor sit amet consectetur adipiscing elit interdum habitant commodo"

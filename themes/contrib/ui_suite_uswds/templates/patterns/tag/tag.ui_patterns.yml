@@ -1,0 +1,17 @@
+tag:
+  label: "Tag"
+  description: "A tag draws attention to new or categorized content elements."
+  links:
+    - "https://designsystem.digital.gov/components/tag/"
+  category: "Other"
+  variants:
+    default:
+      label: "Default"
+    big:
+      label: "Big"
+  fields:
+    text:
+      type: "text"
+      label: "Tag text"
+      description: "Simple text to show in tag."
+      preview: "Info"

@@ -1,0 +1,18 @@
+label:
+  label: "Label"
+  description: "Internal: Meant to be used in various places."
+  category: "Forms"
+  settings:
+    for_value:
+      type: "textfield"
+      label: "'For' attribute value"
+      description: "Value for the 'for' attribute, for accessibility. Keep to one word."
+  fields:
+    label:
+      type: "text"
+      label: "Label"
+      description: "Label value."
+    description:
+      type: "text"
+      label: "Description"
+      description: "Helper text to appear below label."

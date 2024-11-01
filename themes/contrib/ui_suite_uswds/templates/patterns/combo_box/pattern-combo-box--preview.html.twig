@@ -1,0 +1,10 @@
+{% set attributes = create_attribute({
+  'id': 'combo-box'
+}) %}
+
+{{ pattern('label', {
+  'for_value': 'combo-box',
+  'label': 'Combo Box'
+}) }}
+
+{% include 'pattern-combo-box.html.twig' %}

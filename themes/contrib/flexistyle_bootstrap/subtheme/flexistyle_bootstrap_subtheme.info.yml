@@ -1,0 +1,41 @@
+name: FlexiStyle Bootstrap Subtheme
+description: 'FlexiStyle Bootstrap Subtheme theme is a child theme of FlexiStyle Bootstrap.'
+type: theme
+base theme: flexistyle_bootstrap
+core_version_requirement: ^9 || ^10 || ^11
+logo: logo.png
+
+libraries:
+  - flexistyle_bootstrap_subtheme/global
+
+# Remove comments from the "libraries-override:" if you want to disable all the styling of flexiStyle Bootstrap base theme.
+# libraries-override:
+#   flexistyle_bootstrap/global: false
+
+regions:
+  secondary_menu: 'Secondary menu'
+  header: 'Header'
+  search: 'Search'
+  primary_menu: 'Primary menu'
+  banner: 'Banner'
+  featured: 'Featured'
+  breadcrumb: 'Breadcrumb'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  content_bottom: 'Content Bottom'
+  featured_bottom: 'Featured Bottom'
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
+  footer_third: 'Footer Third'
+  footer_fourth: 'Footer Fourth'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+# Information added by Drupal.org packaging script on 2024-09-20
+version: '1.2.9'
+project: 'flexistyle_bootstrap'
+datestamp: 1726809404

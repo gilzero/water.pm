@@ -1,0 +1,71 @@
+.open-sans-thin {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.open-sans-light {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.open-sans-regular {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.open-sans-medium {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.open-sans-bold {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.open-sans-black {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.open-sans-thin-italic {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.open-sans-light-italic {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.open-sans-regular-italic {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.open-sans-medium-italic {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.open-sans-bold-italic {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.open-sans-black-italic {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}

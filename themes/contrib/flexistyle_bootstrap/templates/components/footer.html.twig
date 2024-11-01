@@ -1,0 +1,79 @@
+{{ attach_library('flexistyle_bootstrap/footer') }}
+{% set footer_attribute = create_attribute() %}
+{% set footer_top_attribute = create_attribute() %}
+{% set footer_bottom_attribute = create_attribute() %}
+
+{% set footerClasses = [
+    'flex-footer',
+    footer_bg,
+    footer_classes,
+  ]
+%}
+{% set footerTopClasses = [
+    'flex-footer-top',
+    footer_top_classes,
+  ]
+%}
+{% set footerBottomClasses = [
+    'flex-footer-bottom',
+    footer_bottom_bg,
+    footer_bottom_classes,
+  ]
+%}
+{% if page.footer or page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
+  <footer{{ footer_attribute.setAttribute('id', 'footer').setAttribute('role', 'contentinfo').addClass(footerClasses) }}>
+    {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
+      <div{{ footer_top_attribute.addClass(footerTopClasses) }}>
+        <div class="{{ container }}">
+          <div class="row">
+            {% set footer_cols = '' %}
+            {% if page.footer_first and page.footer_second and page.footer_third and page.footer_fourth %}
+              {% set footer_cols = 'col-lg-3 col-md-6' %}
+            {% elseif (page.footer_first and page.footer_second and page.footer_third) or
+                      (page.footer_first and page.footer_second and page.footer_fourth) or
+                      (page.footer_first and page.footer_third and page.footer_fourth) or
+                      (page.footer_second and page.footer_third and page.footer_fourth) %}
+              {% set footer_cols = 'col-lg-4' %}
+            {% elseif (page.footer_first and page.footer_second) or
+                      (page.footer_first and page.footer_third) or
+                      (page.footer_first and page.footer_fourth) or
+                      (page.footer_second and page.footer_third) or
+                      (page.footer_second and page.footer_fourth) or
+                      (page.footer_third and page.footer_fourth) %}
+              {% set footer_cols = 'col-lg-6' %}
+            {% else %}
+              {% set footer_cols = 'col-lg-12' %}
+            {% endif %}
+            {% if page.footer_first %}
+              <div class="{{ footer_cols }}">
+                {{ page.footer_first }}
+              </div>
+            {% endif %}
+            {% if page.footer_second %}
+              <div class="{{ footer_cols }}">
+                {{ page.footer_second }}
+              </div>
+            {% endif %}
+            {% if page.footer_third %}
+              <div class="{{ footer_cols }}">
+                {{ page.footer_third }}
+              </div>
+            {% endif %}
+            {% if page.footer_fourth %}
+              <div class="{{ footer_cols }}">
+                {{ page.footer_fourth }}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+    {% if page.footer %}
+      <div{{ footer_bottom_attribute.addClass(footerBottomClasses) }}>
+        <div class="{{ container }}">
+          {{ page.footer }}
+        </div>
+      </div>
+    {% endif %}
+  </footer>
+{% endif %}

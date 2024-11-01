@@ -1,0 +1,45 @@
+{
+  "name": "flexistyle_bootstrap_scss",
+  "private": true,
+  "main": "index.js",
+  "description": "The FlexiStyle Bootstrap SCSS theme is built on the foundation of FlexiStyle Bootstrap, providing the same compatibility and features, with added support for SCSS for more efficient styling.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "User interface",
+    "Drupal Base theme",
+    "Drupal",
+    "SCSS",
+    "FlexiStyle Bootstrap",
+    "Bootstrap",
+    "Bootstrap theme"
+  ],
+  "license": "GPL-2.0+",
+  "author": "@anoopsingh92",
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.3.0",
+    "bootstrap-icons": "^1.11.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean-css": "3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-load-plugins": "^2.0.4",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^5.0.0",
+    "gulp-scss-lint": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "merge-stream": "^1.0.1",
+    "postcss-inline-svg": "^4.1.0",
+    "postcss-pxtorem": "^5.1.1",
+    "sass": "1.32.13"
+  }
+}

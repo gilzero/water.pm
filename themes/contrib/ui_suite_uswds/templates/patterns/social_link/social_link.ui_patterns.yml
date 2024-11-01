@@ -1,0 +1,21 @@
+social_link:
+  label: "Social link"
+  description: "A single uswds social link."
+  category: "Social"
+  settings:
+    icon:
+      type: "textfield"
+      label: "Social icon"
+      description: "Path to social icon."
+      preview: "https://cdn.jsdelivr.net/npm/@uswds/uswds@3.8.0/dist/img/usa-icons/facebook.svg"
+    href:
+      type: "textfield"
+      label: "href"
+      required: true
+      description: "The social link href."
+      preview: "https://www.facebook.com/"
+    name:
+      type: "textfield"
+      label: "Name"
+      description: "Name of the type of social link, example facebook or instagram."
+      preview: "Facebook"

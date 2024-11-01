@@ -1,0 +1,23 @@
+// Does imports from the base fortytwo theme.
+@import 'lib/basicimports';
+
+// Import config.
+@import 'config/colors';
+@import 'config/transitions';
+@import 'config/typography';
+
+// Import icomoon array.
+@import 'lib/icomoon';
+
+// Put your own mixins in this file
+@import 'lib/mixins';
+
+// Import assets
+@import 'assets/pageelements';
+
+// Basic layout styling
+@import 'base/layout';
+@import 'base/header';
+@import 'base/navigation';
+@import 'base/sidebars';
+@import 'base/tabs';

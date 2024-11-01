@@ -1,0 +1,17 @@
+.pager__items li {
+  padding: 0;
+}
+
+.pager__items li a {
+  padding: 6px 12px;
+  display: inline-block;
+}
+
+.pager__items li.is-active {
+  padding: 6px 12px;
+  font-weight: bold;
+}
+
+.pager__items li.is-active a {
+  padding: 0;
+}

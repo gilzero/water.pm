@@ -1,0 +1,10 @@
+close_button:
+  label: "Close button"
+  description: "A generic close button for dismissing content like modals and alerts."
+  category: "Buttons"
+  settings:
+    aria_label:
+      type: "textfield"
+      label: "Aria label"
+      description: "Name of the close button for assistive technology."
+      allow_token: true

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Table of contents</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h2 id="table-of-contents">Table of contents</h2>
+<ul>
+<li>Introduction</li>
+<li>Requirements</li>
+<li>Installation</li>
+<li>Configuration</li>
+<li>Create subtheme</li>
+<li>Recommended Libraries</li>
+<li>Maintainers</li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<p>FlexiStyle Bootstrap theme is a base theme for Drupal.
+This theme is fully compatible with Drupal 10.
+It is a dynamic and modern custom theme designed
+specifically for Drupal. Its theme completely overwrites
+standard root twig templates. This theme is based on
+bootstrap based layout and structure. This theme seamlessly
+integrates aesthetics with functionality, offering a
+visually striking and user-friendly.</p>
+<p>This theme supports all the bootstrap versions. It is a
+lightweight theme because we are attaching all the CSS and
+JS libraries based on the components and disabling
+unnecessary libraries. theme performance, best practices,
+and SEO scores are high in a lighthouse.</p>
+<p>The theme is fully responsive and mobile-first. Use the
+latest version of Fontawesome and Google material libraries
+for icons in this theme. All the sections, colors, sizes,
+widths, columns and containers are fully based on the
+bootstrap.</p>
+<p>&quot;Flexi Style Bootstrap&quot; theme settings are manageable, You
+can change the header, navbar, footer, Bootstrap version,
+and maintenance mode time settings and styles from the theme
+appearance. This theme is fully supportable with the
+Progressive web application (PWA).</p>
+<h2 id="requirements">Requirements</h2>
+<p>This theme requires Drupal core <code>&gt;= 9.0</code>.
+This theme does not require any theme and modules outside of Drupal core.</p>
+<h2 id="installation">Installation</h2>
+<p>Install as you would normally install a contributed Drupal theme.
+Install with composer <code>composer require 'drupal/flexistyle_bootstrap'</code>
+then enable the theme.</p>
+<h2 id="configuration">Configuration</h2>
+<p>Go to the <code>Administration » Appearance</code>.
+On the same page <strong>FlexiStyle Bootstrap</strong> theme and click on
+the install and set as default.</p>
+<h2 id="create-subtheme">Create subtheme</h2>
+<ol>
+<li>You can create a subtheme through a shell script.</li>
+<li>Install the <strong>&quot;FlexiStyle Bootstrap&quot;</strong> theme with the composer
+<code>composer require 'drupal/flexistyle_bootstrap'</code> but don't enable it.</li>
+<li>Go to the theme folder from shell or command
+prompt: <code>cd themes/contrib/flexistyle_bootstrap</code>.</li>
+<li>Run this command from the shell &quot;Make script
+executable&quot;: <code>chmod +x script/subtheme.sh</code>.</li>
+<li>Run this command from the shell to launch the
+script: <code>sh script/subtheme.sh</code> or <code>./script/subtheme.sh</code>.</li>
+<li>That script will ask the questions for you to create your subtheme.
+<ol>
+<li>The <code>machine name</code> of your custom theme?
+<code>[e.g. mytheme_flexistyle_bootstrap]</code>: <strong>mytheme_flexistyle_bootstrap</strong>.</li>
+<li>The <code>theme name</code> of your custom theme?
+<code>[e.g. Mytheme FlexiStyle Bootstrap]</code>: <strong>Mytheme FlexiStyle Bootstrap</strong></li>
+</ol>
+</li>
+<li>Go to the <strong>administration -&gt; Appearance</strong> and enable
+the <code>Mytheme FlexiStyle Bootstrap</code>.</li>
+</ol>
+<h2 id="recommended-libraries">Recommended Libraries</h2>
+<h3 id="method-1">Method 1:</h3>
+<ol>
+<li>Go to the theme folder from the shell or command prompt:
+<code>cd web/themes/contrib/flexistyle_bootstrap</code>.</li>
+<li>Run this command from the shell &quot;Make script executable&quot;:
+<code>chmod +x script/library.sh</code>.</li>
+<li>Run this command from the shell to launch the script:
+<code>./script/library.sh</code>.</li>
+<li>That script will ask the questions.
+<ol>
+<li>Do you want to move your bootstrap library from vendor to
+libraries: [Yes]?.</li>
+<li>Do you want to download popper.js libraries: [Yes]?</li>
+</ol>
+</li>
+<li>Press enter, within a few seconds Download will be completed.</li>
+<li>Now you can change your theme settings Bootstrap configuration from
+local to libraries.</li>
+</ol>
+<h3 id="method-2-manual">Method 2: Manual</h3>
+<ol>
+<li>Download compiled Bootstrap source files and popper.js with your asset.</li>
+<li>Click on <a href="https://github.com/twbs/bootstrap/archive/v5.3.3.zip">Download</a> to latest bootstrap library.</li>
+<li>Create a <strong>&quot;libraries&quot;</strong> folder if it does not exist in your application
+on root.</li>
+<li>Now extract the downloaded zip file into the libraries folder on that
+path <code>web/libraries/bootstrap</code>.</li>
+<li>Rename the extracted folder to bootstrap.</li>
+<li>Click on <a href="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js">Save popperjs</a> and save into the <code>web/libraries/popper.js/dist</code> folder, if it does not exist create it.</li>
+<li>Go to the Appearance <code>/admin/appearance</code>.</li>
+<li>From Installed themes Click on <strong>&quot;Settings&quot;</strong> gear icons.</li>
+<li>From the <strong>Bootstrap settings</strong> tab &gt; Choose <strong>Libraries</strong> from the
+&quot;Bootstrap from&quot; select list.</li>
+</ol>
+<h2 id="maintainers">Maintainers</h2>
+<ul>
+<li>Anoop Singh - <a href="https://www.drupal.org/u/anoopsingh92">anoopsingh92</a></li>
+</ul>
+
+            
+            
+        </body>
+        </html>

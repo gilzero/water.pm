@@ -1,0 +1,16 @@
+{% set attributes = create_attribute({
+  'class': [
+    'usa-time-picker__external-input'
+  ],
+  'id': 'test-time-picker',
+  'name': 'test-time-picker',
+  'aria-labelledby': 'test-time-picker-label',
+  'aria-describedby': 'test-time-picker-desc'
+}) %}
+
+{{ pattern('label', {
+  'for_value': 'test-time-picker',
+  'label': 'Test time Picker'
+}) }}
+
+{% include 'pattern-time-picker.html.twig' %}

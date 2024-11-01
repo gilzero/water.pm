@@ -1,0 +1,25 @@
+.ul-parent-account li {
+  float: none;
+  width: auto;
+  display: inline-block;
+}
+
+.ul-parent-account li a {
+  padding: 7px 14px;
+}
+
+.ul-parent-account {
+  float: right;
+  width: auto;
+  position: relative;
+  z-index: 1!important;
+}
+
+.header-inner .contextual-region.block-system-branding-block .contextual {
+  top: auto!important;
+  bottom: 0!important;
+}
+
+.header-inner nav.contextual-region .contextual {
+  top: 50px!important;
+}

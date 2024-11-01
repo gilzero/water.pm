@@ -1,0 +1,67 @@
+header:
+  label: "Header"
+  description: "Helps users identify where they are and provides a quick, organized way to reach the main sections of a website."
+  links:
+    - "https://designsystem.digital.gov/components/header/"
+  category: "Layout"
+  variants:
+    basic:
+      label: "Basic"
+      description: Orient users to a simple site.
+    extended:
+      label: "Extended (Default)"
+      description: Orient users to a site with lots of sections.
+  fields:
+    top:
+      type: "render"
+      label: "Top"
+      description: "Expect a logo component"
+      preview:
+        type: pattern
+        id: logo
+        content: Project title
+    nav:
+      type: "render"
+      label: "Nav"
+      description: "Expect a nav component"
+      preview:
+        type: pattern
+        id: nav
+        search:
+          type: pattern_preview
+          id: search
+        nav_id: 'pattern-test'
+        primary:
+          - title: "Current section"
+            url: "https://example.com"
+            is_expanded: true
+            in_active_trail: true
+            below:
+              - title: "2nd level link"
+                url: "https://example.com"
+                in_active_trail: true
+              - title: "2nd level link"
+                url: "https://example.com"
+              - title: "2nd level link"
+                url: "https://example.com"
+              - title: "2nd level link"
+                url: "https://example.com"
+              - title: "A very long navigation link that goes onto two lines"
+                url: "https://example.com"
+              - title: "2nd level link"
+                url: "https://example.com"
+          - title: "Home"
+            url: "https://example.com"
+            below:
+              - title: "2nd level link"
+                url: "https://example.com"
+                in_active_trail: true
+              - title: "2nd level link"
+                url: "https://example.com"
+              - title: "2nd level link"
+                url: "https://example.com"
+        secondary:
+          - title: "Data"
+            url: "https://example.com"
+          - title: "Secondary link"
+            url: "https://example.com"

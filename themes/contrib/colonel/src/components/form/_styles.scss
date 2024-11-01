@@ -1,0 +1,74 @@
+//INPUT
+input {
+  display: inline-block;
+  padding: $inputPadding;
+  border: $inputBorder;
+  border-radius: $inputRadius;
+}
+
+//TEXTAREA
+textarea {
+  display: inline-block;
+  padding: $textareaPadding;
+  border: $textareaBorder;
+  border-radius: $textareaRadius;
+}
+
+//FIELDSET
+fieldset {
+  padding: $fieldsetPadding;
+  border: $fieldsetBorder;
+  border-radius: $fieldsetRadius;
+}
+
+//FIELD
+textarea,
+select,
+.chosen-container,
+input[type="text"],
+input[type="tel"],
+input[type="file"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+  width: 100% !important;
+  max-width: 600px !important;
+  background: none !important;
+  box-sizing: border-box;
+  @media (max-width: $md) {
+    max-width: 100% !important;
+  }
+}
+
+//THROBBER
+.ajax-progress-throbber {
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin: 5px auto;
+  .throbber {
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    padding: 0;
+    background: url('../../../assets/form/loading.svg') no-repeat center;
+    background-size: contain;
+  }
+}
+.ajax-progress-fullscreen {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  margin-top: -20px;
+  margin-left: -20px;
+  width: 40px;
+  height: 40px;
+  background: url('../../../assets/form/loading.svg') no-repeat center;
+  background-size: contain;
+  @media (max-width: $lg) {
+    margin-left: - 20px;
+  }
+}

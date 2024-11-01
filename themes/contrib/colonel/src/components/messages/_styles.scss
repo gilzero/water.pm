@@ -1,0 +1,43 @@
+.messages {
+  border: none;
+  border-radius: $messagesRadius;
+  margin: $messagesMargin;
+  padding: $messagesPadding;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  box-shadow: none;
+  background: $messagesBackground;
+  color: $messagesColor;
+}
+[dir="rtl"] .messages {
+  text-align: right;
+}
+.messages__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.messages--status {
+  background: $messagesStatusBackground;
+  color: $messagesStatusColor;
+  a {
+    color: $messagesStatusColor;
+    text-decoration: underline;
+  }
+}
+.messages--warning {
+  background: $messagesWarningBackground;
+  color: $messagesWarningColor;
+  a {
+    color: $messagesWarningColor;
+    text-decoration: underline;
+  }
+}
+.messages--error {
+  background: $messagesErrorBackground;
+  color: $messagesErrorColor;
+  a {
+    color: $messagesErrorColor;
+    text-decoration: underline;
+  }
+}

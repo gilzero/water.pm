@@ -1,0 +1,21 @@
+//VARIABLES
+$messagesMargin: 2rem 0;
+$messagesRadius: 4px;
+$messagesPadding: 2rem;
+/*default*/
+$messagesBackground: #4d4e4a;
+$messagesColor: #fff;
+/*status*/
+$messagesStatusBackground: #8fc680;
+$messagesStatusColor: #fff;
+/*warning*/
+$messagesWarningBackground: #de975a;
+$messagesWarningColor: #fff;
+/*error*/
+$messagesErrorBackground: #fc5457;
+$messagesErrorColor: #fff;
+
+//IMPORT
+@import "../../../../colonel/src/components/messages/styles";
+
+//CUSTOM

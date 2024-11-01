@@ -1,0 +1,17 @@
+//VARIABLES
+$breadcrumbFontSize: 1.2rem;
+$breadcrumbMargin: 2rem 0;
+$breadcrumbActiveColor: #000;
+$breadcrumbArrowWidth: 12px;
+$breadcrumbArrowHeight: 12px;
+$breadcrumbArrowMargin: 0 5px 0 7px;
+$breadcrumbArrowTop: 2px;
+$breadcrumbIconHome: yes; /*"yes" if you want an home icon*/
+$breadcrumbIconHomeTop: 2px;
+$breadcrumbIconHomeWidth: 14px;
+$breadcrumbIconHomeHeight: 14px;
+
+//IMPORT
+@import "../../../../colonel/src/components/breadcrumb/styles";
+
+//CUSTOM

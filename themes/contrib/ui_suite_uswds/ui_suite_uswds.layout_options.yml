@@ -1,0 +1,274 @@
+layout_option_definitions:
+  # Sections options.
+  with_container:
+    title: "With container?"
+    description: "Is the row wrapped in a container? Containers provide a means to center and horizontally pad your site’s contents."
+    default: ""
+    plugin: "layout_options_class_radios"
+    multi: false
+    layout: true
+    regions: false
+    inline: true
+    options:
+      "with-container": "Yes"
+      "": "No"
+  gutters:
+    title: "Gutters"
+    description: "Add grid-gap to a grid row to add a gap (or gutter) between each column in the row."
+    default: ""
+    plugin: "layout_options_class_select"
+    multi: false
+    layout: true
+    regions: false
+    options:
+      grid-gap-05: "1/2"
+      grid-gap-1: "1"
+      grid-gap-2: "2"
+      grid-gap-3: "3"
+      grid-gap-4: "4"
+      grid-gap-5: "5"
+      grid-gap-6: "6"
+  offsetting:
+    title: "Offsetting Columns"
+    description: ".grid-offset-[1-12] offsets an item by the specified number of grid columns as shown in the following example."
+    default: ""
+    plugin: "layout_options_class_select"
+    multi: false
+    layout: true
+    regions: false
+    options:
+      grid-offset-1: "1"
+      grid-offset-2: "2"
+      grid-offset-3: "3"
+      grid-offset-4: "4"
+      grid-offset-5: "5"
+      grid-offset-6: "6"
+      grid-offset-7: "7"
+      grid-offset-8: "8"
+      grid-offset-9: "9"
+      grid-offset-10: "10"
+      grid-offset-11: "11"
+      grid-offset-12: "12"
+
+  # Regions options.
+  card:
+    title: "Card"
+    description: ""
+    default: ""
+    plugin: "layout_options_class_select"
+    multi: false
+    layout: false
+    regions: true
+    options:
+      card:grid-col-auto: "Auto"
+      card:grid-col-fill: "Fill"
+      card:grid-col-1: "1"
+      card:grid-col-2: "2"
+      card:grid-col-3: "3"
+      card:grid-col-4: "4"
+      card:grid-col-5: "5"
+      card:grid-col-6: "6"
+      card:grid-col-7: "7"
+      card:grid-col-8: "8"
+      card:grid-col-9: "9"
+      card:grid-col-10: "10"
+      card:grid-col-11: "11"
+      card:grid-col-12: "12"
+  card_lg:
+    title: "Card Large"
+    description: ""
+    default: ""
+    plugin: "layout_options_class_select"
+    multi: false
+    layout: false
+    regions: true
+    options:
+      card-lg:grid-col-auto: "Auto"
+      card-lg:grid-col-fill: "Fill"
+      card-lg:grid-col-1: "1"
+      card-lg:grid-col-2: "2"
+      card-lg:grid-col-3: "3"
+      card-lg:grid-col-4: "4"
+      card-lg:grid-col-5: "5"
+      card-lg:grid-col-6: "6"
+      card-lg:grid-col-7: "7"
+      card-lg:grid-col-8: "8"
+      card-lg:grid-col-9: "9"
+      card-lg:grid-col-10: "10"
+      card-lg:grid-col-11: "11"
+      card-lg:grid-col-12: "12"
+  mobile:
+    title: "Mobile"
+    description: ""
+    default: ""
+    plugin: "layout_options_class_select"
+    multi: false
+    layout: false
+    regions: true
+    options:
+      grid-col-auto: "Auto"
+      grid-col-fill: "Fill"
+      grid-col-1: "1"
+      grid-col-2: "2"
+      grid-col-3: "3"
+      grid-col-4: "4"
+      grid-col-5: "5"
+      grid-col-6: "6"
+      grid-col-7: "7"
+      grid-col-8: "8"
+      grid-col-9: "9"
+      grid-col-10: "10"
+      grid-col-11: "11"
+      grid-col-12: "12"
+  mobile_lg:
+    title: "Mobile Large"
+    description: ""
+    default: ""
+    plugin: "layout_options_class_select"
+    multi: false
+    layout: false
+    regions: true
+    options:
+      mobile-lg:grid-col-auto: "Auto"
+      mobile-lg:grid-col-fill: "Fill"
+      mobile-lg:grid-col-1: "1"
+      mobile-lg:grid-col-2: "2"
+      mobile-lg:grid-col-3: "3"
+      mobile-lg:grid-col-4: "4"
+      mobile-lg:grid-col-5: "5"
+      mobile-lg:grid-col-6: "6"
+      mobile-lg:grid-col-7: "7"
+      mobile-lg:grid-col-8: "8"
+      mobile-lg:grid-col-9: "9"
+      mobile-lg:grid-col-10: "10"
+      mobile-lg:grid-col-11: "11"
+      mobile-lg:grid-col-12: "12"
+  tablet:
+    title: "Tablet"
+    description: ""
+    default: ""
+    plugin: "layout_options_class_select"
+    multi: false
+    layout: false
+    regions: true
+    options:
+      tablet:grid-col-auto: "Auto"
+      tablet:grid-col-fill: "Fill"
+      tablet:grid-col-1: "1"
+      tablet:grid-col-2: "2"
+      tablet:grid-col-3: "3"
+      tablet:grid-col-4: "4"
+      tablet:grid-col-5: "5"
+      tablet:grid-col-6: "6"
+      tablet:grid-col-7: "7"
+      tablet:grid-col-8: "8"
+      tablet:grid-col-9: "9"
+      tablet:grid-col-10: "10"
+      tablet:grid-col-11: "11"
+      tablet:grid-col-12: "12"
+  tablet_lg:
+    title: "Tablet Large"
+    description: ""
+    default: ""
+    plugin: "layout_options_class_select"
+    multi: false
+    layout: false
+    regions: true
+    options:
+      tablet-lg:grid-col-auto: "Auto"
+      tablet-lg:grid-col-fill: "Fill"
+      tablet-lg:grid-col-1: "1"
+      tablet-lg:grid-col-2: "2"
+      tablet-lg:grid-col-3: "3"
+      tablet-lg:grid-col-4: "4"
+      tablet-lg:grid-col-5: "5"
+      tablet-lg:grid-col-6: "6"
+      tablet-lg:grid-col-7: "7"
+      tablet-lg:grid-col-8: "8"
+      tablet-lg:grid-col-9: "9"
+      tablet-lg:grid-col-10: "10"
+      tablet-lg:grid-col-11: "11"
+      tablet-lg:grid-col-12: "12"
+  desktop:
+    title: "Desktop"
+    description: ""
+    default: ""
+    plugin: "layout_options_class_select"
+    multi: false
+    layout: false
+    regions: true
+    options:
+      desktop:grid-col-auto: "Auto"
+      desktop:grid-col-fill: "Fill"
+      desktop:grid-col-1: "1"
+      desktop:grid-col-2: "2"
+      desktop:grid-col-3: "3"
+      desktop:grid-col-4: "4"
+      desktop:grid-col-5: "5"
+      desktop:grid-col-6: "6"
+      desktop:grid-col-7: "7"
+      desktop:grid-col-8: "8"
+      desktop:grid-col-9: "9"
+      desktop:grid-col-10: "10"
+      desktop:grid-col-11: "11"
+      desktop:grid-col-12: "12"
+  desktop_lg:
+    title: "Desktop Large"
+    description: ""
+    default: ""
+    plugin: "layout_options_class_select"
+    multi: false
+    layout: false
+    regions: true
+    options:
+      desktop-lg:grid-col-auto: "Auto"
+      desktop-lg:grid-col-fill: "Fill"
+      desktop-lg:grid-col-1: "1"
+      desktop-lg:grid-col-2: "2"
+      desktop-lg:grid-col-3: "3"
+      desktop-lg:grid-col-4: "4"
+      desktop-lg:grid-col-5: "5"
+      desktop-lg:grid-col-6: "6"
+      desktop-lg:grid-col-7: "7"
+      desktop-lg:grid-col-8: "8"
+      desktop-lg:grid-col-9: "9"
+      desktop-lg:grid-col-10: "10"
+      desktop-lg:grid-col-11: "11"
+      desktop-lg:grid-col-12: "12"
+  widescreen:
+    title: "Widescreen"
+    description: ""
+    default: ""
+    plugin: "layout_options_class_select"
+    multi: false
+    layout: false
+    regions: true
+    options:
+      widescreen:grid-col-auto: "Auto"
+      widescreen:grid-col-fill: "Fill"
+      widescreen:grid-col-1: "1"
+      widescreen:grid-col-2: "2"
+      widescreen:grid-col-3: "3"
+      widescreen:grid-col-4: "4"
+      widescreen:grid-col-5: "5"
+      widescreen:grid-col-6: "6"
+      widescreen:grid-col-7: "7"
+      widescreen:grid-col-8: "8"
+      widescreen:grid-col-9: "9"
+      widescreen:grid-col-10: "10"
+      widescreen:grid-col-11: "11"
+      widescreen:grid-col-12: "12"
+layout_options:
+  global:
+    with_container: {}
+    gutters: {}
+    offsetting: {}
+    card: {}
+    card_lg: {}
+    mobile: {}
+    mobile_lg: {}
+    tablet: {}
+    tablet_lg: {}
+    desktop: {}
+    desktop_lg: {}
+    widescreen: {}

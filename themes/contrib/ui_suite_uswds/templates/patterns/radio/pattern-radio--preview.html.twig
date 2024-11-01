@@ -1,0 +1,24 @@
+<fieldset class="usa-fieldset">
+  <legend class="usa-legend">This is a test of radios</legend>
+
+  {% for i in 0..4 %}
+    <div class="usa-radio">
+      {% set attributes = create_attribute({
+        'id': 'test-radio-' ~ i,
+        'name': 'test-radio-group'
+      }) %}
+
+      {% include 'pattern-radio.html.twig' %}
+
+      {{ pattern('label', {
+        'attributes': create_attribute({
+          'class': [
+            'usa-radio__label'
+          ]
+        }),
+        'for_value': 'test-radio-' ~i,
+        'label': 'Test Radio-' ~ i
+      }) }}
+    </div>
+  {% endfor %}
+</fieldset>

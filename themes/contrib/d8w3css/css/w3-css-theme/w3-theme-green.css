@@ -1,0 +1,221 @@
+.main-container-inner {
+  color: #132d14;
+}
+
+#copyright p,
+#copyright a {
+  color: #fcfefc;
+}
+
+#main-container .main-box > div {
+  background-color: #fcfefc;
+}
+
+.w3-theme-l5 {
+  color: #132d14 !important;
+  background-color: #f4faf4 !important;
+}
+
+.w3-theme-l4 {
+  color: #132d14 !important;
+  background-color: #f0f9f1 !important;
+}
+
+.w3-theme-l3 {
+  color: #132d14 !important;
+  background-color: #b7dfb8 !important;
+}
+
+.w3-theme-l2 {
+  color: #132d14 !important;
+  background-color: #93cf95 !important;
+}
+
+.w3-theme-l1 {
+  color: #fcfefc !important;
+  background-color: #6ec071 !important;
+}
+
+.w3-theme-d1 {
+  color: #fcfefc !important;
+  background-color: #459c48 !important;
+}
+
+.w3-theme-d2 {
+  color: #fcfefc !important;
+  background-color: #3d8b40 !important;
+}
+
+.w3-theme-d3 {
+  color: #fcfefc !important;
+  background-color: #357a38 !important;
+}
+
+.w3-theme-d4 {
+  color: #fcfefc !important;
+  background-color: #2e6830 !important;
+}
+
+.w3-theme-d5 {
+  color: #fcfefc !important;
+  background-color: #265728 !important;
+}
+
+.w3-theme-light {
+  color: #132d14 !important;
+  background-color: #f4faf4 !important;
+}
+
+.w3-theme-dark {
+  color: #fcfefc !important;
+  background-color: #265728 !important;
+}
+
+.w3-theme-action {
+  color: #fcfefc !important;
+  background-color: #265728 !important;
+}
+
+.w3-theme,
+.close-nav,
+.mobile-nav {
+  color: #fcfefc !important;
+  background-color: #4caf50 !important;
+}
+
+.w3-text-theme {
+  color: #4caf50 !important;
+}
+
+.w3-border-theme {
+  border-color: #4caf50 !important;
+}
+
+.w3-hover-theme:hover {
+  color: #fcfefc !important;
+  background-color: #4caf50 !important;
+}
+
+.w3-hover-text-theme:hover {
+  color: #4caf50 !important;
+}
+
+.w3-hover-border-theme:hover {
+  border-color: #4caf50 !important;
+}
+
+/* custom work */
+.w3-active-pager {
+  background-color: #f4faf4 !important;
+}
+
+.w3-hover-over:hover,
+.w3-button:hover {
+  background-color: #dbefdc !important;
+  color: #265728 !important;
+}
+
+/* button animation  */
+@keyframes btnBorderAnimation {
+  0% {
+    width: 0;
+    height: 0;
+    border-bottom-color: #4caf50;
+  }
+
+  99.9999% {
+    width: 100%;
+    height: 100%;
+    border-bottom-color: #4caf50;
+  }
+
+  100% {
+    width: 0;
+    height: 0;
+    border-bottom-color: transparent;
+  }
+
+}
+
+/* Border animation  */
+@keyframes borderLeftColors {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: #4caf50;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  50% {
+    width: 100%;
+    height: 0;
+    border-top-color: #4caf50;
+    border-right-color: #4caf50;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  99.9999% {
+    width: 100%;
+    height: 100%;
+    border-top-color: #4caf50;
+    border-right-color: #4caf50;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  100% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+}
+
+@keyframes borderRightColors {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #4caf50;
+    border-left-color: transparent;
+  }
+
+  50% {
+    width: 100%;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #4caf50;
+    border-left-color: #4caf50;
+  }
+
+  99.9999% {
+    width: 100%;
+    height: 100%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #4caf50;
+    border-left-color: #4caf50;
+  }
+
+  100% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+}
+
+#footer-container .footer-box>div.animate-border:hover {
+  box-shadow: 0 25px 57px 0 rgba(255, 255, 255, .30);
+}

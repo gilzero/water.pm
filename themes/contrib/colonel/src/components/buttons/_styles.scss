@@ -1,0 +1,49 @@
+//PRIMARY
+@mixin btn-primary {
+  display: inline-block;
+  padding: $btnPrimaryPadding;
+  border: $btnPrimaryBorder;
+  border-radius: $btnPrimaryRadius;
+  background: $btnPrimaryBackground;
+  color: $btnPrimaryColor;
+  text-decoration: none;
+  font-weight: $btnPrimaryFontWeight;
+  cursor: pointer;
+  &:hover, &:focus {
+    border-color: $btnPrimaryHoverBorderColor;
+    background: $btnPrimaryHoverBackground;
+    color: $btnPrimaryHoverColor;
+  }
+}
+.btn-primary {
+  @include btn-primary;
+}
+
+//SECONDARY
+@mixin btn-secondary {
+  display: inline-block;
+  padding: $btnSecondaryPadding;
+  border: $btnSecondaryBorder;
+  border-radius: $btnSecondaryRadius;
+  background: $btnSecondaryBackground;
+  color: $btnSecondaryColor;
+  text-decoration: none;
+  font-weight: $btnSecondaryFontWeight;
+  cursor: pointer;
+  &:hover, &:focus {
+    border-color: $btnSecondaryHoverBorderColor;
+    background: $btnSecondaryHoverBackground;
+    color: $btnSecondaryHoverColor;
+  }
+}
+.btn-secondary {
+  @include btn-secondary;
+}
+
+//LARGE
+@mixin btn-large {
+  padding: $btnLargePadding !important;
+}
+.btn-large {
+  @include btn-large;
+}

@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * @file
+ * Module file for the dimension module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function dimension_theme(): array {
+  return [
+    'area_components_field_formatter' => [
+      'variables' => [
+        'width' => 0,
+        'height' => 0,
+      ],
+    ],
+    'volume_components_field_formatter' => [
+      'variables' => [
+        'width' => 0,
+        'height' => 0,
+        'length' => 0,
+      ],
+    ],
+  ];
+}

@@ -1,0 +1,57 @@
+pagination:
+  label: "Pagination"
+  description: "Pagination is navigation for paginated content."
+  links:
+    - "https://designsystem.digital.gov/components/pagination/"
+  category: "Navigation"
+  settings:
+    total_pages:
+      type: "number"
+      label: "Total number of pages"
+      description: "Not including previous/next links."
+    display_bound_buttons:
+      type: "boolean"
+      label: "Display first and last links as buttons"
+      description: "Default Drupal shows links as [first, previous, links, next, last]. This changes to [previous, first(as button), links, last(as button), previous]."
+    items:
+      type: "links"
+      label: "Pagination items."
+      description: "List of pager items. The list is keyed by the following elements: first: Item for the first page; not present on the first page of results. previous: Item for the previous page; not present on the first page of results. next: Item for the next page; not present on the last page of results. last: Item for the last page; not present on the last page of results. pages: List of pages, keyed by page number. List of pages. Each item is an array containing the following elements: href: URL with appropriate query parameters for the item. attributes: A keyed list of HTML attributes for the item. text: The visible text used for the item link, such as Previous or Next."
+      preview:
+        first:
+          link: true
+          attributes:
+            class:
+              - usa-pagination__previous-page
+          url: "#"
+          title: "First"
+        previous:
+          link: true
+          attributes:
+            class:
+              - usa-pagination__previous-page
+          url: "#"
+          title: "Previous"
+        1:
+          url: "#"
+          title: "1"
+        2:
+          url: ""
+          title: "2"
+        3:
+          url: "#"
+          title: "3"
+        next:
+          link: true
+          attributes:
+            class:
+              - usa-pagination__next-page
+          url: "#"
+          title: "Next"
+        last:
+          link: true
+          attributes:
+            class:
+              - usa-pagination__next-page
+          url: "#"
+          title: "Last"

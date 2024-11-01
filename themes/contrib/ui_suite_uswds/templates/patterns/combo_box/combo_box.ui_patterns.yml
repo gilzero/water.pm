@@ -1,0 +1,52 @@
+combo_box:
+  label: "Combo box"
+  description: "A combo box helps users select an item from a large list of options."
+  links:
+    - "https://designsystem.digital.gov/components/combo-box/"
+  category: "Combo box"
+  settings:
+    required:
+      type: "boolean"
+      label: "Required"
+      description: "The combo box component will be required in terms of native form validation."
+      preview: true
+      allow_expose: true
+      allow_token: true
+    disabled:
+      type: "boolean"
+      label: "Disabled"
+      description: "The combo box component will be disabled / read-only. You can re-enable it by executing the enable procedure on the component."
+      allow_expose: true
+      allow_token: true
+    placeholder:
+      type: "textfield"
+      label: "Placeholder text"
+      description: "To update the placeholder text of the combo box, use the data-placeholder attribute. We recommend using a label or hint instead of a placeholder."
+      preview: "Example placeholder"
+      allow_expose: true
+      allow_token: true
+    default_value:
+      type: "textfield"
+      label: "Default value"
+      description: "The combo box will set this value as the default selection if it is found within the select options."
+      preview: apple
+      allow_expose: true
+      allow_token: true
+  fields:
+    options:
+      type: "array"
+      label: "Options"
+      description: "Array of items with a text value."
+      preview:
+        0:
+          type: "option"
+          value: "apple"
+          label: "Apple"
+        1:
+          type: "option"
+          value: "apricot"
+          label: "Apricot"
+        2:
+          type: "option"
+          value: "banana"
+          label: "Banana Smoothie"

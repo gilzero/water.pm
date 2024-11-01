@@ -1,0 +1,27 @@
+range_slider:
+  label: "Range Slider"
+  description: "A range slider allows users to choose an approximate number from a range."
+  links:
+    - "https://designsystem.digital.gov/components/range-slider/"
+  category: "Forms"
+  settings:
+    min:
+      type: "number"
+      label: "Min"
+      description: "Minimum number of range."
+      preview: 1
+    max:
+      type: "number"
+      label: "Max"
+      description: "Max number of range."
+      preview: 10
+    data_text_unit:
+      type: "textfield"
+      label: "data-text-unit"
+      description: "Adds a unit to screen reader callout. The unit will be read after the current value. For example, adding a value of “stars” enables a readout like “3.5 stars of 5.”"
+      preview: "stars"
+    data_text_preposition:
+      type: "textfield"
+      label: "data-text-preposition"
+      description: "Changes the preposition between current value and max value in screen reader readouts. For example, adding a value with the Spanish translation “de” enables a readout “like 20 de 100”. When adding a range slider to a non-English page, be sure to update the preposition as necessary."
+      preview: "of"

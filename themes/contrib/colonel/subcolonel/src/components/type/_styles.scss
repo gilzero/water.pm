@@ -1,0 +1,48 @@
+//VARIABLES
+$font: Helvetica, sans-serif;
+$fontSize: 1.6rem;
+$lineHeight: 2rem;
+$fontWeight: 400;
+$textColorPrimary: #4c4c4c;
+$textColorSecondary: #a6a6a6;
+/*link*/
+$linkColor: $accent;
+$linkHoverColor: $accentDark;
+/*h1*/
+$h1FontSize: 3.4rem;
+$h1LineHeight: 4rem;
+$h1Color: $textColorPrimary;
+/*h2*/
+$h2FontSize: 2.8rem;
+$h2LineHeight: 3.4rem;
+$h2Color: $textColorPrimary;
+/*h3*/
+$h3FontSize: 2rem;
+$h3LineHeight: 2.4rem;
+$h3Color: $textColorPrimary;
+/*h4*/
+$h4FontSize: 1.8rem;
+$h4LineHeight: 2rem;
+$h4Color: $textColorPrimary;
+/*h5*/
+$h5FontSize: 1.6rem;
+$h5LineHeight: 2rem;
+$h5Color: $textColorPrimary;
+/*h6*/
+$h6FontSize: 1.6rem;
+$h6LineHeight: 2rem;
+$h6Color: $textColorPrimary;
+/*blockquote*/
+$blockquoteMargin: 0 0 1rem 0;
+$blockquotePadding: 0 0 0 2rem;
+$blockquoteBorder: 4px solid #dee2e6;
+/*table*/
+$tableHeadBorderBottom: 2px solid #dee2e6;
+$tableMargin: 0 0 1rem 0;
+$tableCellPadding: .75rem;
+$tableCellBorderTop: 1px solid #dee2e6;
+
+//IMPORT
+@import "../../../../colonel/src/components/type/styles";
+
+//CUSTOM

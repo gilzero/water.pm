@@ -1,0 +1,18 @@
+{% set attributes = create_attribute({
+  'class': [
+    'usa-range'
+  ],
+  'type': 'range',
+  'min': min,
+  'max': max,
+  'data-text-unit': data_text_unit,
+  'data-text-preposition': data_text_preposition,
+  'id': 'test-range-slider'
+}) %}
+
+{{ pattern('label', {
+  'for_value': 'test-range-slider',
+  'label': 'Test Slider'
+}) }}
+
+<input{{ attributes }} />

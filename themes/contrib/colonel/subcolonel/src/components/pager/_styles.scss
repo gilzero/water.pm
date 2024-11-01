@@ -1,0 +1,14 @@
+//VARIABLES
+$pagerLinkColor: #000;
+$pagerLinkHoverColor: #444;
+$pagerLinkActiveColor: #FF0000;
+$pagerLinkActiveFontWeight: 700;
+$pagerIconWidth: 10px;
+$pagerIconHeight: 10px;
+$pagerIconPreviousMargin: 0 5px 0 0;
+$pagerIconNextMargin: 0 0 0 5px;
+
+//IMPORT
+@import "../../../../colonel/src/components/pager/styles";
+
+//CUSTOM

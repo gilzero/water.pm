@@ -1,0 +1,18 @@
+banner:
+  label: "Banner"
+  description: "Banners identify official websites of government organizations in the United States. They also help visitors understand whether a website is official and secure."
+  links:
+    - "https://designsystem.digital.gov/components/banner/"
+  category: "Alerts / Banner"
+  settings:
+    icon_path:
+      type: "textfield"
+      label: "Icon path"
+      description: "Path to the icon to use in banner."
+      preview: "https://cdn.jsdelivr.net/npm/@uswds/uswds@3.8.0/dist/img/"
+    mil:
+      type: "boolean"
+      label: ".mil site"
+      description: "Is the site a .mil site?"
+      allow_expose: true
+      allow_token: true

@@ -1,0 +1,24 @@
+collection:
+  label: "Collection"
+  description: "A collection displays a compact list of multiple related items like articles or events. The list links each item to its original source."
+  links:
+    - "https://designsystem.digital.gov/components/collection/"
+  category: "Collection"
+  fields:
+    items:
+      type: "render"
+      label: "Items"
+      description: "Render array of items."
+      preview:
+        - type: "pattern"
+          id: "collection_item"
+          fields:
+            header_text: "Gears of Government President’s Award winners"
+            content: "Today, the Administration announces the winners of the Gears of Government President’s Award. This program recognizes the contributions of individuals and teams across the federal workforce who make a profound difference in the lives of the American people."
+            meta_items_list:
+              - "By John Doe and Constance Lu"
+              - "September 30, 2020"
+            meta_items_tags:
+              - "NEW"
+              - "PMA"
+              - "OMB"

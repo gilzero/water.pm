@@ -1,0 +1,37 @@
+hero:
+  label: "Hero"
+  description: "A big eye-catching image with info, usually in the above-the-fold zone of the page right below the header."
+  category: "Layout"
+  settings:
+    aria_label:
+      type: "textfield"
+      label: "Aria label"
+      description: "Short label for this specific banner."
+      preview: "Introduction"
+    bg_image:
+      type: "url"
+      label: "Background image"
+      preview: https://cdnjs.cloudflare.com/ajax/libs/uswds/3.8.0/img/hero.jpg
+  fields:
+    title_alt:
+      type: "text"
+      label: "Text alt"
+      description: "Will render above title."
+      preview: "Hero callout:"
+    title:
+      type: "text"
+      label: "Title"
+      description: "Will render as an H1."
+      preview: "Bring attention to a project priority"
+    body:
+      type: "render"
+      label: "Body"
+      description: "Small body for banner, recommended keep short."
+      preview:
+        - type: html_tag
+          tag: p
+          value: "Support the callout with some short explanatory text. You don’t need more than a couple of sentences."
+        - type: pattern
+          id: button
+          label: Call to action
+          url: "#"

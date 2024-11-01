@@ -1,0 +1,89 @@
+/* button animation  */
+.w3-button {
+  position: relative;
+}
+
+.w3-button:after,
+.w3-button:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-bottom: 1px solid transparent;
+}
+
+.w3-button:before {
+  left: 0;
+}
+
+.w3-button:after {
+  right: 0;
+}
+
+.w3-button:hover:before {
+  animation: btnBorderAnimation 0.2s linear forwards;
+}
+
+.w3-button:hover:after {
+  animation: btnBorderAnimation 0.2s linear forwards;
+}
+
+/* Border animation  */
+#top-container .top-box>.animate-border,
+#bottom-container .bottom-box>.animate-border,
+#footer-container .footer-box>.animate-border {
+  position: relative;
+}
+
+#top-container .top-box>.animate-border:before,
+#bottom-container .bottom-box>.animate-border:before,
+#footer-container .footer-box>.animate-border:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border: 3px solid transparent;
+}
+
+#top-container .top-box>.animate-border:hover:before,
+#bottom-container .bottom-box>.animate-border:hover:before,
+#footer-container .footer-box>.animate-border:hover:before {
+  animation: borderLeftColors 1s linear forwards;
+}
+
+#top-container .top-box>.animate-border:after,
+#bottom-container .bottom-box>.animate-border:after,
+#footer-container .footer-box>.animate-border:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border: 3px solid transparent;
+}
+
+#top-container .top-box>.animate-border:hover:after,
+#bottom-container .bottom-box>.animate-border:hover:after,
+#footer-container .footer-box>.animate-border:hover:after {
+  animation: borderRightColors 1s linear forwards;
+}
+/* Shadows */
+
+#top-container .top-box>div.animate-border,
+#bottom-container .bottom-box>div.animate-border,
+#footer-container .footer-box>div.animate-border {
+  transition: 0.4s !important;
+}
+
+#top-container .top-box>div.animate-border:hover,
+#bottom-container .bottom-box>div.animate-border:hover,
+#footer-container .footer-box>div.animate-border:hover {
+  box-shadow: 0 25px 57px 0 rgba(0, 0, 0, .25);
+}

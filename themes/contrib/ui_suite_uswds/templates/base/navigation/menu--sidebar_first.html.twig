@@ -1,0 +1,11 @@
+{#
+/**
+ * @file
+ * Override of system/menu.html.twig for a sidebar menu.
+ */
+#}
+
+{{ pattern('side_navigation', {
+  'items': items,
+  'attributes': attributes.addClass(classes ?: ['menu', 'menu--' ~ menu_name|clean_class])
+}) }}

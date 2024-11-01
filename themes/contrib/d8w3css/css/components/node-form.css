@@ -1,0 +1,287 @@
+details.form-wrapper::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+details.form-wrapper {
+  padding: 0 !important;
+  margin-bottom: 8px !important;
+  line-height: inherit;
+  color: inherit;
+}
+
+details.form-wrapper > summary {
+  cursor: pointer;
+  padding: 8px 16px;
+}
+
+details[open] {
+  padding: 8px 16px !important;
+}
+
+.modules-wrapper details[open] {
+  padding: 8px 16px !important;
+  background: white;
+}
+
+.vertical-tabs details[open] {
+  padding: 0 !important;
+}
+
+details[open] > summary {
+  padding: 0 0 8px 0;
+}
+
+form .tableselect-sort th:first-child,
+form .tableselect-sort td:first-child {
+  width: 85px;
+}
+
+form tr.draggable td > a,
+form tr.draggable td > div.form-type-radio,
+form tr.draggable td > div.form-type-checkbox {
+  float: left !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  clear: none !important;
+}
+
+form a.tabledrag-handle .handle {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+form .draggable a.tabledrag-handle {
+  margin: -3px 5px 0 0 !important;
+  width: 25px;
+}
+
+form tr.draggable .w3-check,
+form tr.draggable .w3-radio {
+  top: 0;
+}
+
+form .field-multiple-drag {
+  width: 50px;
+}
+
+form div.form-type-datelist.w3-section.form-item {
+  width: auto;
+  clear: none;
+}
+
+form .form-type-date label,
+form .form-item-color label,
+form .form-type-select label,
+form .form-type-datelist label,
+form .form-type-datetime label {
+  display: block;
+  clear: both;
+}
+
+.form-type-datelist > div {
+  padding-left: 0;
+}
+
+form #edit-datelist,
+form #edit-datetime {
+  padding: 0;
+  margin: 0;
+}
+
+form #edit-datetime > div {
+  float: left;
+  margin: 0 !important;
+  width: 50%;
+}
+
+form  #edit-datetime > div input {
+  min-width: 165px;
+}
+
+form .form-type-date,
+form .form-type-datetime,
+form .form-type-webform-time {
+  width: 50% !important;
+  float: left;
+  clear: none;
+}
+
+form .form-type-date input,
+form .form-type-datetime input,
+form .form-type-webform-time input {
+  width: calc(100% - 2px);
+}
+
+form .form-item-range > span.field-suffix,
+form .form-item-range .form-item-range__output {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+form .form-item-range .form-item-range__output input {
+  width: 4em;
+  display: inline-block;
+  clear: none;
+}
+
+form .form-item-datelist #edit-datelist > div select {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+form .table-sort-weight.form-select {
+  width: auto;
+}
+
+form select {
+  min-width: 75px;
+}
+
+.messages.messages--info {
+  background-position: 2px  17px;
+}
+
+.js-filter-guidelines {
+  font-size: 85%;
+}
+
+.js-filter-guidelines li {
+  padding-bottom: 0;
+}
+
+form .form-item {
+  text-align: left;
+}
+
+fieldset.form-item > .fieldset-wrapper {
+  padding: 0;
+}
+
+.field-ui-overview .field-plugin-settings-edit {
+  width: auto !important;
+  max-width: 40px;
+}
+
+form .form-item label {
+  padding-right: 10px;
+}
+
+table ul.dropbutton li.w3-left.dropbutton-action {
+  float: none !important;
+  z-index: 1;
+  margin-right: 0 !important;
+  line-height: 26px;
+}
+
+table ul.dropbutton,
+.js .dropbutton-widget .dropbutton {
+  background-color: white;
+  border: 1px solid #e8e8e8;
+  padding: 0 !important;
+}
+
+.dropbutton li {
+  padding: 0;
+}
+
+.dropbutton li a {
+  padding: 6px 12px;
+  line-height: 26px;
+  font-size: 14px;
+}
+
+.dropbutton button {
+  border: 1px solid #e8e8e8;
+  border-left: none;
+  background-color: white;
+}
+
+.js td .dropbutton-wrapper {
+  min-height: 40px;
+}
+
+table ul.dropbutton li:first-child {
+  margin-right: 10px !important;
+}
+
+.node-form table ul.dropbutton li:first-child {
+  margin-right: 0 !important;
+}
+
+table ul.dropbutton li.dropbutton-toggle {
+  margin-right: 0 !important;
+  margin-left: 10px;
+}
+
+/* Node preview */
+.node-preview-container {
+  position: relative;
+  background-color: transparent;
+}
+
+.node-preview-container .node-preview-form-select {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: 100%;
+  margin: 0 auto !important;
+}
+
+.node-preview-container a.node-preview-backlink {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+}
+
+.node-preview-container a.node-preview-backlink:hover {
+  text-decoration: underline;
+}
+
+div.node-preview-container .form-item-view-mode {
+  display: inline-flex;
+  align-items: center;
+}
+
+div.node-preview-container .form-item-view-mode label,
+div.node-preview-container .form-item-view-mode select {
+  display: inline-block;
+  width: auto;
+  border: none !important;
+}
+
+div.node-preview-container .form-item-view-mode select {
+  min-width: 130px;
+}
+
+.ui-dialog .ui-widget-content.ui-dialog-buttonpane .button {
+  margin: 10px auto;
+}
+
+fieldset {
+  border-color: #eaeaea !important;
+}
+
+.ui-dialog,
+.ui-dialog > div {
+  border-width: 0 !important;
+}
+
+body .ui-dialog {
+  z-index: 1001 !important;
+}
+
+.vertical-tabs .vertical-tabs__panes {
+  padding: 0 16px;
+}
+
+span.admin-link button,
+span.field-edit-link button {
+  border: none !important;
+  background-color: transparent !important;
+}

@@ -1,0 +1,99 @@
+html {
+  font-size: 62.5%;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  margin: 0;
+  font-family: $font;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  line-height: $lineHeight;
+  color: $textColorPrimary;
+}
+a {
+  color: $linkColor;
+  text-decoration: none;
+  &:hover, &:focus, &:active {
+    color: $linkHoverColor;
+  }
+}
+h1 {
+  font-size: $h1FontSize;
+  line-height: $h1LineHeight;
+  color: $h1Color;
+}
+h2 {
+  font-size: $h2FontSize;
+  line-height: $h2LineHeight;
+  color: $h2Color;
+}
+h3 {
+  font-size: $h3FontSize;
+  line-height: $h3LineHeight;
+  color: $h3Color;
+}
+h4 {
+  font-size: $h4FontSize;
+  line-height: $h4LineHeight;
+  color: $h4Color;
+}
+h5 {
+  font-size: $h5FontSize;
+  line-height: $h5LineHeight;
+  color: $h5Color;
+}
+h6 {
+  font-size: $h6FontSize;
+  line-height: $h6LineHeight;
+  color: $h6Color;
+}
+img {
+  width: inherit;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+figure {
+  margin: 0;
+}
+hr {
+  border: none;
+  border-bottom: 2px solid #CCC;
+}
+
+//BLOCKQUOTE
+blockquote {
+  margin: $blockquoteMargin;
+  padding: $blockquotePadding;
+  border-left: $borderGlobalColor;
+}
+
+//TABLE
+table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: $tableMargin;
+  background-color: transparent;
+  border-collapse: collapse;
+  caption {
+    margin: 0.8rem 0;
+    text-align: left;
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+  thead th {
+    vertical-align: bottom;
+    border-bottom: $tableHeadBorderBottom;
+  }
+  td, th {
+    padding: $tableCellPadding;
+    border-top: $tableCellBorderTop;
+    vertical-align: top;
+  }
+  th {
+    text-align: inherit;
+  }
+}

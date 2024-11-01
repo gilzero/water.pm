@@ -1,0 +1,57 @@
+in_page_nav:
+  label: "In page navigation"
+  description: "The in-page navigation allows navigation to specific sections on a lengthy content page."
+  links:
+    - "https://designsystem.digital.gov/components/in-page-navigation/"
+  category: "Navigation"
+  settings:
+    content_selector:
+      type: "textfield"
+      label: "data-main-content-selector"
+      description: "The element the component pulls headers from. Last part will be added to the main tag."
+    title_heading_level:
+      type: "select"
+      label: "data-title-heading-level"
+      description: "The heading level of the navigation title header."
+      options:
+        2: "h2"
+        3: "h3"
+        4: "h4 (Default)"
+        5: "h5"
+        6: "h6"
+    title_text:
+      type: "textfield"
+      label: "data-title-text"
+      description: "The text of the navigation title header."
+    scroll_offset:
+      type: "number"
+      label: "data-scroll-offset"
+      description: "Number of pixels scroll should offset from the top of the parent element."
+    root_margin:
+      type: "textfield"
+      label: "data-root-margin"
+      description: "Observable margin around the observed root used for calculating the current active section. Use values similar to CSS margin."
+    threshold:
+      type: "number"
+      label: "data-threshold"
+      description: "Percentage of the scrolling section that must be in the observed area before the current section is triggered. Use a value between 0 and 1."
+    heading_selectors:
+      type: "checkboxes"
+      label: "data-heading-elements"
+      description: "The list of header levels that should be included in the link list."
+      options:
+        2: "h2"
+        3: "h3"
+        4: "h4"
+        5: "h5"
+        6: "h6"
+      preview:
+        - '2'
+        - '3'
+      allow_expose: true
+      allow_token: true
+  fields:
+    content:
+      type: "render"
+      label: "Content"
+      description: "Page content."

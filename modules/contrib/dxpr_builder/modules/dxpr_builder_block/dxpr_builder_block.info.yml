@@ -1,0 +1,16 @@
+name: DXPR Builder Block Type
+description: Block type with DXPR Builder drag and drop solution.
+type: module
+package: DXPR
+core_version_requirement: '>=9.3'
+dependencies:
+  - drupal:text
+  - drupal:node
+  - dxpr_builder:dxpr_builder
+# project: 'dxpr_builder'
+# version: '2.6.0'
+
+# Information added by Drupal.org packaging script on 2024-01-04
+version: '2.6.0'
+project: 'dxpr_builder'
+datestamp: 1704376674

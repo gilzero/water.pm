@@ -1,0 +1,28 @@
+.verdana-light {
+  font-family: "Verdana", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.verdana-regular {
+  font-family: "Verdana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.verdana-medium {
+  font-family: "Verdana", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.verdana-bold {
+  font-family: "Verdana", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.verdana-black {
+  font-family: "Verdana", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}

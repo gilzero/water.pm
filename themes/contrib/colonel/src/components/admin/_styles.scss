@@ -1,0 +1,74 @@
+//TABS
+ul.tabs {
+  margin: $tabsMargin;
+  padding: 0;
+  border-bottom: $tabsBorderSize solid $tabsBorderColor;
+  font-size : 0;
+  li {
+    list-style: none;
+    display: inline-block;
+    margin: $tabsItemMargin;
+    padding: 0;
+    &:last-child {
+      a {
+        border-right: $tabsLastChildBorderRight;
+      }
+    }
+  }
+  a {
+    display: block;
+    position: relative;
+    top: $tabsBorderSize;
+    padding: $tabsItemPadding;
+    background: $tabsItemBackground;
+    border: $tabsBorderSize solid $tabsBorderColor;
+    border-right: $tabsBorderRight;
+    border-bottom: $tabsBorderBottom;
+    border-radius: $tabsRadius $tabsRadius 0 0;
+    color: $tabsTextColor;
+    font-weight: $tabsFontWeight;
+    font-size: $tabsFontSize;
+    transition: all ease 300ms;
+    text-decoration: none;
+    &:hover, &:focus {
+      border-color: $tabsHoverBorderColor;
+      background: $tabsHoverBackground;
+      color: $tabsHoverTextColor;
+    }
+    &.is-active {
+      border-top-color: $tabsActiveBorderTopColor;
+      border-bottom-color: $tabsActiveBorderBottomColor;
+      border-left-color: $tabsActiveBorderLeftColor;
+      border-right-color: $tabsActiveBorderRightColor;
+      background: $tabsActiveBackground;
+      color: $tabsActiveTextColor;
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  ul.tabs {
+    border: none !important;
+    li {
+      display: block !important;
+      width: 100% !important;
+    }
+    a {
+      border: 1px solid $tabsBorderColor !important;
+      border-bottom: none !important;
+      border-radius: 0 !important;
+      &:hover, &:focus {
+        border-color: $tabsBorderColor !important;
+        background: $tabsHoverBackground !important;
+        color: $tabsHoverTextColor !important;
+      }
+    }
+    li:first-child a {
+      border-radius: $tabsRadius $tabsRadius 0 0 !important;
+    }
+    li:last-child a {
+      border-bottom: 1px solid $tabsBorderColor !important;
+      border-radius: 0 0 $tabsRadius $tabsRadius !important;
+    }
+  }
+}

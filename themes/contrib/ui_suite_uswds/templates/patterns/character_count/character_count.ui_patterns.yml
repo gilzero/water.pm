@@ -1,0 +1,23 @@
+character_count:
+  label: "Character count"
+  description: "Character count helps users know how much text they can enter when there is a limit on the number of characters."
+  links:
+    - "https://designsystem.digital.gov/components/character-count/"
+  category: "Forms"
+  settings:
+    max_length:
+      type: "number"
+      required: true
+      label: "Max length"
+      description: "Max length input should be."
+      preview: 50
+    input_field:
+      type: "attributes"
+      label: "Text field"
+      description: "Can be text or textarea field"
+  fields:
+    label:
+      type: "textfield"
+      label: "Label"
+      description: "Label used for input field, used for accessibility purposes."
+      preview: "Text input"

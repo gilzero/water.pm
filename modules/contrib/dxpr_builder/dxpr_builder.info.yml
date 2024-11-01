@@ -1,0 +1,19 @@
+name: DXPR Builder
+description: Drupal layout builder by DXPR.
+package: DXPR
+type: module
+core_version_requirement: '>=9.3'
+configure: dxpr_builder.settings
+dependencies:
+  - drupal:field
+  - drupal:field_ui
+  - drupal:views
+  - drupal:image
+  - drupal:block
+# project: 'dxpr_builder'
+# version: '2.6.0'
+
+# Information added by Drupal.org packaging script on 2024-01-04
+version: '2.6.0'
+project: 'dxpr_builder'
+datestamp: 1704376674

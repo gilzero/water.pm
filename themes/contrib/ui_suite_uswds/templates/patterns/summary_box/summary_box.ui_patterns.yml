@@ -1,0 +1,25 @@
+summary_box:
+  label: "Summary box"
+  description: "A summary box highlights key information from a longer page or displays next steps."
+  links:
+    - 'https://designsystem.digital.gov/components/summary-box/'
+  category: "Summary box"
+  settings:
+    summary_box_id:
+      type: "textfield"
+      label: "Summary box ID"
+      description: "ID for the summary box."
+      allow_token: true
+  fields:
+    summary_heading:
+      type: "text"
+      label: "Summary heading"
+      description: "Used as heading in summary box."
+      preview: "Key information"
+    content:
+      type: "render"
+      label: "Content"
+      description: "Page content."
+      preview:
+        - type: "markup"
+          markup: 'Lorem ipsum dolor sit amet consectetur adipiscing elit vestibulum, feugiat sollicitudin nunc facilisis hendrerit nascetur a odio, mauris litora imperdiet dictumst purus leo suscipit.'

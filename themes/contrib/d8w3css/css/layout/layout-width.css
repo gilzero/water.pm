@@ -1,0 +1,35 @@
+.w3-width-100-percent {
+  max-width: 100% !important;
+}
+
+.w3-width-2560 {
+  max-width: 2560px !important;
+}
+
+.w3-width-1920 {
+  max-width: 1920px !important;
+}
+
+.w3-width-1600 {
+  max-width: 1600px !important;
+}
+
+.w3-width-1360 {
+  max-width: 1360px !important;
+}
+
+.w3-width-1280 {
+  max-width: 1280px !important;
+}
+
+.w3-width-1024 {
+  max-width: 1024px !important;
+}
+
+.w3-width-800 {
+  max-width: 800px !important;
+}
+
+.w3-f-display {
+  display: flex;
+}

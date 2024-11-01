@@ -1,0 +1,34 @@
+button_group:
+  label: "Button Group"
+  description: "A button group collects similar or related actions."
+  links:
+    - "https://designsystem.digital.gov/components/button-group/"
+  category: "Buttons"
+  variants:
+    default:
+      label: "Default"
+      description: "The default button group arranges each button as a separate element with a gap between them. On mobile devices, the buttons are arranged vertically."
+    segmented:
+      label: "Segmented"
+      description: "Segmented button groups display a set of discrete buttons in a row as a single element."
+  fields:
+    buttons:
+      type: "render"
+      label: "Buttons"
+      description: "An array of 'button' patterns."
+      preview:
+        - type: "pattern"
+          id: "button"
+          variant: "default"
+          fields:
+            label: "First"
+        - type: "pattern"
+          id: "button"
+          variant: "default"
+          fields:
+            label: "Second"
+        - type: "pattern"
+          id: "button"
+          variant: "default"
+          fields:
+            label: "Third"

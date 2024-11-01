@@ -1,0 +1,12 @@
+radio:
+  label: "Radio"
+  description: "Radio buttons allow users to select exactly one choice from a group."
+  links:
+    - "https://designsystem.digital.gov/components/radio-buttons/"
+  category: "Forms"
+  settings:
+    tile:
+      type: "boolean"
+      label: "Tiled"
+      description: "Should each checkbox have a tile."
+      preview: True

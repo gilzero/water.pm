@@ -1,0 +1,21 @@
+breadcrumb:
+  label: "Breadcrumb"
+  description: "Breadcrumbs provide secondary navigation to help users understand where they are in a website."
+  links:
+    - "https://designsystem.digital.gov/components/breadcrumb/"
+  category: "Navigation"
+  variants:
+    default:
+      label: "Default"
+    wrap:
+      label: "Wrap"
+  settings:
+    items:
+      type: "links"
+      label: "Items"
+      preview:
+        - title: "How to use USWDS"
+          url: "#"
+        - title: "Design principles"
+          url: "#"
+        - title: "Components"

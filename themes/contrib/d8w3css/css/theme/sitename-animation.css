@@ -1,0 +1,285 @@
+@keyframes animateSiteName {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 200% 50%;
+  }
+
+}
+
+.animate-text-01,
+#header.animate-name-01 a.site-name-link,
+#page-title.animate-title-01 .page-title,
+#page-title.animate-title-01 .page-title span {
+  background: linear-gradient(45deg, #5f2879, #00418d, #00c2de, #fad717, #00ba71, #fa8901, #f43545, #ccc, #f43545, #fa8901, #00ba71, #fad717, #00c2de, #00418d, #5f2879);
+}
+
+.animate-text-02,
+#header.animate-name-02 a.site-name-link,
+#page-title.animate-title-02 .page-title,
+#page-title.animate-title-02 .page-title span {
+  background: linear-gradient(45deg, #095fab, #25abe8, #57d75b, #ccc, #57d75b, #25abe8, #095fab);
+}
+
+.animate-text-03,
+#header.animate-name-03 a.site-name-link,
+#page-title.animate-title-03 .page-title,
+#page-title.animate-title-03 .page-title span {
+  background: linear-gradient(45deg, #d0e4f7, #73b1e7, #e2d40b, #539fe1, #87bcea, #539fe1, #e2d40b, #73b1e7, #d0e4f7);
+}
+
+.animate-text-04,
+#header.animate-name-04 a.site-name-link,
+#page-title.animate-title-04 .page-title,
+#page-title.animate-title-04 .page-title span {
+  background: linear-gradient(45deg, #f44336, #e91e63, #9c27b0, #673ab7, #3f51b5, #2196f3, #87ceeb, #00bcd4, #00ffff, #009688, #4caf50, #8bc34a, #8bc34a, #8bc34a, #8bc34a, #4caf50, #009688, #00ffff, #00bcd4, #87ceeb, #2196f3, #3f51b5, #673ab7, #9c27b0, #e91e63, #f44336);
+}
+
+.animate-text-05,
+#header.animate-name-05 a.site-name-link,
+#page-title.animate-title-05 .page-title,
+#page-title.animate-title-05 .page-title span {
+  background: linear-gradient(45deg, #009688, #2196f3, #ffeb3b, #ff9800, #f44336, #9c27b0, #9c27b0, #f44336, #ff9800, #ffeb3b, #2196f3, #009688);
+}
+
+.animate-text-06,
+#header.animate-name-06 a.site-name-link,
+#page-title.animate-title-06 .page-title,
+#page-title.animate-title-06 .page-title span {
+  background: linear-gradient(45deg, #f44336, #9c27b0, #2196f3, #4caf50, #ff9800, #ff9800, #4caf50, #2196f3, #9c27b0, #f44336);
+}
+
+.animate-text-07,
+#header.animate-name-07 a.site-name-link,
+#page-title.animate-title-07 .page-title,
+#page-title.animate-title-07 .page-title span {
+  background: linear-gradient(45deg, #ffb5ba, #ff796c, #ce4676, #87ceeb, #00bcd4, #2196f3, #00bcd4, #87ceeb, #ce4676, #ff796c, #ffb5ba);
+}
+
+.animate-text-08,
+#header.animate-name-08 a.site-name-link,
+#page-title.animate-title-08 .page-title,
+#page-title.animate-title-08 .page-title span {
+  background: linear-gradient(45deg, #8db600, #27a64c, #008882, #0085a1, #0085a1, #008882, #27a64c, #8db600);
+}
+
+.animate-text-09,
+#header.animate-name-09 a.site-name-link,
+#page-title.animate-title-09 .page-title,
+#page-title.animate-title-09 .page-title span {
+  background: linear-gradient(45deg, #ffb7a5, #e25822, #f6a600, #dcd300, #dcd300, #f6a600, #e25822, #ffb7a5);
+}
+
+.animate-text-10,
+#header.animate-name-10 a.site-name-link,
+#page-title.animate-title-10 .page-title,
+#page-title.animate-title-10 .page-title span {
+  background: linear-gradient(45deg, #008856, #00a1c2, #9065ca, #9a4eae, #9a4eae, #9065ca, #00a1c2, #008856);
+}
+
+.animate-text-11,
+#header.animate-name-11 a.site-name-link,
+#page-title.animate-title-11 .page-title,
+#page-title.animate-title-11 .page-title span {
+  background: linear-gradient(45deg, #ffb5ba, #be0032, #f38400, #f3c300, #f3c300, #f38400, #be0032, #ffb5ba);
+}
+
+.animate-text-12,
+#header.animate-name-12 a.site-name-link,
+#page-title.animate-title-12 .page-title,
+#page-title.animate-title-12 .page-title span {
+  background: linear-gradient(45deg, #bd1e24, #e97600, #f6c700, #007256, #0067a7, #964f8e, #964f8e, #0067a7, #007256, #f6c700, #e97600, #bd1e24);
+}
+
+.animate-text-13,
+#header.animate-name-13 a.site-name-link,
+#page-title.animate-title-13 .page-title,
+#page-title.animate-title-13 .page-title span {
+  background: linear-gradient(45deg, #5f2879, #00418d, #00c2de, #fad717, #00ba71, #fa8901, #f43545, #fa8901, #00ba71, #fad717, #00c2de, #00418d, #5f2879);
+}
+
+.animate-text-14,
+#header.animate-name-14 a.site-name-link,
+#page-title.animate-title-14 .page-title,
+#page-title.animate-title-14 .page-title span {
+  background: linear-gradient(45deg, #fad717, #fa8901, #f43545, #fa8901, #fad717);
+}
+
+.animate-text-15,
+#header.animate-name-15 a.site-name-link,
+#page-title.animate-title-15 .page-title,
+#page-title.animate-title-15 .page-title span {
+  background: linear-gradient(45deg, #aebcbf, #6e7774, #cefc00, #ccc, #444, #ccc, #cefc00, #6e7774, #aebcbf);
+}
+
+.animate-text-16,
+#header.animate-name-16 a.site-name-link,
+#page-title.animate-title-16 .page-title,
+#page-title.animate-title-16 .page-title span {
+  background: linear-gradient(45deg, #aebcbf, #6e7774, #ff6a00, #ccc, #444, #ccc, #ff6a00, #6e7774, #aebcbf);
+}
+
+.animate-text-17,
+#header.animate-name-17 a.site-name-link,
+#page-title.animate-title-17 .page-title,
+#page-title.animate-title-17 .page-title span {
+  background: linear-gradient(45deg, #aebcbf, #6e7774, #ffee00, #ccc, #444, #ccc, #ffee00, #6e7774, #aebcbf);
+}
+
+.animate-text-18,
+#header.animate-name-18 a.site-name-link,
+#page-title.animate-title-18 .page-title,
+#page-title.animate-title-18 .page-title span {
+  background: linear-gradient(45deg, #aebcbf, #6e7774, #46f900, #ccc, #444, #ccc, #46f900, #6e7774, #aebcbf);
+}
+
+.animate-text-19,
+#header.animate-name-19 a.site-name-link,
+#page-title.animate-title-19 .page-title,
+#page-title.animate-title-19 .page-title span {
+  background: linear-gradient(45deg, #aebcbf, #6e7774, #00fcde, #ccc, #444, #ccc, #00fcde, #6e7774, #aebcbf);
+}
+
+.animate-text-20,
+#header.animate-name-20 a.site-name-link,
+#page-title.animate-title-20 .page-title,
+#page-title.animate-title-20 .page-title span {
+  background: linear-gradient(45deg, #aebcbf, #6e7774, #00c9fc, #ccc, #444, #ccc, #00c9fc, #6e7774, #aebcbf);
+}
+
+.animate-text-21,
+#header.animate-name-21 a.site-name-link,
+#page-title.animate-title-21 .page-title,
+#page-title.animate-title-21 .page-title span {
+  background: linear-gradient(45deg, #aebcbf, #6e7774, #e000f4, #ccc, #444, #ccc, #e000f4, #6e7774, #aebcbf);
+}
+
+.animate-text-22,
+#header.animate-name-22 a.site-name-link,
+#page-title.animate-title-22 .page-title,
+#page-title.animate-title-22 .page-title span {
+  background: linear-gradient(45deg, #aebcbf, #6e7774, #f7001c, #ccc, #444, #ccc, #f7001c, #6e7774, #aebcbf);
+}
+
+.animate-text-23,
+#header.animate-name-23 a.site-name-link,
+#page-title.animate-title-23 .page-title,
+#page-title.animate-title-23 .page-title span {
+  background: linear-gradient(45deg, #aebcbf, #6e7774, #e50095, #ccc, #444, #ccc, #e50095, #6e7774, #aebcbf);
+}
+
+.animate-text-24,
+#header.animate-name-24 a.site-name-link,
+#page-title.animate-title-24 .page-title,
+#page-title.animate-title-24 .page-title span {
+  background: linear-gradient(45deg, #30267a, #0085a1, #870074, #ce4676, #ce4676, #870074, #0085a1, #30267a);
+}
+
+.animate-text-01,
+.animate-text-02,
+.animate-text-03,
+.animate-text-04,
+.animate-text-05,
+.animate-text-06,
+.animate-text-07,
+.animate-text-08,
+.animate-text-09,
+.animate-text-10,
+.animate-text-11,
+.animate-text-12,
+.animate-text-13,
+.animate-text-14,
+.animate-text-15,
+.animate-text-16,
+.animate-text-17,
+.animate-text-18,
+.animate-text-19,
+.animate-text-20,
+.animate-text-21,
+.animate-text-22,
+.animate-text-23,
+.animate-text-24,
+#header.animate-name-01 a.site-name-link,
+#header.animate-name-02 a.site-name-link,
+#header.animate-name-03 a.site-name-link,
+#header.animate-name-04 a.site-name-link,
+#header.animate-name-05 a.site-name-link,
+#header.animate-name-06 a.site-name-link,
+#header.animate-name-07 a.site-name-link,
+#header.animate-name-08 a.site-name-link,
+#header.animate-name-09 a.site-name-link,
+#header.animate-name-10 a.site-name-link,
+#header.animate-name-11 a.site-name-link,
+#header.animate-name-12 a.site-name-link,
+#header.animate-name-13 a.site-name-link,
+#header.animate-name-14 a.site-name-link,
+#header.animate-name-15 a.site-name-link,
+#header.animate-name-16 a.site-name-link,
+#header.animate-name-17 a.site-name-link,
+#header.animate-name-18 a.site-name-link,
+#header.animate-name-19 a.site-name-link,
+#header.animate-name-20 a.site-name-link,
+#header.animate-name-21 a.site-name-link,
+#header.animate-name-22 a.site-name-link,
+#header.animate-name-23 a.site-name-link,
+#header.animate-name-24 a.site-name-link,
+#page-title.animate-title-01 .page-title,
+#page-title.animate-title-02 .page-title,
+#page-title.animate-title-03 .page-title,
+#page-title.animate-title-04 .page-title,
+#page-title.animate-title-05 .page-title,
+#page-title.animate-title-06 .page-title,
+#page-title.animate-title-07 .page-title,
+#page-title.animate-title-08 .page-title,
+#page-title.animate-title-09 .page-title,
+#page-title.animate-title-10 .page-title,
+#page-title.animate-title-11 .page-title,
+#page-title.animate-title-12 .page-title,
+#page-title.animate-title-13 .page-title,
+#page-title.animate-title-14 .page-title,
+#page-title.animate-title-15 .page-title,
+#page-title.animate-title-16 .page-title,
+#page-title.animate-title-17 .page-title,
+#page-title.animate-title-18 .page-title,
+#page-title.animate-title-19 .page-title,
+#page-title.animate-title-20 .page-title,
+#page-title.animate-title-21 .page-title,
+#page-title.animate-title-22 .page-title,
+#page-title.animate-title-23 .page-title,
+#page-title.animate-title-24 .page-title,
+#page-title.animate-title-01 .page-title span,
+#page-title.animate-title-02 .page-title span,
+#page-title.animate-title-03 .page-title span,
+#page-title.animate-title-04 .page-title span,
+#page-title.animate-title-05 .page-title span,
+#page-title.animate-title-06 .page-title span,
+#page-title.animate-title-07 .page-title span,
+#page-title.animate-title-08 .page-title span,
+#page-title.animate-title-09 .page-title span,
+#page-title.animate-title-10 .page-title span,
+#page-title.animate-title-11 .page-title span,
+#page-title.animate-title-12 .page-title span,
+#page-title.animate-title-13 .page-title span,
+#page-title.animate-title-14 .page-title span,
+#page-title.animate-title-15 .page-title span,
+#page-title.animate-title-16 .page-title span,
+#page-title.animate-title-17 .page-title span,
+#page-title.animate-title-18 .page-title span,
+#page-title.animate-title-19 .page-title span,
+#page-title.animate-title-20 .page-title span,
+#page-title.animate-title-21 .page-title span,
+#page-title.animate-title-22 .page-title span,
+#page-title.animate-title-23 .page-title span,
+#page-title.animate-title-24 .page-title span {
+  background-size: 200% 200%;
+  animation: animateSiteName 10s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent !important;
+}
+
+form input.button.form-submit:hover {
+  animation: wiggle 0.3s;
+}

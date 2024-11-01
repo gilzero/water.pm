@@ -1,0 +1,24 @@
+.path-user-register .main-container-inner .w3css-content,
+.path-user-password .main-container-inner .w3css-content,
+.path-user-login .main-container-inner .w3css-content {
+  width: 100% !important;
+  max-width: 900px;
+  margin: 16px auto !important;
+  float: none !important;
+  display: table;
+}
+
+.path-user-register .main-container-inner nav.tabs > ul.tabs,
+.path-user-password .main-container-inner nav.tabs > ul.tabs,
+.path-user-login .main-container-inner nav.tabs > ul.tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+}
+
+.path-user-register .main-container-inner nav.tabs > ul.tabs > li,
+.path-user-password .main-container-inner nav.tabs > ul.tabs > li,
+.path-user-login .main-container-inner nav.tabs > ul.tabs > li {
+  flex: 1;
+}

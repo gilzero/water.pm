@@ -1,0 +1,1663 @@
+w3-css:
+  remote: https://www.w3schools.com/w3css/
+  version: 4.13
+  license:
+    name: MIT
+    url: https://www.w3schools.com/w3css/w3css_downloads.asp
+    gpl-compatible: true
+  css:
+    base:
+      css/w3-css/w3.css: { weight: -11 }
+      css/w3-css/w3css-extended-classes.css: { weight: -10 }
+      css/w3-css/w3css-color-libraries-camouflage.css: { }
+      css/w3-css/w3css-color-libraries-european-signal.css: { }
+      css/w3-css/w3css-color-libraries-fashion.css: { }
+      css/w3-css/w3css-color-libraries-flat-ui.css: { }
+      css/w3-css/w3css-color-libraries-food.css: { }
+      css/w3-css/w3css-color-libraries-ios.css: { }
+      css/w3-css/w3css-color-libraries-metro-ui.css: { }
+      css/w3-css/w3css-color-libraries-us-highway.css: { }
+      css/w3-css/w3css-color-libraries-us-safety.css: { }
+      css/w3-css/w3css-color-libraries-vivid.css: { }
+      css/w3-css/w3css-color-libraries-win8.css: { }
+
+# Theme CSS.
+
+d8w3css-global-styling:
+  Version: VERSION
+  css:
+    base:
+      css/base/base.css: { weight: -9 }
+    layout:
+      css/layout/layout-regions.css: { weight: -8 }
+      css/layout/layout-width.css: { weight: -7 }
+    component:
+      css/components/system-messages.css: { }
+      css/components/forms.css: { }
+      css/components/embedded-media.css: { }
+      css/components/breadcrumb.css: { }
+      css/components/system-tabs.css: { }
+      css/components/maintenance-page.css: { }
+      css/components/system-admin.css: { }
+      css/components/w3css-tables.css: { }
+      css/components/global-menu.css: { }
+      css/components/v-menu.css: { }
+      css/components/site-branding.css: { }
+      css/components/user-menu.css: { }
+      css/components/user-login.css: { }
+      css/components/footer-menu.css: { }
+      css/components/default-node.css: { }
+      css/components/page-title.css: { }
+      css/components/search-page.css: { }
+      css/components/search-block.css: { }
+      css/components/pager.css: { }
+      css/components/comments.css: { }
+      css/components/default-views.css: { }
+      css/components/layout-builder.css: { }
+      css/components/webform.css: { }
+      css/components/node-form.css: { }
+      css/components/teaser-mode.css: { }
+      css/components/sitemap.css: { }
+      css/components/contact-form.css: { }
+      css/components/ckeditor.css: { }
+    theme:
+      css/theme/a-image.css: { weight: -10 }
+      css/theme/min-width-993.css: { weight: -10 }
+      css/theme/max-width-992.css: { weight: -10 }
+      css/theme/max-min-width-992-601.css: { weight: -10 }
+      css/theme/max-width-767.css: { weight: -10 }
+      css/theme/max-width-600.css: { weight: -10 }
+      css/theme/border-animation.css: { weight: -10 }
+      css/theme/sitename-animation.css: { weight: 10 }
+  js:
+    js/custom.js: { }
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/once
+
+# Full Opacity on Scroll.
+
+d8w3css-full-opacity:
+  version: VERSION
+  header: true
+  js:
+    js/full.opacity.on.scroll.js: { }
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/once
+
+# custom user login page.
+
+d8w3css-user-login-custom:
+  Version: VERSION
+  css:
+    layout:
+      css/layout/layout-user-login.css: { }
+
+# use when node edit.
+
+d8w3css-node-edit-form:
+  Version: VERSION
+  css:
+    layout:
+      css/layout/layout-node-edit.css: { }
+
+# change the icon media size.
+
+social-media-icon-size-m:
+  Version: VERSION
+  css:
+    theme:
+      css/theme/social-media-icon-size-m.css: { }
+
+social-media-icon-size-l:
+  Version: VERSION
+  css:
+    theme:
+      css/theme/social-media-icon-size-l.css: { }
+
+# Font Awesome.
+
+font-awesome-4-ex:
+  remote: https://github.com/FortAwesome/Font-Awesome
+  version: 4.7.0
+  license:
+    name: MIT
+    url: https://fontawesome.com/license/free
+    gpl-compatible: true
+  css:
+    base:
+      https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css: { type: external, minified: true }
+font-awesome-4-in:
+  Version: 4.7.0
+  css:
+    base:
+      fonts/font-awesome.4.7.0.css: { }
+
+font-awesome-5-ex:
+  remote: https://use.fontawesome.com/releases/v5.15.4/fontawesome-free-5.15.4-web.zip
+  license:
+    name: CC BY 4.0
+    url: https://fontawesome.com/license/free
+    gpl-compatible: true
+  version: 5.15.4
+  header: true
+  css:
+    base:
+      https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css: { type: external, minified: true, attributes: { defer: true } }
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js: { type: external, minified: true, attributes: { defer: true } }
+
+font-awesome-6-ex:
+  remote: https://use.fontawesome.com/releases/v6.1.1/fontawesome-free-6.1.1-web.zip
+  license:
+    name: CC BY 4.0
+    url: https://fontawesome.com/license/free
+    gpl-compatible: true
+  version: 6.1.1
+  header: true
+  css:
+    base:
+      https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css: { type: external, minified: true, attributes: { defer: true } }
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js: { type: external, minified: true, attributes: { defer: true } }
+
+# Google Fonts - Global.
+
+d8w3css-gfex-alegreya-sans:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-alegreya-sans.css: { }
+d8w3css-gfin-alegreya-sans:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-alegreya-sans.css: { }
+      fonts/css/d8w3css-alegreya-sans.css: { }
+
+d8w3css-gfex-alegreya-sans-sc:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,400;0,700;0,800;0,900;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-alegreya-sans-sc.css: { }
+d8w3css-gfin-alegreya-sans-sc:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-alegreya-sans-sc.css: { }
+      fonts/css/d8w3css-alegreya-sans-sc.css: { }
+
+d8w3css-gfex-lato:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-lato.css: { }
+d8w3css-gfin-lato:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-lato.css: { }
+      fonts/css/d8w3css-lato.css: { }
+
+d8w3css-gfex-montserrat:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,800;0,900;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-montserrat.css: { }
+d8w3css-gfin-montserrat:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-montserrat.css: { }
+      fonts/css/d8w3css-montserrat.css: { }
+
+d8w3css-gfex-nunito:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,800;0,900;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-nunito.css: { }
+d8w3css-gfin-nunito:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-nunito.css: { }
+      fonts/css/d8w3css-nunito.css: { }
+
+d8w3css-gfex-kavivanar:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Kavivanar&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-kavivanar.css: { }
+d8w3css-gfin-kavivanar:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-kavivanar.css: { }
+      fonts/css/d8w3css-kavivanar.css: { }
+
+d8w3css-gfex-open-sans:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-open-sans.css: { }
+d8w3css-gfin-open-sans:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-open-sans.css: { }
+      fonts/css/d8w3css-open-sans.css: { }
+
+d8w3css-gfex-oswald:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-oswald.css: { }
+d8w3css-gfin-oswald:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-oswald.css: { }
+      fonts/css/d8w3css-oswald.css: { }
+
+d8w3css-gfex-playfair-display:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;0,900;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-playfair-display.css: { }
+d8w3css-gfin-playfair-display:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-playfair-display.css: { }
+      fonts/css/d8w3css-playfair-display.css: { }
+
+d8w3css-gfex-roboto:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-roboto.css: { }
+d8w3css-gfin-roboto:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-roboto.css: { }
+      fonts/css/d8w3css-roboto.css: { }
+
+d8w3css-gfex-roboto-condensed:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-roboto-condensed.css: { }
+d8w3css-gfin-roboto-condensed:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-roboto-condensed.css: { }
+      fonts/css/d8w3css-roboto-condensed.css: { }
+
+d8w3css-gfex-roboto-mono:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-roboto-mono.css: { }
+d8w3css-gfin-roboto-mono:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-roboto-mono.css: { }
+      fonts/css/d8w3css-roboto-mono.css: { }
+d8w3css-gfex-source-sans-3:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-source-sans-3.css: { }
+d8w3css-gfin-source-sans-3:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-source-sans-3.css: { }
+      fonts/css/d8w3css-source-sans-3.css: { }
+
+d8w3css-gfex-domine:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-domine.css: { }
+d8w3css-gfin-domine:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-domine.css: { }
+      fonts/css/d8w3css-domine.css: { }
+
+d8w3css-gfex-glegoo:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-glegoo.css: { }
+d8w3css-gfin-glegoo:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-glegoo.css: { }
+      fonts/css/d8w3css-glegoo.css: { }
+
+d8w3css-gfex-amita:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Amita&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-amita.css: { }
+d8w3css-gfin-amita:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-amita.css: { }
+      fonts/css/d8w3css-amita.css: { }
+
+d8w3css-gfex-oranienbaum:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-oranienbaum.css: { }
+d8w3css-gfin-oranienbaum:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-oranienbaum.css: { }
+      fonts/css/d8w3css-oranienbaum.css: { }
+
+d8w3css-gfex-abel:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Abel&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-abel.css: { }
+d8w3css-gfin-abel:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-abel.css: { }
+      fonts/css/d8w3css-abel.css: { }
+
+d8w3css-gfex-archivo-narrow:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,700;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-archivo-narrow.css: { }
+d8w3css-gfin-archivo-narrow:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-archivo-narrow.css: { }
+      fonts/css/d8w3css-archivo-narrow.css: { }
+
+d8w3css-gfex-arimo:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-arimo.css: { }
+d8w3css-gfin-arimo:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-arimo.css: { }
+      fonts/css/d8w3css-arimo.css: { }
+
+d8w3css-gfex-arvo:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-arvo.css: { }
+d8w3css-gfin-arvo:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-arvo.css: { }
+      fonts/css/d8w3css-arvo.css: { }
+
+d8w3css-gfex-barlow:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;0,800;0,900;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-barlow.css: { }
+d8w3css-gfin-barlow:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-barlow.css: { }
+      fonts/css/d8w3css-barlow.css: { }
+
+d8w3css-gfex-barlow-semi-condensed:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,700;0,800;0,900;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-barlow-semi-condensed.css: { }
+d8w3css-gfin-barlow-semi-condensed:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-barlow-semi-condensed.css: { }
+      fonts/css/d8w3css-barlow-semi-condensed.css: { }
+
+d8w3css-gfex-bitter:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;0,800;0,900;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-bitter.css: { }
+d8w3css-gfin-bitter:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-bitter.css: { }
+      fonts/css/d8w3css-bitter.css: { }
+
+d8w3css-gfex-cairo:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;800;900&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-cairo.css: { }
+d8w3css-gfin-cairo:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-cairo.css: { }
+      fonts/css/d8w3css-cairo.css: { }
+
+d8w3css-gfex-comfortaa:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-comfortaa.css: { }
+d8w3css-gfin-comfortaa:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-comfortaa.css: { }
+      fonts/css/d8w3css-comfortaa.css: { }
+
+d8w3css-gfex-courgette:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Courgette&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-courgette.css: { }
+d8w3css-gfin-courgette:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-courgette.css: { }
+      fonts/css/d8w3css-courgette.css: { }
+
+d8w3css-gfex-dosis:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-dosis.css: { }
+d8w3css-gfin-dosis:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-dosis.css: { }
+      fonts/css/d8w3css-dosis.css: { }
+
+d8w3css-gfex-exo-2:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;0,800;0,900;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-exo-2.css: { }
+d8w3css-gfin-exo-2:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-exo-2.css: { }
+      fonts/css/d8w3css-exo-2.css: { }
+
+d8w3css-gfex-fira-sans:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,800;0,900;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-fira-sans.css: { }
+d8w3css-gfin-fira-sans:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-fira-sans.css: { }
+      fonts/css/d8w3css-fira-sans.css: { }
+
+d8w3css-gfex-hind-siliguri:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-hind-siliguri.css: { }
+d8w3css-gfin-hind-siliguri:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-hind-siliguri.css: { }
+      fonts/css/d8w3css-hind-siliguri.css: { }
+
+d8w3css-gfex-ibm-plex-sans:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-ibm-plex-sans.css: { }
+d8w3css-gfin-ibm-plex-sans:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-ibm-plex-sans.css: { }
+      fonts/css/d8w3css-ibm-plex-sans.css: { }
+
+d8w3css-gfex-inconsolata:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-inconsolata.css: { }
+d8w3css-gfin-inconsolata:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-inconsolata.css: { }
+      fonts/css/d8w3css-inconsolata.css: { }
+
+d8w3css-gfex-josefin-sans:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-josefin-sans.css: { }
+d8w3css-gfin-josefin-sans:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-josefin-sans.css: { }
+      fonts/css/d8w3css-josefin-sans.css: { }
+
+d8w3css-gfex-kanit:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,700;0,800;0,900;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-kanit.css: { }
+d8w3css-gfin-kanit:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-kanit.css: { }
+      fonts/css/d8w3css-kanit.css: { }
+
+d8w3css-gfex-libre-baskerville:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-libre-baskerville.css: { }
+d8w3css-gfin-libre-baskerville:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-libre-baskerville.css: { }
+      fonts/css/d8w3css-libre-baskerville.css: { }
+
+d8w3css-gfex-lora:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-lora.css: { }
+d8w3css-gfin-lora:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-lora.css: { }
+      fonts/css/d8w3css-lora.css: { }
+
+d8w3css-gfex-merienda:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-merienda.css: { }
+d8w3css-gfin-merienda:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-merienda.css: { }
+      fonts/css/d8w3css-merienda.css: { }
+
+d8w3css-gfex-merriweather:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-merriweather.css: { }
+d8w3css-gfin-merriweather:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-merriweather.css: { }
+      fonts/css/d8w3css-merriweather.css: { }
+
+d8w3css-gfex-mukta:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-mukta.css: { }
+d8w3css-gfin-mukta:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-mukta.css: { }
+      fonts/css/d8w3css-mukta.css: { }
+
+d8w3css-gfex-oxygen:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-oxygen.css: { }
+d8w3css-gfin-oxygen:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-oxygen.css: { }
+      fonts/css/d8w3css-oxygen.css: { }
+
+d8w3css-gfex-poppins:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;0,900;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-poppins.css: { }
+d8w3css-gfin-poppins:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-poppins.css: { }
+      fonts/css/d8w3css-poppins.css: { }
+
+d8w3css-gfex-prompt:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,700;0,800;0,900;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-prompt.css: { }
+d8w3css-gfin-prompt:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-prompt.css: { }
+      fonts/css/d8w3css-prompt.css: { }
+
+d8w3css-gfex-pt-serif:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-pt-serif.css: { }
+d8w3css-gfin-pt-serif:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-pt-serif.css: { }
+      fonts/css/d8w3css-pt-serif.css: { }
+
+d8w3css-gfex-quicksand:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-quicksand.css: { }
+d8w3css-gfin-quicksand:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-quicksand.css: { }
+      fonts/css/d8w3css-quicksand.css: { }
+
+d8w3css-gfex-raleway:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;0,800;0,900;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-raleway.css: { }
+d8w3css-gfin-raleway:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-raleway.css: { }
+      fonts/css/d8w3css-raleway.css: { }
+
+d8w3css-gfex-spline-sans:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;700&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-spline-sans.css: { }
+d8w3css-gfin-spline-sans:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-spline-sans.css: { }
+      fonts/css/d8w3css-spline-sans.css: { }
+
+d8w3css-gfex-titillium-web:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-titillium-web.css: { }
+d8w3css-gfin-titillium-web:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-titillium-web.css: { }
+      fonts/css/d8w3css-titillium-web.css: { }
+
+d8w3css-gfex-ubuntu:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-ubuntu.css: { }
+d8w3css-gfin-ubuntu:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-ubuntu.css: { }
+      fonts/css/d8w3css-ubuntu.css: { }
+
+d8w3css-gfex-work-sans:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;0,800;0,900;1,400&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-work-sans.css: { }
+d8w3css-gfin-work-sans:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-work-sans.css: { }
+      fonts/css/d8w3css-work-sans.css: { }
+
+# Google fonts - Heading.
+
+d8w3css-gfex-abril-fatface:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-abril-fatface.css: { }
+d8w3css-gfin-abril-fatface:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-abril-fatface.css: { }
+      fonts/css/d8w3css-abril-fatface.css: { }
+
+d8w3css-gfex-aladin:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Aladin&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-aladin.css: { }
+d8w3css-gfin-aladin:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-aladin.css: { }
+      fonts/css/d8w3css-aladin.css: { }
+
+d8w3css-gfex-anton:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Anton&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-anton.css: { }
+d8w3css-gfin-anton:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-anton.css: { }
+      fonts/css/d8w3css-anton.css: { }
+
+d8w3css-gfex-archivo-black:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-archivo-black.css: { }
+d8w3css-gfin-archivo-black:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-archivo-black.css: { }
+      fonts/css/d8w3css-archivo-black.css: { }
+
+d8w3css-gfex-bebas-neue:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-bebas-neue.css: { }
+d8w3css-gfin-bebas-neue:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-bebas-neue.css: { }
+      fonts/css/d8w3css-bebas-neue.css: { }
+
+d8w3css-gfex-big-shoulders-stencil-display:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-big-shoulders-stencil-display.css: { }
+d8w3css-gfin-big-shoulders-stencil-display:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-big-shoulders-stencil-display.css: { }
+      fonts/css/d8w3css-big-shoulders-stencil-display.css: { }
+
+d8w3css-gfex-big-shoulders-stencil-text:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-big-shoulders-stencil-text.css: { }
+d8w3css-gfin-big-shoulders-stencil-text:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-big-shoulders-stencil-text.css: { }
+      fonts/css/d8w3css-big-shoulders-stencil-text.css: { }
+
+d8w3css-gfex-black-ops-one:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-black-ops-one.css: { }
+d8w3css-gfin-black-ops-one:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-black-ops-one.css: { }
+      fonts/css/d8w3css-black-ops-one.css: { }
+
+d8w3css-gfex-bree-serif:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-bree-serif.css: { }
+d8w3css-gfin-bree-serif:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-bree-serif.css: { }
+      fonts/css/d8w3css-bree-serif.css: { }
+
+d8w3css-gfex-cinzel:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Cinzel&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-cinzel.css: { }
+d8w3css-gfin-cinzel:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-cinzel.css: { }
+      fonts/css/d8w3css-cinzel.css: { }
+
+d8w3css-gfex-dancing-script:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-dancing-script.css: { }
+d8w3css-gfin-dancing-script:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-dancing-script.css: { }
+      fonts/css/d8w3css-dancing-script.css: { }
+
+d8w3css-gfex-dm-serif-display:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-dm-serif-display.css: { }
+d8w3css-gfin-dm-serif-display:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-dm-serif-display.css: { }
+      fonts/css/d8w3css-dm-serif-display.css: { }
+
+d8w3css-gfex-doppio-one:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Doppio+One&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-doppio-one.css: { }
+d8w3css-gfin-doppio-one:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-doppio-one.css: { }
+      fonts/css/d8w3css-doppio-one.css: { }
+
+d8w3css-gfex-fjalla-one:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-fjalla-one.css: { }
+d8w3css-gfin-fjalla-one:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-fjalla-one.css: { }
+      fonts/css/d8w3css-fjalla-one.css: { }
+
+d8w3css-gfex-francois-one:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Francois+One&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-francois-one.css: { }
+d8w3css-gfin-francois-one:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-francois-one.css: { }
+      fonts/css/d8w3css-francois-one.css: { }
+
+d8w3css-gfex-fredericka-the-great:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-fredericka-the-great.css: { }
+d8w3css-gfin-fredericka-the-great:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-fredericka-the-great.css: { }
+      fonts/css/d8w3css-fredericka-the-great.css: { }
+
+d8w3css-gfex-fredoka:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-fredoka.css: { }
+d8w3css-gfin-fredoka:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-fredoka.css: { }
+      fonts/css/d8w3css-fredoka.css: { }
+
+d8w3css-gfex-hammersmith-one:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-hammersmith-one.css: { }
+d8w3css-gfin-hammersmith-one:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-hammersmith-one.css: { }
+      fonts/css/d8w3css-hammersmith-one.css: { }
+
+d8w3css-gfex-indie-flower:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-indie-flower.css: { }
+d8w3css-gfin-indie-flower:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-indie-flower.css: { }
+      fonts/css/d8w3css-indie-flower.css: { }
+
+d8w3css-gfex-kalam:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-kalam.css: { }
+d8w3css-gfin-kalam:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-kalam.css: { }
+      fonts/css/d8w3css-kalam.css: { }
+
+d8w3css-gfex-lobster-two:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-lobster-two.css: { }
+d8w3css-gfin-lobster-two:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-lobster-two.css: { }
+      fonts/css/d8w3css-lobster-two.css: { }
+
+d8w3css-gfex-patrick-hand:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-patrick-hand.css: { }
+d8w3css-gfin-patrick-hand:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-patrick-hand.css: { }
+      fonts/css/d8w3css-patrick-hand.css: { }
+
+d8w3css-gfex-prosto-one:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Prosto+One&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-prosto-one.css: { }
+d8w3css-gfin-prosto-one:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-prosto-one.css: { }
+      fonts/css/d8w3css-prosto-one.css: { }
+
+d8w3css-gfex-righteous:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Righteous&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-righteous.css: { }
+d8w3css-gfin-righteous:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-righteous.css: { }
+      fonts/css/d8w3css-righteous.css: { }
+
+d8w3css-gfex-staatliches:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Staatliches&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-staatliches.css: { }
+d8w3css-gfin-staatliches:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-staatliches.css: { }
+      fonts/css/d8w3css-staatliches.css: { }
+
+d8w3css-gfex-yanone-kaffeesatz:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap': { type: external, minified: true }
+      fonts/css/d8w3css-yanone-kaffeesatz.css: { }
+d8w3css-gfin-yanone-kaffeesatz:
+  Version: VERSION
+  css:
+    base:
+      fonts/google-font-yanone-kaffeesatz.css: { }
+      fonts/css/d8w3css-yanone-kaffeesatz.css: { }
+
+# Google fonts - Specail Fonts.
+
+d8w3css-gfex-metal-mania:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-metal-mania.css: { }
+
+d8w3css-gfex-train-one:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Train+One&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-train-one.css: { }
+
+d8w3css-gfex-barriecito:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Barriecito&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-barriecito.css: { }
+
+d8w3css-gfex-sancreek:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Sancreek&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-sancreek.css: { }
+
+d8w3css-gfex-new-rocker:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=New+Rocker&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-new-rocker.css: { }
+
+d8w3css-gfex-nosifer:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Nosifer&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-nosifer.css: { }
+
+d8w3css-gfex-kumar-one:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Kumar+One&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-kumar-one.css: { }
+
+d8w3css-gfex-londrina-outline:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-londrina-outline.css: { }
+
+d8w3css-gfex-trade-winds:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-trade-winds.css: { }
+
+d8w3css-gfex-slackey:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Slackey&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-slackey.css: { }
+
+d8w3css-gfex-frijole:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Frijole&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-frijole.css: { }
+
+d8w3css-gfex-ruslan-display:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-ruslan-display.css: { }
+
+d8w3css-gfex-faster-one:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Faster+One&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-faster-one.css: { }
+
+d8w3css-gfex-akronim:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Akronim&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-akronim.css: { }
+
+d8w3css-gfex-finger-paint:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-finger-paint.css: { }
+
+d8w3css-gfex-ceviche-one:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-ceviche-one.css: { }
+
+d8w3css-gfex-unifrakturmaguntia:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-unifrakturmaguntia.css: { }
+
+d8w3css-gfex-megrim:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Megrim&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-megrim.css: { }
+
+d8w3css-gfex-bungee-shade:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-bungee-shade.css: { }
+
+d8w3css-gfex-irish-grover:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-irish-grover.css: { }
+
+d8w3css-gfex-pirata-one:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Pirata+One&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-pirata-one.css: { }
+
+d8w3css-gfex-rye:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Rye&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-rye.css: { }
+
+d8w3css-gfex-creepster:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Creepster&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-creepster.css: { }
+
+d8w3css-gfex-moo-lah-lah:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-moo-lah-lah.css: { }
+
+d8w3css-gfex-monoton:
+  Version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css2?family=Monoton&display=swap': { type: external, minified: true }
+      fonts/css/special/d8w3css-monoton.css: { }
+
+# Predefined themes.
+
+w3css-default-theme:
+  Version: VERSION
+  css:
+    theme:
+      css/theme/default-color-theme.css: { weight: -9 }
+
+w3-css-theme-amber:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-amber.css: { weight: -9 }
+
+w3-css-theme-blue:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-blue.css: { weight: -9 }
+
+w3-css-theme-blue-grey:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-blue-grey.css: { weight: -9 }
+
+w3-css-theme-brown:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-brown.css: { weight: -9 }
+
+w3-css-theme-cyan:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-cyan.css: { weight: -9 }
+
+w3-css-theme-deep-orange:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-deep-orange.css: { weight: -9 }
+
+w3-css-theme-deep-purple:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-deep-purple.css: { weight: -9 }
+
+w3-css-theme-green:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-green.css: { weight: -9 }
+
+w3-css-theme-indigo:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-indigo.css: { weight: -9 }
+
+w3-css-theme-khaki:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-khaki.css: { weight: -9 }
+
+w3-css-theme-light-blue:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-light-blue.css: { weight: -9 }
+
+w3-css-theme-light-green:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-light-green.css: { weight: -9 }
+
+w3-css-theme-lime:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-lime.css: { weight: -9 }
+
+w3-css-theme-orange:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-orange.css: { weight: -9 }
+
+w3-css-theme-pink:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-pink.css: { weight: -9 }
+
+w3-css-theme-purple:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-purple.css: { weight: -9 }
+
+w3-css-theme-red:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-red.css: { weight: -9 }
+
+w3-css-theme-teal:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-teal.css: { weight: -9 }
+
+w3-css-theme-yellow:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-yellow.css: { weight: -9 }
+
+w3-css-theme-black:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-black.css: { weight: -9 }
+
+w3-css-theme-dark-grey:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-dark-grey.css: { weight: -9 }
+
+w3-css-theme-grey:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme/w3-theme-grey.css: { weight: -9 }
+
+# Custom predefined color themes.
+
+w3-css-theme-custom:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-custom.css: { weight: -9 }
+
+w3-css-theme-00000:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00000.css: { weight: -9 }
+
+w3-css-theme-00001:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00001.css: { weight: -9 }
+
+w3-css-theme-00002:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00002.css: { weight: -9 }
+
+w3-css-theme-00003:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00003.css: { weight: -9 }
+
+w3-css-theme-00004:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00004.css: { weight: -9 }
+
+w3-css-theme-00005:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00005.css: { weight: -9 }
+
+w3-css-theme-00006:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00006.css: { weight: -9 }
+
+w3-css-theme-00007:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00007.css: { weight: -9 }
+
+w3-css-theme-00008:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00008.css: { weight: -9 }
+
+w3-css-theme-00009:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00009.css: { weight: -9 }
+
+w3-css-theme-00010:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00010.css: { weight: -9 }
+
+w3-css-theme-00011:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00011.css: { weight: -9 }
+
+w3-css-theme-00012:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00012.css: { weight: -9 }
+
+w3-css-theme-00013:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00013.css: { weight: -9 }
+
+w3-css-theme-00014:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00014.css: { weight: -9 }
+
+w3-css-theme-00015:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00015.css: { weight: -9 }
+
+w3-css-theme-00016:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00016.css: { weight: -9 }
+
+w3-css-theme-00017:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00017.css: { weight: -9 }
+
+w3-css-theme-00018:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00018.css: { weight: -9 }
+
+w3-css-theme-00019:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00019.css: { weight: -9 }
+
+w3-css-theme-00020:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00020.css: { weight: -9 }
+
+w3-css-theme-00021:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00021.css: { weight: -9 }
+
+w3-css-theme-00022:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00022.css: { weight: -9 }
+
+w3-css-theme-00023:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00023.css: { weight: -9 }
+
+w3-css-theme-00024:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00024.css: { weight: -9 }
+
+w3-css-theme-00025:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00025.css: { weight: -9 }
+
+w3-css-theme-00026:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00026.css: { weight: -9 }
+
+w3-css-theme-00027:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00027.css: { weight: -9 }
+
+w3-css-theme-00028:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00028.css: { weight: -9 }
+
+w3-css-theme-00029:
+  Version: VERSION
+  css:
+    theme:
+      css/w3-css-theme-custom/w3-theme-00029.css: { weight: -9 }

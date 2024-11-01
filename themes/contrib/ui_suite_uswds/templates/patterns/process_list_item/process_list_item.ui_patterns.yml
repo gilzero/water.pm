@@ -1,0 +1,13 @@
+process_list_item:
+  label: "Process List Item"
+  description: "Internal: Meant to be used by 'Process List' pattern."
+  category: "List"
+  fields:
+    header:
+      type: "render"
+      label: "Header"
+      description: "Process list item header."
+    body:
+      type: "render"
+      label: "Body"
+      description: "Body content."

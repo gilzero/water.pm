@@ -1,0 +1,47 @@
+{#
+/**
+ * @file
+ * Default theme implementation for an 'input' #type form element.
+ *
+ * Available variables:
+ * - attributes: A list of HTML attributes for the input element.
+ * - children: Optional additional rendered elements.
+ * - icon: An icon.
+ * - input_group: Flag to display as an input group.
+ * - icon_position: Where an icon should be displayed.
+ * - prefix: Markup to display before the input element.
+ * - suffix: Markup to display after the input element.
+ * - type: The type of input.
+ *
+ * @ingroup templates
+ *
+ * @see \Drupal\bootstrap\Plugin\Preprocess\Input
+ * @see template_preprocess_input()
+ */
+#}
+{% if input_group %}
+<div class="input-group usa-form-group">
+  {% endif %}
+
+  {% if prefix %}
+    {{ prefix }}
+  {% endif %}
+
+  {% block input %}
+    {% set default = attributes.hasAttribute('value') ? attributes.value|render : '' %}
+    {{ pattern('date_picker', {
+      'attributes': attributes,
+      'default_value': default != "" ? default|date("Y-m-d") : ''
+    }) }}
+  {% endblock %}
+
+  {% if suffix %}
+    {{ suffix }}
+  {% endif %}
+
+  {% if input_group %}
+</div>
+{% endif %}
+
+{{ children }}
+

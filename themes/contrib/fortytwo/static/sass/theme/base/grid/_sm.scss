@@ -1,0 +1,53 @@
+// MOBILE LANDSCAPE
+
+$grid-columns: $sm-grid-columns;
+$grid-column-width: $sm-grid-column-width;
+$grid-gutter-width: $sm-grid-gutter-width;
+
+@media #{$sm} {
+  @for $grid-column from 1 through $grid-columns {
+    .#{'col-sm-' + $grid-column} {
+      @include span-columns($grid-column, false);
+    }
+  }
+
+  @for $grid-column from 1 through $grid-columns {
+    .#{'col-sm-' + $grid-column + '-gutter'} {
+      @include span-columns($grid-column, true);
+    }
+  }
+
+  @for $grid-column from 1 through $grid-columns {
+    .#{'col-sm-fluid-' + $grid-column} {
+      @include span-fluid-columns($grid-column, false);
+    }
+  }
+
+  @for $grid-column from 1 through $grid-columns {
+    .#{'col-sm-fluid-' + $grid-column + '-gutter'} {
+      @include span-fluid-columns($grid-column, true);
+    }
+  }
+
+  @for $grid-column from 1 through $grid-columns {
+    .#{'offset-sm-' + $grid-column} {
+      margin-left: calc-grid($grid-column) + $grid-gutter-width + px;
+    }
+  }
+
+  .offset-sm-0 {
+    margin-left: 0;
+  }
+
+  body {
+    &.show-responsive-identifier {
+      .responsive-identifier {
+        background: $sm-identifier-color;
+
+        &:after {
+          content: $sm-identifier-text;
+        }
+      }
+    }
+  }
+}

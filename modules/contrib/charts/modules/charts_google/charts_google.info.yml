@@ -1,0 +1,12 @@
+name: 'Google Charts'
+type: module
+description: 'Charts module integration with Google Charts.'
+package: Charts
+core_version_requirement: ^10.3 || ^11
+dependencies:
+  - 'charts:charts'
+
+# Information added by Drupal.org packaging script on 2024-07-22
+version: '5.1.0'
+project: 'charts'
+datestamp: 1721677332

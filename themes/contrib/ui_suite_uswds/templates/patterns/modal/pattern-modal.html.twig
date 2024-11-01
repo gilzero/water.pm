@@ -1,0 +1,74 @@
+{% set attributes = attributes.addClass('usa-modal').setAttribute('tabindex', '-1') %}
+{% set attributes = forced_action ? attributes.setAttribute('data-force-action', 'true') : attributes %}
+
+{% set attributes = (variant and variant != 'default') ? attributes.addClass('usa-modal--' ~ variant) : attributes %}
+
+{% set modal = 'usa-model-' ~ modal_id|default(random()) %}
+{% set attributes = attributes.setAttribute('id', modal) %}
+
+{% set modal_id_value = modal ~ '-id' %}
+{% set modal_id_header = modal ~ '-heading' %}
+{% set modal_id_body = modal ~ '-description' %}
+
+{% set attributes = attributes.setAttribute('aria-labelledby', modal_id_header) %}
+{% set attributes = attributes.setAttribute('aria-describedby', modal_id_body) %}
+
+{{ pattern('button', {
+  'attributes': create_attribute({
+    'aria-controls': modal,
+    'data-open-modal': 'true'
+  }),
+  'url': '#' ~ modal,
+  'label': button_text|default('Open modal')
+}) }}
+
+<div{{ attributes }}>
+  <div class="usa-modal__content">
+    <div class="usa-modal__main">
+
+      {% if title %}
+        <h2 class="usa-modal__heading" id="{{ modal_id_header }}">{{ title }}</h2>
+      {% endif %}
+
+      {% if body %}
+        <div class="usa-prose" id="{{ modal_id_body }}">
+          {{ body }}
+        </div>
+      {% endif %}
+
+      <div class="usa-modal__footer">
+        <ul class="usa-button-group">
+          <li class="usa-button-group__item">
+            {{ pattern('button', {
+              'attributes': create_attribute({
+                'data-close-modal': 'true'
+              }),
+              'url': yes_url,
+              'label': yes_text|default('Save Changes')
+            }) }}
+          </li>
+          <li class="usa-button-group__item">
+            {{ pattern('button', {
+              'attributes': create_attribute({
+                'data-close-modal': 'true'
+              }),
+              'variant': 'secondary',
+              'url': no_url,
+              'label': no_text|default('Close')
+            }) }}
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    {% if forced_action == 'false' or forced_action is null %}
+      {{ pattern('close_button', {
+        'attributes': create_attribute({
+          'class': 'usa-modal__close',
+          'data-close-modal': 'true'
+        }),
+      }) }}
+    {% endif %}
+
+  </div>
+</div>

@@ -1,0 +1,25 @@
+graphic_list_item:
+  label: "(Graphic list item)"
+  description: "An variation of 'media block' component. To be used with 'Graphic list' component. Not found in the upstream documentation, but found in the USWDS examples."
+  category: "Layout"
+  fields:
+    image:
+      type: "render"
+      label: "Image"
+      description: Expects a renderable image.
+      preview:
+        type: html_tag
+        tag: img
+        attributes:
+          src: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJMaWdodCBCbHVlIENpcmNsZSIgdmlld2JveD0iMCAwIDEyNCAxMjQiIHdpZHRoPSIxMjQiIGhlaWdodD0iMTI0Ij48Y2lyY2xlIGlkPSJsaWdodF9ibHVlX2NpcmNsZSIgZmlsbD0iIzAwNzFiYyIgY3g9IjYyIiBjeT0iNjIiIHI9IjYyIi8+PC9zdmc+Cg==
+    heading:
+      type: "render"
+      label: "Heading"
+      preview: "Graphic headings can vary."
+    content:
+      type: "render"
+      label: "Heading"
+      preview:
+        type: html_tag
+        tag: p
+        value: "Graphic headings can be used a few different ways, depending on what your landing page is for. Highlight your values, specific program areas, or results."

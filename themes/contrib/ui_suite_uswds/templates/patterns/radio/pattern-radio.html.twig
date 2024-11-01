@@ -1,0 +1,5 @@
+{% if tile %}
+  {% set attributes = attributes.addClass('usa-radio__input--tile') %}
+{% endif %}
+
+<input{{ attributes.addClass('usa-radio__input').setAttribute('type', 'radio') }} />

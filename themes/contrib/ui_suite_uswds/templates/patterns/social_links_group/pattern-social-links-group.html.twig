@@ -1,0 +1,15 @@
+{% if items %}
+  <div{{ attributes.addClass('grid-row') }}>
+    {% for link in items %}
+      {% if link %}
+        <div class="grid-col-auto">
+          {{ pattern('social_link', {
+            'icon': link.icon,
+            'href': link.url,
+            'name': link.title,
+          }) }}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}

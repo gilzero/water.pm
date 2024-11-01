@@ -1,0 +1,8 @@
+d8w3css-subtheme-global:
+  version: VERSION
+  css:
+    theme:
+      css/d8w3css-subtheme-style.css: {}
+
+  js:
+    js/d8w3css-subtheme-script.js: {}

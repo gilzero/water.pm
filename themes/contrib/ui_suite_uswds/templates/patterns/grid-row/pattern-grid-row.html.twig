@@ -1,0 +1,19 @@
+{% if with_container %}
+  <div class="grid-container">
+{% endif %}
+
+{% set attributes = gutters ? attributes.addClass(gutters) : attributes %}
+{% set attributes = offsetting ? attributes.addClass(offsetting) : attributes %}
+
+<div{{ attributes.addClass('grid-row') }}>
+  {% for item in content %}
+    {% set col_sizes = [card, card_lg, mobile, mobile_lg, tablet, tablet_lg, desktop, desktop_lg, widescreen] %}
+    <div{{ create_attribute({'class': col_sizes}) }}>
+      {{ item }}
+    </div>
+  {% endfor %}
+</div>
+
+{% if with_container %}
+  </div>
+{% endif %}

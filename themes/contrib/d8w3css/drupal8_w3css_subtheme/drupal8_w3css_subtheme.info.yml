@@ -1,0 +1,46 @@
+name: Drupal8 W3CSS Sub-theme
+type: theme
+base theme: drupal8_w3css_theme
+core_version_requirement: ^9 || ^10 || ^11
+description: 'Version 3 <strong><a target=_blank href=https://www.drupal.org/project/solo>"Solo"</strong></a> has been completed with lots of new features that will make it easier and better for you to create a great and successful website or online profile. Should you wish to construct a more intricate website, consider utilizing the <a target=_blank href=https://www.drupal.org/project/paragraphs_bundles>Paragraphs Bundles Module.</strong></a>'
+core: '8.x'
+libraries:
+  - drupal8_w3css_subtheme/d8w3css-subtheme-global
+
+#Regions
+regions:
+  header: 'Header'
+  primary_menu_vertical: 'Primary Menu Vertical'
+  primary_menu: 'Primary Menu'
+  welcome_text: 'Welcome Text'
+  top_first: 'Top First Container'
+  top_second: 'Top Second Container'
+  top_third: 'Top Third Container'
+  highlighted: 'Highlighted'
+  page_title: 'Page Title'
+  breadcrumb: 'Breadcrumb'
+  sidebar_first: 'Left Sidebar'
+  content: 'Content'
+  sidebar_second: 'Right Sidebar'
+  bottom_first: 'Bottom First Container'
+  bottom_second: 'Bottom Second Container'
+  bottom_third: 'Bottom Third Container'
+  bottom_forth: 'Bottom Forth Container'
+  footer_first: 'Footer First Container'
+  footer_second: 'Footer Second Container'
+  footer_third: 'Footer Third Container'
+  footer_menu: 'Footer Menu Container'
+  auto_hidden_block: 'Auto Hidden Blocks'
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  logo: true
+  name: true
+  node_user_picture: true
+  slogan: true
+
+# Information added by Drupal.org packaging script on 2024-08-04
+version: '2.0.14'
+project: 'd8w3css'
+datestamp: 1722786476

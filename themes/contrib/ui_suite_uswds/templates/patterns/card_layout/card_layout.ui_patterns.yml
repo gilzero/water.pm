@@ -1,0 +1,34 @@
+card_layout:
+  label: "Card Layout"
+  description: "Cards contain content and actions about a single subject."
+  links:
+    - 'https://designsystem.digital.gov/components/card/'
+  category: "Card"
+  fields:
+    cards:
+      type: "render"
+      label: "Cards"
+      description: "An array of card patterns."
+      preview:
+        - type: "pattern_preview"
+          id: "card"
+          variant: "default"
+          list: true
+          attributes:
+            class:
+              - grid-col-6
+        - type: "pattern_preview"
+          id: "card"
+          variant: "default"
+          list: true
+          attributes:
+            class:
+              - grid-col-6
+        - type: "pattern_preview"
+          id: "card"
+          variant: "default"
+          list: true
+          attributes:
+            class:
+              - grid-col-6
+

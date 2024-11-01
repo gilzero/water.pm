@@ -1,0 +1,616 @@
+/* 2021 */
+.w3-2021-marigold {
+  color: #fff;
+  background-color: #fdac53;
+}
+
+.w3-2021-cerulean {
+  color: #000;
+  background-color: #9bb7d4;
+}
+
+.w3-2021-rust {
+  color: #fff;
+  background-color: #b55a30;
+}
+
+.w3-2021-illuminating {
+  color: #000;
+  background-color: #f5df4d;
+}
+
+.w3-2021-french-blue {
+  color: #fff;
+  background-color: #0072b5;
+}
+
+.w3-2021-green-ash {
+  color: #000;
+  background-color: #a0daa9;
+}
+
+.w3-2021-burnt-coral {
+  color: #fff;
+  background-color: #e9897e;
+}
+
+.w3-2021-mint {
+  color: #fff;
+  background-color: #00a170;
+}
+
+.w3-2021-amethyst-orchid {
+  color: #fff;
+  background-color: #926aa6;
+}
+
+.w3-2021-raspberry-sorbet {
+  color: #fff;
+  background-color: #d2386c;
+}
+
+.w3-2021-inkwell {
+  color: #fff;
+  background-color: #363945;
+}
+
+.w3-2021-ultimate-gray {
+  color: #fff;
+  background-color: #939597;
+}
+
+.w3-2021-buttercream {
+  color: #000;
+  background-color: #efe1ce;
+}
+
+.w3-2021-desert-mist {
+  color: #000;
+  background-color: #e0b589;
+}
+
+.w3-2021-willow {
+  color: #fff;
+  background-color: #9a8b4f;
+}
+
+/* 2020 */
+.w3-2020-classic-blue {
+  color: #fff;
+  background-color: #34568b;
+}
+
+.w3-2020-flame-scarlet {
+  color: #fff;
+  background-color: #cd212a;
+}
+
+.w3-2020-saffron {
+  color: #000;
+  background-color: #ffa500;
+}
+
+.w3-2020-biscay-green {
+  color: #000;
+  background-color: #56c6a9;
+}
+
+.w3-2020-chive {
+  color: #fff;
+  background-color: #4b5335;
+}
+
+.w3-2020-faded-denim {
+  color: #fff;
+  background-color: #798ea4;
+}
+
+.w3-2020-orange-peel {
+  color: #fff;
+  background-color: #fa7a35;
+}
+
+.w3-2020-mosaic-blue {
+  color: #fff;
+  background-color: #00758f;
+}
+
+.w3-2020-sunlight {
+  color: #000;
+  background-color: #edd59e;
+}
+
+.w3-2020-coral-pink {
+  color: #000;
+  background-color: #e8a798;
+}
+
+.w3-2020-cinnamon-stick {
+  color: #fff;
+  background-color: #9c4722;
+}
+
+.w3-2020-grape-compote {
+  color: #fff;
+  background-color: #6b5876;
+}
+
+.w3-2020-lark {
+  color: #fff;
+  background-color: #b89b72;
+}
+
+.w3-2020-navy-blazer {
+  color: #fff;
+  background-color: #282d3c;
+}
+
+.w3-2020-brilliant-white {
+  color: #000;
+  background-color: #edf1ff;
+}
+
+.w3-2020-ash {
+  color: #fff;
+  background-color: #a09998;
+}
+
+.w3-2020-amberglow {
+  color: #fff;
+  background-color: #dc793e;
+}
+
+.w3-2020-samba {
+  color: #fff;
+  background-color: #a2242f;
+}
+
+.w3-2020-sandstone {
+  color: #fff;
+  background-color: #c48a69;
+}
+
+.w3-2020-green-sheen {
+  color: #000;
+  background-color: #d9ce52;
+}
+
+.w3-2020-rose-tan {
+  color: #000;
+  background-color: #d19c97;
+}
+
+.w3-2020-ultramarine-green {
+  color: #fff;
+  background-color: #006b54;
+}
+
+.w3-2020-fired-brick {
+  color: #fff;
+  background-color: #6a2e2a;
+}
+
+.w3-2020-peach-nougat {
+  color: #000;
+  background-color: #e6af91;
+}
+
+.w3-2020-magenta-purple {
+  color: #fff;
+  background-color: #6c244c;
+}
+
+/* 2019 */
+.w3-2019-fiesta {
+  color: #fff;
+  background-color: #dd4132;
+}
+
+.w3-2019-jester-red {
+  color: #fff;
+  background-color: #9e1030;
+}
+
+.w3-2019-turmeric {
+  color: #fff;
+  background-color: #fe840e;
+}
+
+.w3-2019-living-coral {
+  color: #fff;
+  background-color: #ff6f61;
+}
+
+.w3-2019-pink-peacock {
+  color: #fff;
+  background-color: #c62168;
+}
+
+.w3-2019-pepper-stem {
+  color: #fff;
+  background-color: #8d9440;
+}
+
+.w3-2019-aspen-gold {
+  color: #000;
+  background-color: #ffd662;
+}
+
+.w3-2019-princess-blue {
+  color: #fff;
+  background-color: #00539c;
+}
+
+.w3-2019-toffee {
+  color: #fff;
+  background-color: #755139;
+}
+
+.w3-2019-mango-mojito {
+  color: #000;
+  background-color: #d69c2f;
+}
+
+.w3-2019-terrarium-moss {
+  color: #fff;
+  background-color: #616247;
+}
+
+.w3-2019-sweet-lilac {
+  color: #000;
+  background-color: #e8b5ce;
+}
+
+.w3-2019-soybean {
+  color: #000;
+  background-color: #d2c29d;
+}
+
+.w3-2019-eclipse {
+  color: #fff;
+  background-color: #343148;
+}
+
+.w3-2019-sweet-corn {
+  color: #000;
+  background-color: #f0ead6;
+}
+
+.w3-2019-brown-granite {
+  color: #fff;
+  background-color: #615550;
+}
+
+.w3-2019-chili-pepper {
+  color: #fff;
+  background-color: #9b1b30;
+}
+
+.w3-2019-biking-red {
+  color: #fff;
+  background-color: #77212e;
+}
+
+.w3-2019-creme-de-peche {
+  color: #000;
+  background-color: #f5d6c6;
+}
+
+.w3-2019-peach-pink {
+  color: #fff;
+  background-color: #fa9a85;
+}
+
+.w3-2019-rocky-road {
+  color: #fff;
+  background-color: #5a3e36;
+}
+
+.w3-2019-fruit-dove {
+  color: #fff;
+  background-color: #ce5b78;
+}
+
+.w3-2019-sugar-almond {
+  color: #fff;
+  background-color: #935529;
+}
+
+.w3-2019-dark-cheddar {
+  color: #fff;
+  background-color: #e08119;
+}
+
+.w3-2019-galaxy-blue {
+  color: #fff;
+  background-color: #2a4b7c;
+}
+
+.w3-2019-bluestone {
+  color: #fff;
+  background-color: #577284;
+}
+
+.w3-2019-orange-tiger {
+  color: #fff;
+  background-color: #f96714;
+}
+
+.w3-2019-eden {
+  color: #fff;
+  background-color: #264e36;
+}
+
+.w3-2019-vanilla-custard {
+  color: #000;
+  background-color: #f3e0be;
+}
+
+.w3-2019-evening-blue {
+  color: #fff;
+  background-color: #2a293e;
+}
+
+.w3-2019-paloma {
+  color: #fff;
+  background-color: #9f9c99;
+}
+
+.w3-2019-guacamole {
+  color: #fff;
+  background-color: #797b3a;
+}
+
+/* 2018 */
+.w3-2018-red-pear {
+  color: #fff;
+  background-color: #7f4145;
+}
+
+.w3-2018-valiant-poppy {
+  color: #fff;
+  background-color: #bd3d3a;
+}
+
+.w3-2018-nebulas-blue {
+  color: #fff;
+  background-color: #3f69aa;
+}
+
+.w3-2018-ceylon-yellow {
+  color: #000;
+  background-color: #d5ae41;
+}
+
+.w3-2018-martini-olive {
+  color: #fff;
+  background-color: #766f57;
+}
+
+.w3-2018-russet-orange {
+  color: #fff;
+  background-color: #e47a2e;
+}
+
+.w3-2018-crocus-petal {
+  color: #000;
+  background-color: #be9ec9;
+}
+
+.w3-2018-limelight {
+  color: #000;
+  background-color: #f1ea7f;
+}
+
+.w3-2018-quetzal-green {
+  color: #fff;
+  background-color: #006e6d;
+}
+
+.w3-2018-sargasso-sea {
+  color: #fff;
+  background-color: #485167;
+}
+
+.w3-2018-tofu {
+  color: #000;
+  background-color: #eae6da;
+}
+
+.w3-2018-almond-buff {
+  color: #000;
+  background-color: #d1b894;
+}
+
+.w3-2018-quiet-gray,
+.w3-2018-quiet-grey {
+  color: #000;
+  background-color: #bcbcbe;
+}
+
+.w3-2018-meerkat {
+  color: #000;
+  background-color: #95dee3;
+}
+
+.w3-2018-meadowlark {
+  color: #000;
+  background-color: #ecdb54;
+}
+
+.w3-2018-cherry-tomato {
+  color: #fff;
+  background-color: #e94b3c;
+}
+
+.w3-2018-little-boy-blue {
+  color: #000;
+  background-color: #6f9fd8;
+}
+
+.w3-2018-chili-oil {
+  color: #fff;
+  background-color: #944743;
+}
+
+.w3-2018-pink-lavender {
+  color: #000;
+  background-color: #dbb1cd;
+}
+
+.w3-2018-blooming-dahlia {
+  color: #000;
+  background-color: #ec9787;
+}
+
+.w3-2018-arcadia {
+  color: #fff;
+  background-color: #00a591;
+}
+
+.w3-2018-emperador {
+  color: #fff;
+  background-color: #6c4f3d;
+}
+
+.w3-2018-ultra-violet {
+  color: #fff;
+  background-color: #6b5b95;
+}
+
+.w3-2018-almost-mauve {
+  color: #000;
+  background-color: #eadedb;
+}
+
+.w3-2018-spring-crocus {
+  color: #fff;
+  background-color: #bc70a4;
+}
+
+.w3-2018-lime-punch {
+  color: #000;
+  background-color: #bfd641;
+}
+
+.w3-2018-sailor-blue {
+  color: #fff;
+  background-color: #2e4a62;
+}
+
+.w3-2018-harbor-mist {
+  color: #000;
+  background-color: #b4b7ba;
+}
+
+.w3-2018-warm-sand {
+  color: #000;
+  background-color: #c0ab8e;
+}
+
+.w3-2018-coconut-milk {
+  color: #000;
+  background-color: #f0ede5;
+}
+
+/* 2017 */
+.w3-2017-greenery {
+  color: #fff;
+  background-color: #92b558;
+}
+
+.w3-2017-grenadine {
+  color: #fff;
+  background-color: #dc4c46;
+}
+
+.w3-2017-tawny-port {
+  color: #fff;
+  background-color: #672e3b;
+}
+
+.w3-2017-ballet-slipper {
+  color: #000;
+  background-color: #f3d6e4;
+}
+
+.w3-2017-butterum {
+  color: #fff;
+  background-color: #c48f65;
+}
+
+.w3-2017-navy-peony {
+  color: #fff;
+  background-color: #223a5e;
+}
+
+.w3-2017-neutral-gray,
+.w3-2017-neutral-grey {
+  color: #fff;
+  background-color: #898e8c;
+}
+
+.w3-2017-shaded-spruce {
+  color: #fff;
+  background-color: #005960;
+}
+
+.w3-2017-golden-lime {
+  color: #fff;
+  background-color: #9c9a40;
+}
+
+.w3-2017-marina {
+  color: #fff;
+  background-color: #4f84c4;
+}
+
+.w3-2017-autumn-maple {
+  color: #fff;
+  background-color: #d2691e;
+}
+
+.w3-2017-niagara {
+  color: #fff;
+  background-color: #578ca9;
+}
+
+.w3-2017-primrose-yellow {
+  color: #000;
+  background-color: #f6d155;
+}
+
+.w3-2017-lapis-blue {
+  color: #fff;
+  background-color: #004b8d;
+}
+
+.w3-2017-flame {
+  color: #fff;
+  background-color: #f2552c;
+}
+
+.w3-2017-island-paradise {
+  color: #000;
+  background-color: #95dee3;
+}
+
+.w3-2017-pale-dogwood {
+  color: #000;
+  background-color: #edcdc2;
+}
+
+.w3-2017-pink-yarrow {
+  color: #fff;
+  background-color: #ce3175;
+}
+
+.w3-2017-kale {
+  color: #fff;
+  background-color: #5a7247;
+}
+
+.w3-2017-hazelnut {
+  color: #000;
+  background-color: #cfb095;
+}

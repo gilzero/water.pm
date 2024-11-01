@@ -1,0 +1,13 @@
+#header {
+  background: $headerBackground;
+  .logo {
+    display: inline-block;
+    width: $headerLogoWidth;
+    height: $headerLogoHeight;
+    background-repeat: no-repeat;
+    background-position: $headerLogoBackgroundPosition;
+    background: url('../../../logo.svg') no-repeat center;
+    background-size: contain;
+    text-indent: -9999em;
+  }
+}

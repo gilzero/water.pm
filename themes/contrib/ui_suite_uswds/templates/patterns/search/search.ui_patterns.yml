@@ -1,0 +1,38 @@
+search:
+  label: "Search"
+  description: "Search allows users to search for specific content if they know what search terms to use or can’t find desired content in the main navigation."
+  links:
+    - "https://designsystem.digital.gov/components/search/"
+  category: "Search"
+  variants:
+    default:
+      label: "Default"
+    big:
+      label: "Big"
+      description: "Search component with increased padding and font-size."
+    small:
+      label: "Small"
+      description: "A compact variation of the search. Uses a magnifying glass icon for the submit button."
+  settings:
+    name:
+      type: "textfield"
+      label: "Search keyword name value"
+      required: true
+      preview: "keys"
+    search_id:
+      type: "textfield"
+      label: "Search field idea"
+      description: "Value for the 'id' attribute, for accessibility. Keep to one word."
+      required: true
+      preview: "test-search-field"
+    search_icon:
+      type: "textfield"
+      label: "Search icon path"
+      description: "Path to search icon."
+      preview: "https://cdn.jsdelivr.net/npm/@uswds/uswds@3.8.0/dist/img/usa-icons-bg/search--white.svg"
+  fields:
+    label:
+      type: "text"
+      label: "Label"
+      description: "Label value."
+      required: true

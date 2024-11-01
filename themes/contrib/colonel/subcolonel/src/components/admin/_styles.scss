@@ -1,0 +1,28 @@
+//VARIABLES
+$tabsMargin: 2rem 0;
+$tabsItemMargin: 0;
+$tabsBorderSize: 2px;
+$tabsBorderRight: none;
+$tabsLastChildBorderRight: $tabsBorderSize solid $borderGlobalColor;
+$tabsItemPadding: 1rem 2rem;
+$tabsItemBackground: $backgroundGrey;
+$tabsFontWeight: 400;
+$tabsFontSize: 1.6rem;
+$tabsBorderColor: $borderGlobalColor;
+$tabsBorderBottom: $tabsBorderSize solid $borderGlobalColor;
+$tabsRadius: 0;
+$tabsTextColor: $textColorSecondary;
+$tabsHoverBorderColor: $borderGlobalColor;
+$tabsHoverBackground: #fff;
+$tabsHoverTextColor: $textColorPrimary;
+$tabsActiveBackground: #FFF;
+$tabsActiveTextColor: $textColorPrimary;
+$tabsActiveBorderTopColor: $accent;
+$tabsActiveBorderBottomColor: #fff;
+$tabsActiveBorderLeftColor: $borderGlobalColor;
+$tabsActiveBorderRightColor: $borderGlobalColor;
+
+//IMPORT
+@import "../../../../colonel/src/components/admin/styles";
+
+//CUSTOM

@@ -1,0 +1,30 @@
+sign_up_block:
+  label: "Sign up block"
+  description: "Sign up block used in the footer"
+  links:
+    - "https://designsystem.digital.gov/components/footer/"
+  category: "Other"
+  settings:
+    heading:
+      type: "textfield"
+      label: "Heading"
+      description: "H3 value of sign up block"
+      preview: "Sign up"
+    label:
+      type: "textfield"
+      label: "Label"
+      description: "Label of the sign up for."
+      required: true
+      preview: "Your email address"
+    button_label:
+      type: "textfield"
+      label: "Button label"
+      description: "Button label for the sign up form."
+      required: true
+      preview: "Sign up"
+    form_url:
+      type: "textfield"
+      label: "Sign up form URL"
+      description: "URL the form should go to."
+      required: true
+      preview: '/'

@@ -1,0 +1,94 @@
+id: "landing_page"
+label: "Landing page"
+description: "Provide someone’s first impression of your agency or program."
+links:
+  - "https://designsystem.digital.gov/templates/landing-page/"
+render:
+  - "#type": pattern_preview
+    "#id": banner
+  - "#type": pattern_preview
+    "#id": header
+  - "#type": pattern_preview
+    "#id": hero
+  - "#type": pattern
+    "#id": section
+    "#fields":
+      content:
+        "#markup": '<div class="grid-row grid-gap"> <div class="tablet:grid-col-4"> <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">A tagline highlights your approach</h2> </div> <div class="tablet:grid-col-8 usa-prose"> <p>The tagline should inspire confidence and interest, focusing on the value that your overall approach offers to your audience. Use a heading typeface and keep your tagline to just a few words, and don’t confuse or mystify.</p> <p>Use the right side of the grid to explain the tagline a bit more. What are your goals? How do you do your work? Write in the present tense, and stay brief here. People who are interested can find details on internal pages.</p> </div> </div>'
+  - "#type": pattern
+    "#id": graphic_list
+    "#attributes":
+      "class": ["usa-section", "usa-section--dark"]
+    "#items":
+      - "#type": pattern
+        "#id": graphic_list_item
+        "#fields":
+          image:
+            "#type": html_tag
+            "#tag": img
+            "#attributes":
+              src: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJMaWdodCBCbHVlIENpcmNsZSIgdmlld2JveD0iMCAwIDEyNCAxMjQiIHdpZHRoPSIxMjQiIGhlaWdodD0iMTI0Ij48Y2lyY2xlIGlkPSJsaWdodF9ibHVlX2NpcmNsZSIgZmlsbD0iIzAwNzFiYyIgY3g9IjYyIiBjeT0iNjIiIHI9IjYyIi8+PC9zdmc+Cg==
+          heading: "Graphic headings can vary."
+          content:
+            "#type": html_tag
+            "#tag": p
+            "#value": "Graphic headings can be used a few different ways, depending on what your landing page is for. Highlight your values, specific program areas, or results."
+      - "#type": pattern
+        "#id": graphic_list_item
+        "#fields":
+          image:
+            "#type": html_tag
+            "#tag": img
+            "#attributes":
+              src: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJMaWdodCBCbHVlIENpcmNsZSIgdmlld2JveD0iMCAwIDEyNCAxMjQiIHdpZHRoPSIxMjQiIGhlaWdodD0iMTI0Ij48Y2lyY2xlIGlkPSJsaWdodF9ibHVlX2NpcmNsZSIgZmlsbD0iIzAwNzFiYyIgY3g9IjYyIiBjeT0iNjIiIHI9IjYyIi8+PC9zdmc+Cg==
+          heading: "Stick to 6 or fewer words."
+          content:
+            "#type": html_tag
+            "#tag": p
+            "#value": "Keep body text to about 30 words. They can be shorter, but try to be somewhat balanced across all four. It creates a clean appearance with good spacing."
+      - "#type": pattern
+        "#id": graphic_list_item
+        "#fields":
+          image:
+            "#type": html_tag
+            "#tag": img
+            "#attributes":
+              src: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJMaWdodCBCbHVlIENpcmNsZSIgdmlld2JveD0iMCAwIDEyNCAxMjQiIHdpZHRoPSIxMjQiIGhlaWdodD0iMTI0Ij48Y2lyY2xlIGlkPSJsaWdodF9ibHVlX2NpcmNsZSIgZmlsbD0iIzAwNzFiYyIgY3g9IjYyIiBjeT0iNjIiIHI9IjYyIi8+PC9zdmc+Cg==
+          heading: "Never highlight anything without a goal."
+          content:
+            "#type": html_tag
+            "#tag": p
+            "#value": "For anything you want to highlight here, understand what your users know now, and what activity or impression you want from them after they see it."
+      - "#type": pattern
+        "#id": graphic_list_item
+        "#fields":
+          image:
+            "#type": html_tag
+            "#tag": img
+            "#attributes":
+              src: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJMaWdodCBCbHVlIENpcmNsZSIgdmlld2JveD0iMCAwIDEyNCAxMjQiIHdpZHRoPSIxMjQiIGhlaWdodD0iMTI0Ij48Y2lyY2xlIGlkPSJsaWdodF9ibHVlX2NpcmNsZSIgZmlsbD0iIzAwNzFiYyIgY3g9IjYyIiBjeT0iNjIiIHI9IjYyIi8+PC9zdmc+Cg==
+          heading: "Could also have 2 or 6."
+          content:
+            "#type": html_tag
+            "#tag": p
+            "#value": "In addition to your goal, find out your users’ goals. What do they want to know or do that supports your mission? Use these headings to show those."
+  - "#type": pattern
+    "#id": section
+    "#fields":
+      content:
+        - "#type": html_tag
+          "#tag": h2
+          "#value": "Section heading"
+          "#attributes":
+            class:
+              - font-heading-xl
+              - margin-y-0
+        - "#type": html_tag
+          "#tag": p
+          "#value": "Everything up to this point should help people understand your agency or project: who you are, your goal or mission, and how you approach it. Use this section to encourage them to act. Describe why they should get in touch here, and use an active verb on the button below. “Get in touch,” “Learn more,” and so on."
+          "#attributes":
+            class: [usa-intro]
+        - "#type": pattern
+          "#id": button
+          "#label": Call to action
+          "#url": "#"

@@ -1,0 +1,13 @@
+{
+	"name": "drupal/flexistyle_bootstrap_scss",
+	"type": "drupal-theme",
+	"description": "The FlexiStyle Bootstrap SCSS theme is built on the foundation of FlexiStyle Bootstrap, providing the same compatibility and features, with added support for SCSS for more efficient styling.",
+	"homepage": "https://www.drupal.org/project/flexistyle_bootstrap_scss",
+	"license": "GPL-2.0+",
+	"require": {
+			"drupal/flexistyle_bootstrap": ">=1.2"
+	},
+	"authors": [{
+		"name": "Anoop Singh"
+	}]
+}

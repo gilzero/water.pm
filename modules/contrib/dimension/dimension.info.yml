@@ -1,0 +1,12 @@
+name: Dimension
+type: module
+description: Defines dimension field type.
+core_version_requirement: ^10 || ^11
+package: Field types
+dependencies:
+  - drupal:field
+
+# Information added by Drupal.org packaging script on 2023-11-29
+version: '2.1.0'
+project: 'dimension'
+datestamp: 1701271492

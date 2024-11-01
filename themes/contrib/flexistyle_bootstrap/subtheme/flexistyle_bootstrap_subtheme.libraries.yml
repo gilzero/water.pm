@@ -1,0 +1,15 @@
+global:
+  css:
+    theme:
+      css/base/elements.css: {}
+      css/layout/layout.css: {}
+      css/theme/print.css: { media: print }
+      css/component/header.css: {}
+      css/component/footer.css: {}
+      css/component/content.css: {}
+      css/component/style.css: {}
+  js:
+    js/global.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

@@ -1,0 +1,16 @@
+{% set body %}
+   <h2 class="usa-graphic-list__heading">
+      {{ heading }}
+    </h2>
+    {{ content }}
+{% endset %}
+{{
+  pattern(
+    'media_block',
+    {
+      attributes: attributes,
+      image: image,
+      body: body
+    }
+  )
+}}

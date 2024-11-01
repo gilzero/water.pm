@@ -1,0 +1,17 @@
+checkbox:
+  label: "Checkbox"
+  description: "Checkboxes allow users to select one or more options from a list."
+  links:
+    - "https://designsystem.digital.gov/components/checkbox/"
+  category: "Forms"
+  settings:
+    tile:
+      type: "boolean"
+      label: "Tiled"
+      description: "Should each checkbox have a tile."
+      preview: true
+    indeterminate:
+      type: "boolean"
+      label: "Indeterminate attribute"
+      description: "Adds data-indeterminate to checkbox"
+      preview: false

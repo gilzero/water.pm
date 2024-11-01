@@ -1,0 +1,41 @@
+alert:
+  label: "Alert"
+  description: "An alert keeps users informed of important and sometimes time-sensitive changes."
+  links:
+    - "https://designsystem.digital.gov/components/alert/"
+  category: "Alerts / Banner"
+  variants:
+    info:
+      label: "Informative"
+    warning:
+      label: "Warning"
+    error:
+      label: "Error"
+    success:
+      label: "Success"
+    emergency:
+      label: "Emergency"
+  settings:
+    slim:
+      type: "boolean"
+      label: "Slim"
+      description: "Display an alert slimmer then default."
+      allow_expose: true
+      allow_token: true
+    no_icon:
+      type: "boolean"
+      label: "No Icon"
+      description: "Display an alert without an icon."
+      allow_expose: true
+      allow_token: true
+  fields:
+    heading:
+      type: "text"
+      label: "Heading"
+      description: "The alert heading. Optional."
+      preview: "Hello world"
+    message:
+      type: "render"
+      label: "Message"
+      description: "The alert message"
+      preview: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."

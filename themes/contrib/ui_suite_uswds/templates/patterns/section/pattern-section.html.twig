@@ -1,0 +1,9 @@
+{% if variant and variant|lower != 'default' %}
+  {% set attributes = attributes.addClass('usa-section--' ~ variant|lower) %}
+{% endif %}
+
+<section{{ attributes.addClass('usa-section') }}>
+  <div class="grid-container">
+  {{ content }}
+  </div>
+</section>

@@ -1,0 +1,22 @@
+{
+    "name": "drupal/visually_impaired_theme",
+    "description": "Theme provides version for visually impaired people according to Russian legislation.",
+    "type": "drupal-theme",
+    "homepage": "https://www.drupal.org/project/visually_impaired_theme",
+    "authors": [
+        {
+            "name": "Andrei Ivnitskii",
+            "homepage": "https://www.drupal.org/u/ivnish",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/visually_impaired_theme",
+        "source": "https://git.drupalcode.org/project/visually_impaired_theme"
+    },
+    "minimum-stability": "dev",
+    "suggest": {
+        "drupal/visually_impaired_module": "Module provides version switcher block for visually impaired people according to Russian legislation"
+    },
+    "require": {}
+}

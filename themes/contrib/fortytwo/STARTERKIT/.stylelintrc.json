@@ -1,0 +1,20 @@
+{
+  "extends": "stylelint-config-recommended-scss",
+  "plugins": [
+    "stylelint-order"
+  ],
+    "rules": {
+      "color-hex-case": "upper",
+      "color-hex-length": "long",
+      "selector-pseudo-element-colon-notation": "single",
+      "string-quotes": "single",
+      "selector-class-pattern": null,
+      "scss/no-global-function-names": null,
+      "scss/at-extend-no-missing-placeholder": null,
+      "order/properties-alphabetical-order": true,
+      "selector-list-comma-newline-after": null,
+      "max-line-length": null,
+      "no-descending-specificity": null,
+      "color-function-notation": "legacy"
+    }
+  }

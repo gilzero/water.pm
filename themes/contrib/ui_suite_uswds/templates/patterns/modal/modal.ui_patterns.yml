@@ -1,0 +1,53 @@
+modal:
+  label: "Modal"
+  description: "A modal disables page content and focuses the user’s attention on a single task or message."
+  links:
+    - "https://designsystem.digital.gov/components/modal/"
+  category: "Dialog"
+  variants:
+    default:
+      label: "Default"
+    lg:
+      label: "Large"
+  settings:
+    button_text:
+      type: "textfield"
+      label: "Button text"
+      description: "Text to display on button that will open modal."
+      required: true
+      preview: "Open modal"
+    forced_action:
+      type: "boolean"
+      label: "Forced Action"
+      description: "Force user to make a selection (removed close button)."
+    modal_id:
+      type: "textfield"
+      label: "ID"
+      description: "ID used by external buttons to toggle the visibility. Must start with a letter. Randomly generated if empty."
+    yes_text:
+      type: "textfield"
+      label: "Yes Text"
+      description: "Text 'Yes' button should go to. Defaults to Save changes"
+    yes_url:
+      type: "textfield"
+      label: "Yes URL"
+      description: "URL 'Yes' button should go to. Defaults to just close"
+    no_text:
+      type: "textfield"
+      label: "No Text"
+      description: "Text 'No' button should go to. Defaults to close"
+    no_url:
+      type: "textfield"
+      label: "No URL"
+      description: "URL 'No' button should go to. Defaults to just close"
+  fields:
+    title:
+      type: "text"
+      label: "Title"
+      description: "Modal title."
+      preview: "Modal title"
+    body:
+      type: "render"
+      label: "Body"
+      description: "The content of the modal."
+      preview: "Modal body text goes here."

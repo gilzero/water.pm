@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  theme:
+    - flexistyle_bootstrap_subtheme
+id: flexistyle_bootstrap_subtheme_primary_local_tasks
+theme: flexistyle_bootstrap_subtheme
+region: highlighted
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

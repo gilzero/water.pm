@@ -1,0 +1,197 @@
+.layout-region-node-footer__content .description {
+  margin: 0;
+}
+
+.node-from .layout-node-form {
+  height: 100%;
+}
+
+.layout-region-node-secondary,
+.layout-region-node-footer,
+.layout-region-node-main {
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 100%;
+  margin: 20px 0;
+  padding: 0;
+  -webkit-box-shadow: 0px 0px 19px 19px rgba(180, 180, 180, 0.1);
+  box-shadow: 0px 0px 19px 19px rgba(180, 180, 180, 0.1);
+}
+
+.layout-region-node-footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+}
+
+.layout-region-node-footer__content {
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #f8f9fa;
+}
+
+.page-content {
+  margin-bottom: 80px;
+}
+
+.layout-icon__region {
+  fill: #f5f5f2;
+  stroke: #666;
+}
+
+.layout__region--content .w3-table-all {
+  border-color: #eaeaea !important;
+}
+
+.layout-node-form .w3-row > fieldset > div,
+.layout-node-form .w3-row > fieldset > div > div {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.layout__region--content > .w3-row > fieldset {
+  margin-bottom: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+.admin-context .block-local-tasks-block,
+.admin-context #drupal-off-canvas:not(.drupal-off-canvas-reset),
+.admin-context #drupal-off-canvas-wrapper,
+.admin-context .block-system-main-block {
+  font-family: "Helvetica", sans-serif;
+}
+
+.layout-node-form .w3-responsive {
+  overflow-x: unset;
+}
+
+.layout-node-form .paragraph-type-label,
+.layout-node-form .form-item label,
+.layout-node-form .form-item .label {
+  display: inline-block;
+  padding-bottom: 8px;
+  font-weight: normal;
+}
+
+.layout-node-form .paragraph-type-label {
+  padding-bottom: 0;
+}
+
+.layout-node-form  .form-type-radio label,
+.layout-node-form  .form-type-checkbox label {
+  padding-bottom: 0;
+  display: inline;
+}
+
+.layout-region-node-footer__content {
+  border-top: none;
+}
+
+.layout-node-form [type=checkbox],
+.layout-node-form [type=radio] {
+  float: left;
+  top: 0;
+}
+
+.layout-node-form th .paragraphs-actions {
+  margin-right: 0 !important;
+}
+
+.layout-node-form .paragraph-top {
+  align-items: center !important;
+}
+
+.layout-node-form .field-multiple-drag {
+  vertical-align: middle !important;
+}
+
+.layout-node-form .paragraphs-actions > .button + .paragraphs-dropdown {
+  margin: 0 8px !important;
+}
+
+.layout-node-form .form-wrapper .paragraphs-dropdown-action.button,
+.layout-node-form .paragraphs-dropdown-actions input {
+  margin: 0 !important;
+}
+
+.layout-region-node-footer__content .form-actions {
+  display: flex;
+}
+
+.layout-node-form .form-actions>input:last-of-type {
+  margin-right: 0;
+}
+
+.layout-node-form div.description,
+.layout-node-form .form-item .w3-small,
+.layout-node-form .form-item .description {
+  padding: 5px !important;
+  margin: 5px 0 !important;
+  display: block;
+}
+
+.layout-node-form .description ul,
+.layout-node-form .description ul li {
+  list-style: none;
+  margin: 0;
+}
+
+.layout-node-form .description .des-spacer {
+  font-weight: bold;
+}
+
+.layout-region-node-secondary .entity-meta div,
+.layout-region-node-secondary .entity-meta table,
+.layout-region-node-secondary .entity-meta details {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.layout-region-node-secondary .entity-meta summary {
+  padding: 0 !important;
+}
+
+.layout-region-node-secondary .entity-meta > div > div,
+.layout-region-node-secondary .entity-meta > details > div {
+  margin: 0 !important;
+}
+
+.vertical-tabs .w3-panel,
+.vertical-tabs .w3-container,
+.vertical-tabs .w3-section {
+  margin-bottom: 0;
+}
+
+.vertical-tabs .w3-panel,
+.vertical-tabs .w3-container,
+.layout-region-node-secondary .entity-meta details .w3-panel,
+.layout-region-node-secondary .entity-meta .fieldset-wrapper,
+.layout-region-node-secondary .entity-meta fieldset {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.layout-region-node-secondary .entity-meta > details[open] {
+  padding: 8px !important;
+  background-color: #f8f8f8 !important;
+}
+
+.layout-region-node-secondary .entity-meta > details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+}

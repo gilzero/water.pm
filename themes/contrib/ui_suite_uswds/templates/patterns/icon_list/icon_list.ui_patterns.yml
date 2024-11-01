@@ -1,0 +1,40 @@
+icon_list:
+  label: "Icon List"
+  description: "An icon list reinforces the meaning and visibility of individual list items with a leading icon."
+  links:
+    - "https://designsystem.digital.gov/components/icon-list/"
+  category: "List"
+  fields:
+    items:
+      type: "list"
+      label: "Items"
+      description: "Icon list items."
+      preview:
+        - type: "pattern"
+          id: "icon_list_item"
+          icon_attributes: { }
+          fields:
+            header: "Let the sun shine."
+            body:
+              - type: "markup"
+                markup: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero. Vivamus pharetra posuere sapien.</p>'
+            attributes: { }
+            icon_name: "check_circle"
+        - type: "pattern"
+          id: "icon_list_item"
+          icon_attributes: { }
+          fields:
+            header: "Adjust your schedule."
+            body:
+              - type: "markup"
+                markup: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero. Vivamus pharetra posuere sapien.</p>'
+            attributes: { }
+            icon_name: "check_circle"
+        - type: "pattern"
+          id: "icon_list_item"
+          icon_attributes: { }
+          fields:
+            header: "Fill it up."
+            body: ''
+            attributes: { }
+            icon_name: "cancel"

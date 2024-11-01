@@ -1,0 +1,37 @@
+# Default settings of FlexiStyle Bootstrap.
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  use_default: true
+favicon:
+  use_default: true
+
+bootstrap: 'cdn'
+bootstrap_cdn: v5.3
+bootstrap_local: v5.3
+bootstrap_container: 'container'
+
+local_fonts: 'none'
+google_fonts: 'none'
+global_icons: 'fontawesome'
+global_icons_fontawesome: fa_local
+global_style: ''
+
+top_header_classes: 'py-2 small'
+
+header_position: 'sticky-top'
+header_style: 'style-2'
+header_navbar_bg: 'bg-purple'
+header_classes: 'shadow bg-body-tertiary'
+
+sidebar_block_bg: 'bg-secondary-subtle'
+sidebar_block_classes: ''
+
+footer_bg: 'bg-dark'
+footer_classes: 'text-light'
+footer_top_classes: 'py-4'
+footer_bottom_bg: 'bg-black'
+footer_bottom_classes: 'py-3 text-center small'

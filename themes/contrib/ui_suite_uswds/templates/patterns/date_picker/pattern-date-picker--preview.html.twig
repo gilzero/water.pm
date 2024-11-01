@@ -1,0 +1,16 @@
+{% set attributes = create_attribute({
+  'class': [
+    'usa-date-picker__external-input'
+  ],
+  'id': 'test-date-picker',
+  'name': 'test-date-picker',
+  'aria-labelledby': 'test-date-picker-label',
+  'aria-describedby': 'test-date-picker-desc'
+}) %}
+
+{{ pattern('label', {
+  'for_value': 'test-date-picker',
+  'label': 'Test Date Picker'
+}) }}
+
+{% include 'pattern-date-picker.html.twig' %}

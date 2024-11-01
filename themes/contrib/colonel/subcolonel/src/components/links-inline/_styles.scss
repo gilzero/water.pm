@@ -1,0 +1,13 @@
+//VARIABLES
+$linkInlineItemMargin: 0 2rem 0 0;
+$linkInlineColor: $accent;
+$linkInlineTextDecoration: none;
+$linkInlineHoverColor: $accentDark;
+$linkInlineHoverTextDecoration: underline;
+$linkInlineFontSize: 1.6rem;
+$linkInlineFontWeight: 700;
+
+//IMPORT
+@import "../../../../colonel/src/components/links-inline/styles";
+
+//CUSTOM

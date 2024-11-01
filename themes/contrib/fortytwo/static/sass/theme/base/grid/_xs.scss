@@ -1,0 +1,59 @@
+// MOBILE PORTRAIT
+$grid-columns: $xs-grid-columns;
+$grid-column-width: $xs-grid-column-width;
+$grid-gutter-width: $xs-grid-gutter-width;
+
+body {
+  @include visualize-grid;
+
+  max-width: 100%;
+  width: 100%;
+
+  &.show-grid {
+    @include visualize-grid;
+  }
+
+  &.show-responsive-identifier {
+    .responsive-identifier {
+      background: $xs-identifier-color;
+
+      &:after {
+        content: $xs-identifier-text;
+      }
+    }
+  }
+}
+
+.offset-xs-0 {
+  margin-left: 0;
+}
+
+@for $grid-column from 1 through $grid-columns {
+  .#{'col-xs-' + $grid-column} {
+    @include span-columns($grid-column, false);
+  }
+}
+
+@for $grid-column from 1 through $grid-columns {
+  .#{'col-xs-' + $grid-column + '-gutter'} {
+    @include span-columns($grid-column, true);
+  }
+}
+
+@for $grid-column from 1 through $grid-columns {
+  .#{'col-xs-fluid-' + $grid-column} {
+    @include span-fluid-columns($grid-column, false);
+  }
+}
+
+@for $grid-column from 1 through $grid-columns {
+  .#{'col-xs-fluid-' + $grid-column + '-gutter'} {
+    @include span-fluid-columns($grid-column, true);
+  }
+}
+
+@for $grid-column from 1 through $grid-columns {
+  .#{'offset-xs-' + $grid-column} {
+    margin-left: calc-grid($grid-column) + $grid-gutter-width + px;
+  }
+}

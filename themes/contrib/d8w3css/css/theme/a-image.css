@@ -1,0 +1,38 @@
+@keyframes animateimg {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
+
+}
+
+a.d8-has-image {
+  overflow: hidden;
+  display: block;
+  height: 100%;
+  min-width: 100%;
+}
+
+a.d8-has-image > img.w3-image {
+  width: 100%;
+  float: left;
+}
+
+.w3-disabled-has-image a.d8-has-image > img.w3-image {
+  width: auto;
+}
+
+a:hover > img.w3-image {
+  animation: animateimg 5s;
+}
+
+a,
+li a,
+a .fa,
+button,
+.w3-button {
+  transition: 0.4s;
+}

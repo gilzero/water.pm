@@ -1,0 +1,28 @@
+language_selector:
+  label: "Language Selector"
+  description: "The consistent placement, interface, and behavior of the language selection component allows users to easily find and access content in the language the user is most comfortable in."
+  links:
+    - "https://designsystem.digital.gov/components/language-selector/"
+  category: "Language"
+  settings:
+    language_label:
+      type: "textfield"
+      label: "Language label"
+      description: "Label for the button"
+      preview: "Test language selector"
+    items:
+      type: "links"
+      label: "Language buttons"
+      preview:
+        - label: English
+          url: "/"
+          attributes:
+            lang: en
+        - label: Spanish
+          url: "/es"
+          attributes:
+            lang: es
+        - label: French
+          url: "/fr"
+          attributes:
+            lang: fr

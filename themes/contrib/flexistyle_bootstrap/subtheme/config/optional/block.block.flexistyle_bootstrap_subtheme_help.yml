@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - flexistyle_bootstrap_subtheme
+id: flexistyle_bootstrap_subtheme_help
+theme: flexistyle_bootstrap_subtheme
+region: help
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

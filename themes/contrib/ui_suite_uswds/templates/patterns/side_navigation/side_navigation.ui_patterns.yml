@@ -1,0 +1,26 @@
+side_navigation:
+  label: "Side Navigation"
+  description: "Hierarchical, vertical navigation to place at the side of a page."
+  links:
+    - "https://designsystem.digital.gov/components/side-navigation/"
+  category: "Navigation"
+  settings:
+    items:
+      type: "links"
+      label: "Menu items"
+      description: "Full-height and lightweight navigation (including support for dropdowns)."
+      preview:
+        - title: "Home"
+          url: "https://example.com"
+        - title: "Library"
+          url: "https://example.com"
+          is_expanded: true
+          in_active_trail: true
+          below:
+            - title: "Sub 1"
+              url: "https://example.com"
+              in_active_trail: true
+            - title: "Sub 2"
+              url: "https://example.com"
+        - title: "Data"
+          url: "https://example.com"

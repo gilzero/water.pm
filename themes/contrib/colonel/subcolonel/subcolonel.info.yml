@@ -1,0 +1,13 @@
+name: Sub Colonel
+type: theme
+description: Subtheme for Colonel
+package: Other
+base theme: colonel
+core_version_requirement: ^10 || ^11
+libraries:
+  - subcolonel/base
+
+# Information added by Drupal.org packaging script on 2024-09-24
+version: '2.2.0'
+project: 'colonel'
+datestamp: 1727167887

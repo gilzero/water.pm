@@ -1,0 +1,24 @@
+name: Visually Impaired Theme
+type: theme
+description: "Theme provides version for visually impaired people according to Russian legislation."
+core_version_requirement: ^9 || ^10 || ^11
+base theme: false
+
+libraries: 
+  - visually_impaired_theme/visually_impaired_theme
+  - visually_impaired_theme/customcss
+
+regions:
+  header: Header
+  navigation: Navigation
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  sidebar_first: Sidebar first
+  sidebar_second: Sidebar second
+  footer: Footer
+
+# Information added by Drupal.org packaging script on 2024-08-06
+version: '8.x-1.9'
+project: 'visually_impaired_theme'
+datestamp: 1722946774

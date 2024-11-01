@@ -1,0 +1,38 @@
+footer_contact_region:
+  label: "Footer contact region"
+  description: "The contact section of the footer."
+  category: "Layout"
+  settings:
+    is_slim:
+      type: "boolean"
+      label: "Is slim?"
+      description: "Flag to determine if slim footer is being used."
+    agency_contact_center:
+      type: "textfield"
+      label: "Agency logo"
+      description: "Path to footer agency logo (from this theme's folder)."
+      preview: "Agency Contact Center"
+    agency_email:
+      type: "textfield"
+      label: "Agency email"
+      preview: "info@agency.gov"
+    agency_phone:
+      type: "textfield"
+      label: "Agency phone"
+      preview: "(800) CALL-GOVT"
+    social_links:
+      type: "links"
+      label: "Social media links"
+      preview:
+        - title: "Facebook"
+          url: "https://www.facebook.com/"
+          icon: "https://cdn.jsdelivr.net/npm/@uswds/uswds@3.8.0/dist/img/usa-icons/facebook.svg"
+        - title: "Instagram"
+          url: "https://www.instagram.com/"
+          icon: "https://cdn.jsdelivr.net/npm/@uswds/uswds@3.8.0/dist/img/usa-icons/instagram.svg"
+        - title: "RSS"
+          url: "#rss"
+          icon: "https://cdn.jsdelivr.net/npm/@uswds/uswds@3.8.0/dist/img/usa-icons/rss_feed.svg"
+        - title: "YouTube"
+          url: "https://www.youtube.com/"
+          icon: "https://cdn.jsdelivr.net/npm/@uswds/uswds@3.8.0/dist/img/usa-icons/youtube.svg"

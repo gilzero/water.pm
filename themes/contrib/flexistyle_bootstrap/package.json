@@ -1,0 +1,20 @@
+{
+  "name": "flexistyle_bootstrap",
+  "private": true,
+  "description": "FlexiStyle Bootstrap theme is a base theme for Drupal. This theme is fully compatible with Drupal 10.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CSS",
+    "User interface",
+    "Drupal Base theme",
+    "Drupal",
+    "Flexi Style",
+    "FlexiStyle Bootstrap",
+    "Drupal theme",
+    "Bootstrap",
+    "Bootstrap theme"
+  ],
+  "author": "@anoopsingh92"
+}

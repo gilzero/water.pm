@@ -1,0 +1,13 @@
+<section{{ attributes.addClass('usa-graphic-list') }}>
+ <div class="grid-container">
+  {% for item in items %}
+    {% if cycle(['even', 'odd'], loop.index0) == "even" %}
+    <div class="usa-graphic-list__row grid-row grid-gap">
+    {% endif %}
+      {{ item|add_class("tablet:grid-col") }}
+    {% if cycle(['even', 'odd'], loop.index0) == "odd" %}
+    </div>
+    {% endif %}
+  {% endfor %}
+  </div>
+</section>

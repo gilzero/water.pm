@@ -1,0 +1,28 @@
+//VARIABLES
+/*primary*/
+$btnPrimaryPadding: 1.2rem 2.5rem;
+$btnPrimaryBorder: 1px solid $accent;
+$btnPrimaryRadius: 4px;
+$btnPrimaryBackground: $accent;
+$btnPrimaryColor: #FFF;
+$btnPrimaryFontWeight: 700;
+$btnPrimaryHoverBorderColor: $accentDark;
+$btnPrimaryHoverBackground: $accentDark;
+$btnPrimaryHoverColor: #fff;
+/*secondary*/
+$btnSecondaryPadding: 1.2rem 2.5rem;
+$btnSecondaryBorder: 1px solid $borderGlobalColor;
+$btnSecondaryRadius: 4px;
+$btnSecondaryBackground: $borderGlobalColor;
+$btnSecondaryColor: #FFF;
+$btnSecondaryFontWeight: 700;
+$btnSecondaryHoverBorderColor: $borderGlobalColorDark;
+$btnSecondaryHoverBackground: $borderGlobalColorDark;
+$btnSecondaryHoverColor: #fff;
+/*large*/
+$btnLargePadding: 2rem 4rem;
+
+//IMPORT
+@import "../../../../colonel/src/components/buttons/styles";
+
+//CUSTOM

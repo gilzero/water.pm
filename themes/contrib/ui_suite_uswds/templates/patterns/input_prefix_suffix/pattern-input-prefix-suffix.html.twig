@@ -1,0 +1,19 @@
+<div class="usa-input-group">
+  {% if not suffix %}
+    <div class="usa-input-prefix" aria-hidden="true">
+      <svg aria-hidden="true" role="img" focusable="false" class="usa-icon">
+        <use xlink:href="{{ icon_path }}#{{ icon_name }}"></use>
+      </svg>
+    </div>
+  {% endif %}
+
+  <input{{ attributes.addClass('usa-input') }} />
+
+  {% if suffix %}
+    <div class="usa-input-suffix" aria-hidden="true">
+      <svg aria-hidden="true" role="img" focusable="false" class="usa-icon">
+        <use xlink:href="{{ icon_path }}#{{ icon_name }}"></use>
+      </svg>
+    </div>
+  {% endif %}
+</div>

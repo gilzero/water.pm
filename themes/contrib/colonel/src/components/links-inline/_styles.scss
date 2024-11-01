@@ -1,0 +1,18 @@
+.links.inline {
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline-block;
+    margin: $linkInlineItemMargin;
+    font-size: $linkInlineFontSize;
+  }
+  a {
+    color: $linkInlineColor;
+    text-decoration: $linkInlineTextDecoration;
+    font-weight: $linkInlineFontWeight;
+    &:hover, &:focus {
+      color: $linkInlineHoverColor;
+      text-decoration: $linkInlineHoverTextDecoration;
+    }
+  }
+}

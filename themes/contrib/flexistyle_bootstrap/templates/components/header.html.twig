@@ -1,0 +1,205 @@
+{{ attach_library('flexistyle_bootstrap/header') }}
+{% set top_header_attribute = create_attribute() %}
+{% set header_nav_attribute = create_attribute() %}
+
+{% set topHeaderClasses = [
+    'navbar',
+    'navbar-expand-lg',
+    'bg-body-secondary',
+    top_header_classes,
+  ]
+%}
+{% set headerClasses = [
+    'flex-header',
+    header_classes,
+    header_position,
+  ]
+%}
+{% set style1 = [
+    'py-3',
+    'w-100',
+    'collapse',
+    'border-top',
+    'border-4',
+    'border-primary',
+    'primary-nav',
+    header_style,
+  ]
+%}
+{% set style2 = [
+    'py-3',
+    'w-100',
+    'collapse',
+    'primary-nav',
+    header_style,
+    header_navbar_bg,
+  ]
+%}
+{% set style3 = [
+    'primary-nav',
+    header_style,
+  ]
+%}
+
+<header{{attributes.setAttribute('id','header').setAttribute('role','banner').addClass(headerClasses)}}>
+	{% if page.secondary_menu %}
+		<div{{top_header_attribute.addClass(topHeaderClasses)}}>
+			<div class="{{ container }}">
+				<button type="button" role="button" class="border-0 fs-6 navbar-toggler p-0" data-bs-toggle="collapse" data-bs-target="#secondary-nav" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div id="secondary-nav" class="secondary-nav collapse navbar-collapse justify-content-end">
+					{{ page.secondary_menu }}
+				</div>
+			</div>
+		</div>
+	{% endif %}
+
+	{% if page.header or page.primary_menu %}
+		{% if header_style == 'style-1' %}
+			<div class="header-{{header_style}} navbar {{header_navbar_dark}} {{header_navbar_bg}} navbar-expand-lg flex-column p-0">
+				<div class="justify-content-between py-2 w-100">
+					<div class="{{ container }}">
+						<div class="row align-items-center">
+							<div class="col-6 col-sm-4">
+								{% if page.header %}
+									{{ page.header }}
+								{% endif %}
+							</div>
+							<div class="col-6 col-sm-8">
+								<div class="d-flex align-items-end flex-column">
+									<div class="d-lg-flex d-none align-items-lg-end flex-lg-column">
+										{% if page.search %}
+											{{ page.search }}
+										{% endif %}
+										{% if page.primary_menu %}
+											{{ page.primary_menu }}
+										{% endif %}
+									</div>
+									<button type="button" role="button" class="navbar-toggler {{header_navbar_bg}}" data-bs-toggle="collapse" data-bs-target="#primary-nav" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation" title="FlexiStyle Navigation">
+										{% if icons == 'fontawesome' %}
+											<i class="fa-solid fa-bars fa-2x"></i>
+										{% elseif icons == 'google-material' %}
+											<span class="material-icons md-36">menu_open</span>
+										{% elseif icons == 'bootstrap-icons' %}
+											<i class="bi bi-list-nested fs-1"></i>
+										{% else %}
+											<span class="navbar-toggler-icon"></span>
+										{% endif %}
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div{{header_nav_attribute.addClass(style1).setAttribute('id','primary-nav')}}>
+					<div class="{{ container }}">
+						<div class="d-lg-none">
+							{% if page.search %}
+								{{ page.search }}
+							{% endif %}
+						</div>
+						{{ page.primary_menu }}
+					</div>
+				</div>
+			</div>
+		{% elseif header_style == 'style-2' %}
+			<div class="header-{{header_style}} navbar {{header_navbar_dark}} navbar-expand-lg flex-column p-0">
+				<div class="justify-content-between py-2 w-100">
+					<div class="{{ container }}">
+						<div class="row align-items-center">
+							<div class="col-6 col-sm-4">
+								{% if page.header %}
+									{{ page.header }}
+								{% endif %}
+							</div>
+							<div class="col-6 col-sm-8">
+								<div class="d-flex justify-content-end">
+									<div class="d-none d-lg-block">
+										{% if page.search %}
+											{{ page.search }}
+										{% endif %}
+									</div>
+									<button type="button" role="button" class="navbar-toggler {{header_navbar_bg}}" data-bs-toggle="collapse" data-bs-target="#primary-nav" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation" title="FlexiStyle Navigation">
+										{% if icons == 'fontawesome' %}
+											<i class="fa-solid fa-bars fa-2x"></i>
+										{% elseif icons == 'google-material' %}
+											<span class="material-icons md-36">menu_open</span>
+										{% elseif icons == 'bootstrap-icons' %}
+											<i class="bi bi-list-nested fs-1"></i>
+										{% else %}
+											<span class="navbar-toggler-icon"></span>
+										{% endif %}
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="{{header_navbar_bg}} w-100 d-none d-lg-block">
+					<div class="{{ container }}">
+						{{ page.primary_menu }}
+					</div>
+				</div>
+				<div{{header_nav_attribute.addClass(style2).setAttribute('id','primary-nav')}}>
+					<div class="{{ container }}">
+						<div class="d-lg-none">
+							{% if page.search %}
+								{{ page.search }}
+							{% endif %}
+						</div>
+						{{ page.primary_menu }}
+					</div>
+				</div>
+			</div>
+		{% elseif header_style == 'style-3' %}
+			<div class="header-{{header_style}} navbar {{header_navbar_dark}} flex-column p-0">
+				<div class="justify-content-between py-2 w-100">
+					<div class="{{ container }}">
+						<div class="row align-items-center">
+							<div class="col-6 col-sm-4">
+								{% if page.header %}
+									{{ page.header }}
+								{% endif %}
+							</div>
+							<div class="col-6 col-sm-8">
+								<div class="d-flex align-items-center justify-content-end">
+									<div class="d-none d-lg-block">
+										{% if page.search %}
+											{{ page.search }}
+										{% endif %}
+									</div>
+									<button type="button" role="button" class="btn btn-link ms-3 p-0" data-bs-toggle="offcanvas" data-bs-target="#primary-nav" aria-controls="primary-nav" aria-label="Toggle navigation" title="FlexiStyle Navigation">
+										{% if icons == 'fontawesome' %}
+											<i class="fa-solid fa-bars fa-2x"></i>
+										{% elseif icons == 'google-material' %}
+											<span class="material-icons md-36">menu_open</span>
+										{% elseif icons == 'bootstrap-icons' %}
+											<i class="bi bi-list-nested fs-1"></i>
+										{% else %}
+											<span class="navbar-toggler-icon"></span>
+										{% endif %}
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="offcanvas offcanvas-end {{header_navbar_bg}} {{header_text_dark}}" tabindex="-1" id="primary-nav" aria-labelledby="primary-navLabel">
+					<div class="offcanvas-header">
+						<h5 class="offcanvas-title" id="primary-navLabel">FlexiStyle Navigation</h5>
+						<button type="button" role="button" class="btn-close {{header_close_white}} {{header_navbar_bg}}" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body">
+						<div{{header_nav_attribute.addClass(style3).setAttribute('id','primary-nav')}}>
+							{% if page.search %}
+								{{ page.search }}
+							{% endif %}
+							{{ page.primary_menu }}
+						</div>
+					</div>
+				</div>
+			</div>
+		{% endif %}
+	{% endif %}
+</header>

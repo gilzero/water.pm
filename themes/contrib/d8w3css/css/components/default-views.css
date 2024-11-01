@@ -1,0 +1,85 @@
+#views-entity-list {
+  padding: 0.01em 16px;
+}
+
+.views-ui-view-displays ul li {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.view-filters details.form-wrapper {
+  margin: 16px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.view-filters details.form-wrapper:hover {
+  cursor: pointer;
+}
+
+.view-header {
+  padding: 0 16px;
+}
+
+#view-edit-form  .dropbutton li a {
+  padding: 3px 9px;
+}
+
+.views-ui-display-tab-bucket {
+  padding-top: 11px;
+}
+
+.js .views-edit-view .dropbutton-wrapper .dropbutton .dropbutton-action > *,
+.views-display-setting,
+.views-display-setting input,
+.views-display-setting .label,
+.views-display-extra-actions a {
+  font-size: 14px !important;
+}
+
+.views-preview-wrapper {
+  border-color: #eaeaea;
+  padding: 10px;
+  margin: 0 16px 8px 16px;
+}
+
+.js .views-edit-view .dropbutton-wrapper .dropbutton .dropbutton-action input {
+  margin: 2px 0 !important;
+  border: none !important;
+  float: right;
+  width: 100%;
+  text-align: left;
+}
+
+.view-preview-form > h2,
+.view-preview-form > .w3-section {
+  width: 100%;
+  display: block;
+  clear: both;
+  position: static;
+}
+
+.views-filterable-options-controls .form-item {
+  float: left;
+}
+
+.views-ui-display-tab-bucket .views-display-setting {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.views-ui-display-tab-bucket .dropbutton-wrapper {
+  top: 1px;
+}
+
+.views-align-left {
+  text-align: left !important;
+}
+
+.views-align-right {
+  text-align: right !important;
+}
+
+.views-align-center {
+  text-align: center !important;
+}

@@ -1,0 +1,63 @@
+button:
+  label: "Button"
+  description: "A button draws attention to important actions with a large selectable surface."
+  links:
+    - "https://designsystem.digital.gov/components/button/"
+  category: "Buttons"
+  variants:
+    default:
+      label: "Default"
+    secondary:
+      label: "Secondary"
+      description: "Button uses secondary color."
+    accent_cool:
+      label: "Accent-cool"
+      description: "Button uses accent-cool color."
+    accent_warm:
+      label: "Accent-warm"
+      description: "Button uses accent-warm color."
+    base:
+      label: "Base"
+      description: "Button uses base color."
+    outline:
+      label: "Outline"
+      description: "Transparent button with a color stroke."
+    inverse:
+      label: "Outline Inverse"
+      description: "Light color button for dark backgrounds."
+    unstyled:
+      label: "Unstyled"
+      description: "A button that looks like a link."
+    default__big:
+      label: "Primary (Big)"
+      description: "Primary. A bigger button."
+    secondary__big:
+      label: "Secondary (Big)"
+      description: "Button uses secondary color. A bigger button."
+    accent_cool__big:
+      label: "Accent-cool (Big)"
+      description: "Button uses accent-cool color. A bigger button."
+    accent_warm__big:
+      label: "Accent-warm (Big)"
+      description: "Button uses accent-warm color. A bigger button."
+    base__big:
+      label: "Base (Big)"
+      description: "Button uses base color. A bigger button."
+  settings:
+    disabled:
+      type: "boolean"
+      label: "Disabled?"
+      description: "Is the button disabled?"
+      allow_expose: true
+      allow_token: true
+    url:
+      type: "url"
+      label: "URL"
+      description: "The button URL. Optional."
+      preview: "https://example.com"
+  fields:
+    label:
+      type: "text"
+      label: "Label"
+      description: "The button label."
+      preview: "Submit"

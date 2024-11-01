@@ -1,0 +1,13 @@
+{% set attributes = create_attribute({
+  'id': 'credit-card-number',
+  'pattern': '[0-9]*',
+  'inputmode': 'numeric',
+  'autocomplete': 'off'
+}) %}
+
+{{ pattern('label', {
+  'for_value': 'credit-card-number',
+  'label': 'Credit card number'
+}) }}
+
+{% include 'pattern-input-prefix-suffix.html.twig' %}

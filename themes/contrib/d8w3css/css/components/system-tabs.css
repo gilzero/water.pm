@@ -1,0 +1,43 @@
+nav.w3-bar.w3-section.tabs {
+  margin: 10px 0 !important;
+  width: auto;
+}
+
+ul.tabs li,
+.action-links > li {
+  padding: 0 !important;
+}
+
+ul.primary {
+  border-bottom: 1px solid #ddd;
+}
+
+ul.primary li.is-active > a {
+  font-weight: bold;
+}
+
+nav.action-links > li {
+  float: left;
+}
+
+ul.primary > li {
+  border: none;
+  border-right: 1px dotted #ddd;
+  float: left;
+}
+
+ul.primary > li:last-child {
+  border-right: none !important;
+}
+
+ul.primary > li > a,
+nav.action-links > li > a {
+  text-align: center;
+  padding: 8px 16px;
+  display: block;
+}
+
+ul.secondary > li > a {
+  padding: 5px 10px;
+  display: block;
+}

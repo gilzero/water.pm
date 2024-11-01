@@ -1,0 +1,53 @@
+.breadcrumb {
+  margin: $breadcrumbMargin;
+  ol {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: $breadcrumbFontSize;
+    &:before {
+      content: "";
+      display: inline-block;
+      position: relative;
+      top: $breadcrumbArrowTop;
+      width: $breadcrumbArrowWidth;
+      height: $breadcrumbArrowHeight;
+      margin: $breadcrumbArrowMargin;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url('../../../assets/breadcrumb/arrow.svg');
+    }
+    @if $breadcrumbIconHome == 'yes' {
+      &:first-child {
+        a {
+          display: inline-block;
+          position: relative;
+          top: $breadcrumbIconHomeTop;
+          width: $breadcrumbIconHomeWidth;
+          height: $breadcrumbIconHomeHeight;
+          background-position: left center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-image: url('../../../assets/breadcrumb/home.svg');
+          text-indent: -9999em;
+        }
+      }
+    }
+    &:first-child {
+      &:before {
+        display: none;
+      }
+    }
+    &:last-child {
+      a {
+        color: $breadcrumbActiveColor;
+      }
+    }
+  }
+}

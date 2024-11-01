@@ -1,0 +1,17 @@
+graphic_list:
+  label: "Graphic list"
+  description: "A combination of grid rows and media blocks. Not found in the upstream documentation, but found in the USWDS examples."
+  category: "Layout"
+  fields:
+    items:
+      type: "render"
+      label: "Content"
+      preview:
+        - type: pattern_preview
+          id: graphic_list_item
+        - type: pattern_preview
+          id: graphic_list_item
+        - type: pattern_preview
+          id: graphic_list_item
+        - type: pattern_preview
+          id: graphic_list_item

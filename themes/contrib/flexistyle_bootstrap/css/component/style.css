@@ -1,0 +1,31 @@
+.user-pass p,
+.user-login-form + .item-list {
+  display: none;
+}
+.toolbar-fixed .toolbar-oriented .toolbar-bar {
+  z-index: 1021;
+}
+.toolbar-horizontal.toolbar-tray-open .offcanvas {
+  top: 79px;
+}
+.toolbar-horizontal .offcanvas,
+.toolbar-vertical .offcanvas {
+  top: 38px;
+}
+.flex-sidebar .block {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.flex-sidebar .block.bg-none {
+  padding: 0;
+}
+.flex-sidebar .block .block-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.page-title, .breadcrumb {
+  margin-bottom: 0;
+}
+.alert .placeholder {
+  background: transparent;
+}

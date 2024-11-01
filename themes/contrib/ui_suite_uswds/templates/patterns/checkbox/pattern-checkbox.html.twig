@@ -1,0 +1,9 @@
+{% if tile %}
+  {% set attributes = attributes.addClass('usa-checkbox__input--tile') %}
+{% endif %}
+
+{% if indeterminate %}
+  {% set attributes = attributes.setAttribute('data-indeterminate', 'true') %}
+{% endif %}
+
+<input{{ attributes.addClass('usa-checkbox__input').setAttribute('type', 'checkbox') }} />

@@ -1,0 +1,221 @@
+.main-container-inner {
+  color: #442900;
+}
+
+#copyright p,
+#copyright a {
+  color: #fff1dd;
+}
+
+#main-container .main-box > div {
+  background-color: #fff;
+}
+
+.w3-theme-l5 {
+  color: #442900 !important;
+  background-color: #fff9f0 !important;
+}
+
+.w3-theme-l4 {
+  color: #442900 !important;
+  background-color: #ffebcc !important;
+}
+
+.w3-theme-l3 {
+  color: #442900 !important;
+  background-color: #ffd699 !important;
+}
+
+.w3-theme-l2 {
+  color: #442900 !important;
+  background-color: #ffc266 !important;
+}
+
+.w3-theme-l1 {
+  color: #442900 !important;
+  background-color: #ffad33 !important;
+}
+
+.w3-theme-d1 {
+  color: #fff8ee !important;
+  background-color: #e68a00 !important;
+}
+
+.w3-theme-d2 {
+  color: #fff8ee !important;
+  background-color: #cc7a00 !important;
+}
+
+.w3-theme-d3 {
+  color: #fff8ee !important;
+  background-color: #b36b00 !important;
+}
+
+.w3-theme-d4 {
+  color: #fff8ee !important;
+  background-color: #995c00 !important;
+}
+
+.w3-theme-d5 {
+  color: #fff8ee !important;
+  background-color: #804d00 !important;
+}
+
+.w3-theme-light {
+  color: #442900 !important;
+  background-color: #fff9f0 !important;
+}
+
+.w3-theme-dark {
+  color: #fff8ee !important;
+  background-color: #804d00 !important;
+}
+
+.w3-theme-action {
+  color: #fff8ee !important;
+  background-color: #804d00 !important;
+}
+
+.w3-theme,
+.close-nav,
+.mobile-nav {
+  color: #442900 !important;
+  background-color: #ff9800 !important;
+}
+
+.w3-text-theme {
+  color: #ff9800 !important;
+}
+
+.w3-border-theme {
+  border-color: #ff9800 !important;
+}
+
+.w3-hover-theme:hover {
+  color: #442900 !important;
+  background-color: #ff9800 !important;
+}
+
+.w3-hover-text-theme:hover {
+  color: #ff9800 !important;
+}
+
+.w3-hover-border-theme:hover {
+  border-color: #ff9800 !important;
+}
+
+/* custom work */
+.w3-active-pager {
+  background-color: #fff9f0 !important;
+}
+
+.w3-hover-over:hover,
+.w3-button:hover {
+  background-color: #ffebcc !important;
+  color: #804d00 !important;
+}
+
+/* button animation  */
+@keyframes btnBorderAnimation {
+  0% {
+    width: 0;
+    height: 0;
+    border-bottom-color: #ff9800;
+  }
+
+  99.9999% {
+    width: 100%;
+    height: 100%;
+    border-bottom-color: #ff9800;
+  }
+
+  100% {
+    width: 0;
+    height: 0;
+    border-bottom-color: transparent;
+  }
+
+}
+
+/* Border animation  */
+@keyframes borderLeftColors {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: #ff9800;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  50% {
+    width: 100%;
+    height: 0;
+    border-top-color: #ff9800;
+    border-right-color: #ff9800;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  99.9999% {
+    width: 100%;
+    height: 100%;
+    border-top-color: #ff9800;
+    border-right-color: #ff9800;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  100% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+}
+
+@keyframes borderRightColors {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #ff9800;
+    border-left-color: transparent;
+  }
+
+  50% {
+    width: 100%;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #ff9800;
+    border-left-color: #ff9800;
+  }
+
+  99.9999% {
+    width: 100%;
+    height: 100%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #ff9800;
+    border-left-color: #ff9800;
+  }
+
+  100% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+}
+
+#footer-container .footer-box>div.animate-border:hover {
+  box-shadow: 0 25px 57px 0 rgba(255, 255, 255, .30);
+}

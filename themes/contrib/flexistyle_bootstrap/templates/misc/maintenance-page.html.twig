@@ -1,0 +1,59 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a single Drupal page while offline.
+ *
+ * All available variables are mirrored in page.html.twig.
+ * Some may be blank but they are provided for consistency.
+ *
+ * @see template_preprocess_maintenance_page()
+ *
+ * @ingroup themeable
+ */
+#}
+
+<div class="flex-maintainence-page">
+  <header class="mt-5 mb-5 text-center" role="region">
+    <div class="container">
+      {% if logo %}
+        <a href="{{ front_page }}" title="{{ 'Home'|t }}" class="flex-site-logo" rel="home">
+          <img src="{{ logo }}" alt="{{ 'Home'|t }}"/>
+        </a>
+      {% else %}
+        {% if site_name or site_slogan %}
+          {% if site_name %}
+            <h1>
+              <a href="{{ front_page }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a>
+            </h1>
+          {% endif %}
+          {% if site_slogan %}
+            <div>{{ site_slogan }}</div>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    </div>
+  </header>
+
+  <main class="flex-main" role="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-md-end">
+          <div class="spinner-border" style="width: 100px; height: 100px;" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow" style="width: 100px; height: 100px;" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <h2 class="text-primary display-1 fw-bold">We'll Be Back Soon!</h2>
+          {% if title %}
+            <h1 class="display-2">{{ title }}</h1>
+          {% endif %}
+          {{ page.highlighted }}
+          {{ page.content }}
+        </div>
+      </div>
+    </div>
+  </main>
+</div>

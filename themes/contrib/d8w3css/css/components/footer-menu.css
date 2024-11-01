@@ -1,0 +1,106 @@
+.ul-parent-footer li a {
+  padding: 7px 14px;
+}
+
+#footer-menu-inner > div {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.ul-parent-footer {
+  width: 100%;
+  clear: both;
+}
+
+.ul-parent-footer li {
+  float: none;
+  width: auto;
+  display: inline-block;
+}
+
+/* label form in the footer */
+.footer-menu-inner form label {
+  text-align: left;
+  float: left;
+}
+
+.social-media a > i:before {
+  content: "" !important;
+}
+
+.social-media a > i {
+  font-family: inherit !important;
+  transition: transform .2s;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  -webkit-filter: grayscale(0.8);
+  filter: grayscale(0.8);
+}
+
+.social-media a > i:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  transform: scale(1.3);
+}
+
+.social-media a > i.fa-facebook {
+  background-image: url(../../images/icons/facebook-circle.svg);
+}
+
+.social-media a > i.fa-twitter {
+  background-image: url(../../images/icons/twitter-circle.svg);
+}
+
+.social-media a > i.fa-pinterest {
+  background-image: url(../../images/icons/pinterest-circle.svg);
+}
+
+.social-media a > i.fa-google-plus {
+  background-image: url(../../images/icons/google-plus-circle.svg);
+}
+
+.social-media a > i.fa-linkedin {
+  background-image: url(../../images/icons/linkedin-circle.svg);
+}
+
+.social-media a > i.fa-instagram {
+  background-image: url(../../images/icons/instagram-circle.svg);
+}
+
+.social-media a > i.fa-youtube {
+  background-image: url(../../images/icons/youtube-circle.svg);
+}
+
+.social-media a > i.fa-drupal {
+  background-image: url(../../images/icons/drupal-circle.svg);
+}
+
+.social-media a > i.fa-mastodon {
+  background-image: url(../../images/icons/mastodon-circle.svg);
+}
+
+.social-media a > i.fa-rss {
+  background-image: url(../../images/icons/rss.svg);
+}
+
+.social-media {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.social-media a {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media a > .fa-ext {
+  font-weight: normal;
+  font-size: 16px;
+}

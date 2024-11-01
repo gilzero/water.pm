@@ -1,0 +1,40 @@
+colonel.imagesizing.xs:
+  label: xs
+  mediaQuery: '(max-width: 576px)'
+  weight: 0
+  multipliers:
+    - 1x
+    - 2x
+  group: colonel.imagesizing
+colonel.imagesizing.sm:
+  label: sm
+  mediaQuery: '(min-width: 576px)  and (max-width: 768px)'
+  weight: 1
+  multipliers:
+    - 1x
+    - 2x
+  group: colonel.imagesizing
+colonel.imagesizing.md:
+  label: md
+  mediaQuery: '(min-width: 768px) and (max-width: 992px)'
+  weight: 2
+  multipliers:
+    - 1x
+    - 2x
+  group: colonel.imagesizing
+colonel.imagesizing.lg:
+  label: lg
+  mediaQuery: '(min-width: 992px) and (max-width: 1200px)'
+  weight: 3
+  multipliers:
+    - 1x
+    - 2x
+  group: colonel.imagesizing
+colonel.imagesizing.xl:
+  label: xl
+  mediaQuery: '(min-width: 1200px)'
+  weight: 4
+  multipliers:
+    - 1x
+    - 2x
+  group: colonel.imagesizing

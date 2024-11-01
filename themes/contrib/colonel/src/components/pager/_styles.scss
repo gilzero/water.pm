@@ -1,0 +1,62 @@
+$pagerMargin: 2rem 0;
+$pagerPadding: 1.2rem 0;
+$pagerBorderBottom: 4px solid #f4f4f4;
+$pagerLinkPadding: 0 0.5rem;
+
+.pager {
+  a {
+    color: $pagerLinkColor;
+    text-decoration: none;
+    &:hover, &:focus {
+      color: $pagerLinkHoverColor;
+      text-decoration: none;
+    }
+  }
+  .pager__items {
+    clear: both;
+    margin: $pagerMargin;
+    padding: $pagerPadding;
+    border-bottom: $pagerBorderBottom;
+    text-align: center;
+  }
+  .pager__item {
+    display: inline;
+    padding: $pagerLinkPadding;
+    text-align: center;
+  }
+  .pager__item--first,
+  .pager__item--last {
+    display: none;
+  }
+  .pager__item.is-active {
+    color: $pagerLinkActiveColor;
+    font-weight: $pagerLinkActiveFontWeight;
+  }
+  .pager__item--previous {
+    a {
+      display: inline-block;
+    }
+  }
+  .pager__item--previous a:before,
+  .pager__item--next a:after {
+    content: "";
+    display: inline-block;
+    width: $pagerIconWidth;
+    height: $pagerIconHeight;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .pager__item--previous {
+    a:before {
+      margin: $pagerIconPreviousMargin;
+      background-image: url('../../../assets/pager/left-arrow.svg');
+    }
+  }
+  .pager__item--next {
+    a:after {
+      margin: $pagerIconNextMargin;
+      background-image: url('../../../assets/pager/right-arrow.svg');
+    }
+  }
+}

@@ -1,0 +1,221 @@
+.main-container-inner {
+  color: #1e1136;
+}
+
+#copyright p,
+#copyright a {
+  color: #f7f4fc;
+}
+
+#main-container .main-box > div {
+  background-color: #f7f4fc;
+}
+
+.w3-theme-l5 {
+  color: #1e1136 !important;
+  background-color: #ede7f7 !important;
+}
+
+.w3-theme-l4 {
+  color: #1e1136 !important;
+  background-color: #f7f4fc!important;
+}
+
+.w3-theme-l3 {
+  color: #1e1136 !important;
+  background-color: #c1ade5 !important;
+}
+
+.w3-theme-l2 {
+  color: #f7f4fc !important;
+  background-color: #a384d8 !important;
+}
+
+.w3-theme-l1 {
+  color: #f7f4fc !important;
+  background-color: #845bcb !important;
+}
+
+.w3-theme-d1 {
+  color: #f7f4fc !important;
+  background-color: #5d34a4 !important;
+}
+
+.w3-theme-d2 {
+  color: #f7f4fc !important;
+  background-color: #532e92 !important;
+}
+
+.w3-theme-d3 {
+  color: #f7f4fc !important;
+  background-color: #482880 !important;
+}
+
+.w3-theme-d4 {
+  color: #f7f4fc !important;
+  background-color: #3e236d !important;
+}
+
+.w3-theme-d5 {
+  color: #f7f4fc !important;
+  background-color: #341d5b !important;
+}
+
+.w3-theme-light {
+  color: #1e1136 !important;
+  background-color: #f6f3fb !important;
+}
+
+.w3-theme-dark {
+  color: #f7f4fc !important;
+  background-color: #341d5b !important;
+}
+
+.w3-theme-action {
+  color: #f7f4fc !important;
+  background-color: #341d5b !important;
+}
+
+.w3-theme,
+.close-nav,
+.mobile-nav {
+  color: #f7f4fc !important;
+  background-color: #673ab7 !important;
+}
+
+.w3-text-theme {
+  color: #673ab7 !important;
+}
+
+.w3-border-theme {
+  border-color: #673ab7 !important;
+}
+
+.w3-hover-theme:hover {
+  color: #f7f4fc !important;
+  background-color: #673ab7 !important;
+}
+
+.w3-hover-text-theme:hover {
+  color: #673ab7 !important;
+}
+
+.w3-hover-border-theme:hover {
+  border-color: #673ab7 !important;
+}
+
+/* custom work */
+.w3-active-pager {
+  background-color: #f6f3fb !important;
+}
+
+.w3-hover-over:hover,
+.w3-button:hover {
+  background-color: #e0d6f2 !important;
+  color: #341d5b !important;
+}
+
+/* button animation  */
+@keyframes btnBorderAnimation {
+  0% {
+    width: 0;
+    height: 0;
+    border-bottom-color: #673ab7;
+  }
+
+  99.9999% {
+    width: 100%;
+    height: 100%;
+    border-bottom-color: #673ab7;
+  }
+
+  100% {
+    width: 0;
+    height: 0;
+    border-bottom-color: transparent;
+  }
+
+}
+
+/* Border animation  */
+@keyframes borderLeftColors {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: #673ab7;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  50% {
+    width: 100%;
+    height: 0;
+    border-top-color: #673ab7;
+    border-right-color: #673ab7;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  99.9999% {
+    width: 100%;
+    height: 100%;
+    border-top-color: #673ab7;
+    border-right-color: #673ab7;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  100% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+}
+
+@keyframes borderRightColors {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #673ab7;
+    border-left-color: transparent;
+  }
+
+  50% {
+    width: 100%;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #673ab7;
+    border-left-color: #673ab7;
+  }
+
+  99.9999% {
+    width: 100%;
+    height: 100%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #673ab7;
+    border-left-color: #673ab7;
+  }
+
+  100% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+}
+
+#footer-container .footer-box>div.animate-border:hover {
+  box-shadow: 0 25px 57px 0 rgba(255, 255, 255, .30);
+}

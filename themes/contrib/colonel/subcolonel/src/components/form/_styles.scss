@@ -1,0 +1,18 @@
+//VARIABLES
+/*input*/
+$inputPadding: 1.2rem 2.5rem;
+$inputBorder: 1px solid $borderGlobalColor;
+$inputRadius: 4px;
+/*textarea*/
+$textareaPadding: 1.2rem 2.5rem;
+$textareaBorder: 1px solid $borderGlobalColor;
+$textareaRadius: 4px;
+/*fieldset*/
+$fieldsetPadding: 2rem;
+$fieldsetBorder: 1px solid $borderGlobalColor;
+$fieldsetRadius: 4px;
+
+//IMPORT
+@import "../../../../colonel/src/components/form/styles";
+
+//CUSTOM

@@ -1,0 +1,12 @@
+{% set attributes = attributes|merge({
+  'class': [
+    'usa-range'
+  ],
+  'type': 'range',
+  'min': min,
+  'max': max,
+  'data-text-unit': data_text_unit,
+  'data-text-preposition': data_text_preposition
+}) %}
+
+<input{{ attributes }} />

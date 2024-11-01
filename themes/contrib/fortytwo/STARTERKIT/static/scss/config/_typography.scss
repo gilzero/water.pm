@@ -1,0 +1,19 @@
+// Basic fonts
+$sans: 'Titillium', Helvetica, Arial;
+$default-font: $sans;
+$default-font-size: 16px;
+$default-line-height: 24px;
+
+html, body {
+  color: $page-font-color;
+  font-family: $default-font;
+  font-size: $default-font-size;
+  height: 100%;
+  line-height: pxtorem($default-line-height);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 5px;
+}

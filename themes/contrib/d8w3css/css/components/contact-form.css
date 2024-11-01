@@ -1,0 +1,8 @@
+form.contact-form .form-actions {
+  text-align: center;
+}
+
+form.contact-form .form-actions .w3-button {
+  float: none;
+  padding: 12px 24px;
+}

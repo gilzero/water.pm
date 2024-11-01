@@ -1,0 +1,10 @@
+{% set accessibility_value = 'with-hint-' ~ label %}
+
+<div{{ attributes.addClass('usa-character-count').setAttribute('data-maxlength', max_length) }}>
+  <div class="usa-form-group">
+    <label class="usa-label" for="{{ accessibility_value }}">{{ label }}</label>
+    <textarea{{ input_field.addClass('usa-character-count__field').setAttribute('name', accessibility_value).setAttribute('aria-describedby', label ~ '-label') }}>
+    </textarea>
+  </div>
+  <span id="{{ label }}-info" class="usa-character-count__message usa-sr-only">{{ 'You can enter up to ' ~ max_length ~ ' characters'|trans }}</span>
+</div>

@@ -1,0 +1,19 @@
+h1,
+h2,
+h3,
+.prosto-one {
+  font-family: 'Prosto One', cursive;
+  line-height: 1.2;
+  font-weight: 400;
+}
+h1 {
+  font-size: 46px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 34px;
+}

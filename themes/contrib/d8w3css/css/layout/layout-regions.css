@@ -1,0 +1,67 @@
+.search-slide-inner,
+.header-inner,
+.main-navigation-inner-h,
+.welcome-text-inner,
+.highlighted-inner,
+.top-container-inner,
+.page-title-inner,
+.main-container-inner,
+.bottom-container-inner,
+.footer-container-inner,
+.footer-menu-inner,
+.copyright-inner {
+  float: none;
+  max-width: 1600px;
+  margin: 0 auto !important;
+}
+
+.top-container-inner .first-top,
+.top-container-inner .second-top,
+.top-container-inner .third-top,
+.main-container-inner .first-sidebar,
+.main-container-inner .w3css-content,
+.main-container-inner .second-sidebar,
+.bottom-container-inner .first-bottom,
+.bottom-container-inner .second-bottom,
+.bottom-container-inner .third-bottom,
+.bottom-container-inner .forth-bottom,
+.footer-container-inner .first-footer,
+.footer-container-inner .second-footer,
+.footer-container-inner .third-footer {
+  float: left;
+}
+
+.top-container-inner .first-top > div,
+.top-container-inner .second-top > div,
+.top-container-inner .third-top > div,
+.main-container-inner .first-sidebar > div,
+.main-container-inner .w3css-content > div,
+.main-container-inner .second-sidebar > div,
+.bottom-container-inner .first-bottom > div,
+.bottom-container-inner .second-bottom > div,
+.bottom-container-inner .third-bottom > div,
+.bottom-container-inner .forth-bottom > div,
+.footer-container-inner .first-footer > div,
+.footer-container-inner .second-footer > div,
+.footer-container-inner .third-footer > div {
+  float: left;
+  height: 100%;
+  width: 100% !important;
+  padding: 24px !important;
+}
+.main-container-inner .first-sidebar,
+.main-container-inner .w3css-content,
+.main-container-inner .second-sidebar,
+.top-container-inner .first-top,
+.top-container-inner .second-top,
+.top-container-inner .third-top,
+.bottom-container-inner .first-bottom,
+.bottom-container-inner .second-bottom,
+.bottom-container-inner .third-bottom,
+.bottom-container-inner .forth-bottom,
+.footer-container-inner .first-footer,
+.footer-container-inner .second-footer,
+.footer-container-inner .third-footer {
+  margin-bottom: 12px;
+  margin-top: 12px;
+}

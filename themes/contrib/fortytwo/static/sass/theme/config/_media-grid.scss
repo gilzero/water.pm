@@ -1,0 +1,75 @@
+// Grid settings
+$default-grid-columns: 12;
+$default-grid-column-width: 70;
+$default-grid-gutter-width: 30;
+
+// LG grid
+$lg-grid-columns: $default-grid-columns;
+$lg-grid-column-width: 47;
+$lg-grid-gutter-width: 20;
+
+// MD grid
+$md-grid-columns: $default-grid-columns;
+$md-grid-column-width: 51;
+$md-grid-gutter-width: 14;
+
+// SM grid
+$sm-grid-columns: $default-grid-columns;
+$sm-grid-column-width: 29;
+$sm-grid-gutter-width: 12;
+
+// XS grid
+$xs-grid-columns: $default-grid-columns;
+$xs-grid-column-width: 28;
+$xs-grid-gutter-width: 12;
+
+$master-context-width: $default-grid-column-width * $default-grid-columns + $default-grid-gutter-width * ($default-grid-columns - 1);
+
+//  The canvas width with the settings above is 1218px,
+//  if you alter the values, make sure the canvas width
+//  always calculates below 1247px. Otherwise you have to
+//  change the media queries below.
+//
+//  For example the bootstrap grid system value:
+//  $grid-columns: 12
+//  $grid-column-width: 75
+//  $grid-gutter-width: 30
+//
+//  This will calculate in a canvas width of:
+//  (12 * (75 + 30)) - 30 = 1230px
+
+// media queries
+$device-all: 'all and (min-width: 0px) and (max-width: 1279px)';
+$mobile: 'all and (min-width: 0px) and (max-width: 767px)';
+$xs: 'all and (min-width: 0px)';
+$sm: 'all and (min-width: 480px)';
+$tablet: 'all and (min-width: 768px) and (max-width: 1279px)';
+$md: 'all and (min-width: 768px)';
+$lg: 'all and (min-width: 1002px)';
+$desktop: 'all and (max-width: 1280px)';
+$xl: 'all and (min-width: 1281px)';
+$xxl: 'all and (min-width: 1600px)';
+
+$media-queries: (
+  'xxl': $xxl,
+  'xl': $xl,
+  'lg': $lg,
+  'md': $md,
+  'sm': $sm,
+  'xs': $xs
+);
+
+// Media queries debug settings.
+$xs-identifier-color: #FFFF00;
+$xs-identifier-text: 'XS - MOBILE PORTRAIT';
+$sm-identifier-color: #008000;
+$sm-identifier-text: 'SM - MOBILE LANDSCAPE';
+$md-identifier-color: #0000FF;
+$md-identifier-text: 'MD - TABLET PORTRAIT';
+$lg-identifier-color: #800080;
+$lg-identifier-text: 'LG - TABLET LANDSCAPE';
+$xl-identifier-color: #FF0000;
+$xl-identifier-text: 'XL - DESKTOP';
+
+// PAGE ELEMENTS SETTINGS
+$grid-transparency: 8;

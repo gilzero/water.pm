@@ -1,0 +1,55 @@
+step_indicator:
+  label: "Step Indicator"
+  description: "A step indicator updates users on their progress through a multi-step process."
+  links:
+    - "https://designsystem.digital.gov/components/step-indicator/"
+  category: "List"
+  variants:
+    default:
+      label: "Default"
+    no_labels:
+      label: "No labels"
+      description: "Don’t show step labels."
+    counters:
+      label: "Counters"
+      description: "Show step counters."
+    counters_sm:
+      label: "Counters - Small"
+      description: "Show small step counters."
+    center:
+      label: "Center"
+      description: "Center counters and labels in each step."
+  settings:
+    heading_level:
+      type: "select"
+      label: "Heading level"
+      options:
+        2: "h2"
+        3: "h3"
+        4: "h4 (Default)"
+        5: "h5"
+        6: "h6"
+      preview: 4
+      allow_expose: true
+      allow_token: true
+    label:
+      type: "textfield"
+      label: "Label"
+      description: "Label of the step indicator."
+      preview: "Support documents"
+  fields:
+    completed_items:
+      type: "render"
+      label: "Completed Items"
+      description: "An array of completed patterns."
+      preview:
+        - "First"
+        - "Second"
+        - "Third"
+    in_progress_items:
+      type: "render"
+      label: "In Progress Items"
+      description: "An array of in progress items."
+      preview:
+        - "Fourth"
+        - "Fifth"
